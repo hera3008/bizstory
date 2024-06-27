@@ -1,0 +1,56 @@
+
+c2dm_registration: ** 20121107-131347
+c2dm_registration: cmd=add, id=admin@incomsn.com, pw=9976, registration_id=, device_unique_id=C2481DEBEBBC11BE17CCC307669FD573
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'admin@incomsn.com' and mem_pwd = 'b34f1ef29118e9e3ee4fa32ea841835c' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'admin@incomsn.com' and push_pwd = 'b34f1ef29118e9e3ee4fa32ea841835c'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'C2481DEBEBBC11BE17CCC307669FD573'
+				, mod_date = now()
+			where push_id = 'admin@incomsn.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"정진섭"}]});
+
+c2dm_registration: ** 20121107-131348
+c2dm_registration: cmd=registration, id=admin@incomsn.com, pw=9976, registration_id=APA91bGaSsU1DAj7ZehEkBUHGumkPqhBxuInHWh3y690P0SpfCTMOr1nK2Q2OoGGyESeC6fzMwLIzkweZW_MmjXpzxywNB2AJEI6kSjGEsOL43pefUABe7lwO5dyZ8BZwfP6gpHZhbO21heupeBvT5EscafrSS2q0w, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'admin@incomsn.com' and mem_pwd = 'b34f1ef29118e9e3ee4fa32ea841835c' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'admin@incomsn.com' and push_pwd = 'b34f1ef29118e9e3ee4fa32ea841835c' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGaSsU1DAj7ZehEkBUHGumkPqhBxuInHWh3y690P0SpfCTMOr1nK2Q2OoGGyESeC6fzMwLIzkweZW_MmjXpzxywNB2AJEI6kSjGEsOL43pefUABe7lwO5dyZ8BZwfP6gpHZhbO21heupeBvT5EscafrSS2q0w', mod_date = now() where push_id = 'admin@incomsn.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"정진섭"}]});
+
+c2dm_registration: ** 20121107-202338
+c2dm_registration: cmd=add, id=test@test.com, pw=1111, registration_id=, device_unique_id=951A6BBE73AB7315D57C4645EEB00282
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'test@test.com' and mem_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'test@test.com' and push_pwd = '0b0787e8b2de7fab72f09567f0f4d551'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '951A6BBE73AB7315D57C4645EEB00282'
+				, mod_date = now()
+			where push_id = 'test@test.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"테스트"}]});
+
+c2dm_registration: ** 20121107-202339
+c2dm_registration: cmd=registration, id=test@test.com, pw=1111, registration_id=APA91bHqziFRIPgzgd7pR3zKKf04vSjESS1DLLx5yVAeRnImLsaJSYklgv7sn-qQPJUCg4_NxjP66shXBKv7ikfkocKIgTn1ZfC_tLq8xhbtjnwMN8GcPZcPPHS--YSuqbV78i_qrhAQLWGtfOzNGvaHSGdJvzWpPg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'test@test.com' and mem_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'test@test.com' and push_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHqziFRIPgzgd7pR3zKKf04vSjESS1DLLx5yVAeRnImLsaJSYklgv7sn-qQPJUCg4_NxjP66shXBKv7ikfkocKIgTn1ZfC_tLq8xhbtjnwMN8GcPZcPPHS--YSuqbV78i_qrhAQLWGtfOzNGvaHSGdJvzWpPg', mod_date = now() where push_id = 'test@test.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"테스트"}]});

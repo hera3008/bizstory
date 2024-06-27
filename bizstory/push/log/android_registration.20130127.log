@@ -1,0 +1,28 @@
+
+c2dm_registration: ** 20130127-115016
+c2dm_registration: cmd=add, id=sclee@infonuri.com, pw=1554, registration_id=, device_unique_id=6205B58C18F76D0CF26FD1A911F3A6EF
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'sclee@infonuri.com' and mem_pwd = '217527267bc63ea332ac6e70cf0b332b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'sclee@infonuri.com' and push_pwd = '217527267bc63ea332ac6e70cf0b332b'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '6205B58C18F76D0CF26FD1A911F3A6EF'
+				, mod_date = now()
+			where push_id = 'sclee@infonuri.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이승철"}]});
+
+c2dm_registration: ** 20130127-115017
+c2dm_registration: cmd=registration, id=sclee@infonuri.com, pw=1554, registration_id=APA91bGeb8Q-p7x-ElT1e1y5eKNrN9M9SEY0ofQ9qATOFN5pM6fDV6GcLhtmBH4otf14HUBv8XU_kCNpzfI8h7kK9G0ei41yr6D_X0FhPbN0KS1G_9MrXCAnqyCNmQDeYwiYRhonQeBVAGD1PBjESbwIHtPNCAK8Rg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'sclee@infonuri.com' and mem_pwd = '217527267bc63ea332ac6e70cf0b332b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'sclee@infonuri.com' and push_pwd = '217527267bc63ea332ac6e70cf0b332b' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGeb8Q-p7x-ElT1e1y5eKNrN9M9SEY0ofQ9qATOFN5pM6fDV6GcLhtmBH4otf14HUBv8XU_kCNpzfI8h7kK9G0ei41yr6D_X0FhPbN0KS1G_9MrXCAnqyCNmQDeYwiYRhonQeBVAGD1PBjESbwIHtPNCAK8Rg', mod_date = now() where push_id = 'sclee@infonuri.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이승철"}]});

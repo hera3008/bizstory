@@ -1,0 +1,15 @@
+bizstory_push: ** 20160615-163834
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=7, receiver=yukki76@nate.com, msg_type=message, message=[쪽지] 테스트입니다
+bizstory_push: sql = select * from push_member where push_id = 'yukki76@nate.com' and del_yn = 'N'
+bizstory_push: [yukki76@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = N, consult = N
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20160615163834691744', 1, 1, 7, 'yukki76@nate.com', 'A', 'fdwEMaJ9LNY:APA91bH6g4qKF_8Enwx4Wz432LpJGkgRDfMhAWi0G4o0dmWcCCraLNOU64QhuPdwFWMY9-vB8CculTBa7hxm9_d8-_w2N9-4luf1KuEiOTnQiVZMbhY_j-zfb-C_1I9B1jwyIAJgzf9O', '김경화', 'ios', 'message', '[쪽지] 테스트입니다', '9', '', now())
+bizstory_push: ** 20160615-164137
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=15, receiver=naryong82@nate.com, msg_type=message, message=[쪽지] test
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20160615164137525767', 1, 1, 15, 'naryong82@nate.com', '', 'ios', 'message', '[쪽지] test', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20160615-164230
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=15, receiver=naryong82@nate.com, msg_type=message, message=[쪽지] test
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20160615164230334672', 1, 1, 15, 'naryong82@nate.com', '', 'ios', 'message', '[쪽지] test', '0', '등록되지 않은 사용자', now())

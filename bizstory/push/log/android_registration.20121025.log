@@ -1,0 +1,36 @@
+
+c2dm_registration: ** 20121025-123232
+c2dm_registration: cmd=add, id=kthy@chol.com, pw=7889, registration_id=, device_unique_id=8AC632DF775CA5A619D578B2A354684C
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'kthy@chol.com' and mem_pwd = '2487ed809e286ac8de034739ccf7c874' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2487ed809e286ac8de034739ccf7c874'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_consult, push_device_unique_id, reg_date, del_yn) values ('51','87','338','kthy@chol.com','2487ed809e286ac8de034739ccf7c874','김태형','Y','A','','Y','Y','Y','Y','','8AC632DF775CA5A619D578B2A354684C',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김태형"}]});
+
+c2dm_registration: ** 20121025-123233
+c2dm_registration: cmd=registration, id=kthy@chol.com, pw=7889, registration_id=APA91bEZ0h0M5crM0cJ-U6PYxAOxAj8mvkCQ10OQcTftXbIc9QRZFXsHl_XraqeDeqAYZvWM_WpEL_HUxaQLzLIymA54To3_UYt1xvVUCrMxvvb0KtLBxn0Eh7mtU0JKF0xFvAZxszvHSKb5RUY3CTT97jKRNuCBFQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'kthy@chol.com' and mem_pwd = '2487ed809e286ac8de034739ccf7c874' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2487ed809e286ac8de034739ccf7c874' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bEZ0h0M5crM0cJ-U6PYxAOxAj8mvkCQ10OQcTftXbIc9QRZFXsHl_XraqeDeqAYZvWM_WpEL_HUxaQLzLIymA54To3_UYt1xvVUCrMxvvb0KtLBxn0Eh7mtU0JKF0xFvAZxszvHSKb5RUY3CTT97jKRNuCBFQ', mod_date = now() where push_id = 'kthy@chol.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김태형"}]});
+
+c2dm_registration: ** 20121025-160752
+c2dm_registration: cmd=add, id=biryoung@nate.com, pw=7319, registration_id=, device_unique_id=D457F8B30CC856DBE2004FAA635B5BFB
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'biryoung@nate.com' and mem_pwd = 'b6402b6876f5bc436cfe0046318f6707' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'biryoung@nate.com' and push_pwd = 'b6402b6876f5bc436cfe0046318f6707'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_consult, push_device_unique_id, reg_date, del_yn) values ('51','87','340','biryoung@nate.com','b6402b6876f5bc436cfe0046318f6707','임상민','Y','A','','Y','Y','Y','Y','','D457F8B30CC856DBE2004FAA635B5BFB',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임상민"}]});
+
+c2dm_registration: ** 20121025-160755
+c2dm_registration: cmd=registration, id=biryoung@nate.com, pw=7319, registration_id=APA91bGJ36Uij9a6JNZFJh9uVvy89UzaFHp52ahogND6mB-aTCTjNYpq35fcPFmQcBFpblmxGL56-5rjNpQzQVC2GleGCFgVUd_L3F8JZFaDIUKqNaW1X3HoxA4aReJb1jGsFeuv1na7rAF5O7g-WwSk1IgANIEYfw, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'biryoung@nate.com' and mem_pwd = 'b6402b6876f5bc436cfe0046318f6707' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'biryoung@nate.com' and push_pwd = 'b6402b6876f5bc436cfe0046318f6707' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGJ36Uij9a6JNZFJh9uVvy89UzaFHp52ahogND6mB-aTCTjNYpq35fcPFmQcBFpblmxGL56-5rjNpQzQVC2GleGCFgVUd_L3F8JZFaDIUKqNaW1X3HoxA4aReJb1jGsFeuv1na7rAF5O7g-WwSk1IgANIEYfw', mod_date = now() where push_id = 'biryoung@nate.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임상민"}]});

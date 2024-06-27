@@ -1,0 +1,339 @@
+
+@font-face {
+	font-family: 'VegurRegular';
+	src: url('Vegur-R_0500.eot');
+	src: local('Vegur Regular'), local('Vegur-Regular'), url('Vegur-R_0500.ttf') format('truetype');
+}
+
+#tfuse-top-sliding-panel-container {
+	text-align: left;
+	line-height:normal;
+	z-index: 8999;
+	font-family:"dotum",verdana, gulim, sans-serif;
+}
+
+#tfuse-top-sliding-panel-container {
+	position:fixed;
+	width:100%;
+	z-index:8999;
+	font-size:13px;
+	display: none;
+	top: -546px;
+}
+
+#tfuse-top-sliding-panel-container #tfuse-top-sliding-panel {
+	position: relative;
+	height:545px;
+	background:url('../images/tfuse-top-panel/panel_bg2.png') top no-repeat;
+}
+
+#tfuse-top-sliding-panel-container .tfuse-top-sliding-panel-container {
+	width:100%; height:100%;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+
+#tfuse-top-sliding-panel-container .tfuse-top-sliding-panel-selectBoxes {
+	float:left;
+	height:55px;
+	width:100%;
+}
+
+.tfuse-top-sliding-panel-combobox-content {
+	/* padding:15px; */
+}
+
+#tfuse-top-sliding-panel-container .tfuse-top-sliding-panel-panel-bot {
+	background:url('../images/tfuse-top-panel/panel_bot_bg_01.png') top right no-repeat;
+	width:100%;
+	height:8px;
+	clear:both;
+	position:relative;
+	top:-1px;
+	z-index:1000;
+}
+
+#tfuse-top-sliding-panel-container #tfuse-top-sliding-panel-btn-slide {
+	position:absolute;
+	right:7px;
+	display:block;
+	background:url('../images/tfuse-top-panel/panel_bot_bg_a.png') top right no-repeat;
+	width:98px;
+	height:37px;
+	float:right;
+	outline:none;
+	z-index:2000;
+	text-indent:-5000px;
+}
+	
+/* 타이틀 */
+.title {
+	position:relative;
+	top:8px;
+	display:block;
+	padding-left:36px;
+	padding-top:7px;
+	color:#fbba13;
+	height:26px;
+	background:url('../images/tfuse-top-panel/title_bg.png') no-repeat 0 0;
+	
+}
+
+/* 담당자보기 */
+	/* 담당자 */
+	#tfuse-top-sliding-panel-container .charge_wrap {padding:15px;}
+	#tfuse-top-sliding-panel-container .charge {
+		clear:both;
+		position:relative;
+		top:20px;
+		width:375px;
+		height:125px;
+		background:url('../images/tfuse-top-panel/charge_bg.png') no-repeat 0 0;
+	}
+		#tfuse-top-sliding-panel-container .charge .photo {
+			position:absolute;
+			top:20px;
+			left:20px;
+			width:80px;
+			height:80px;
+			border:1px solid #333;
+		}
+		#tfuse-top-sliding-panel-container .charge .charge_info {
+			position:absolute;
+			top:40px;
+			left:116px;
+		}
+			#tfuse-top-sliding-panel-container .charge .charge_info li {
+				height:24px;
+				font-weight:700;
+				color:#8d8d8d;
+			}
+				#tfuse-top-sliding-panel-container .charge .charge_info .info_name,
+				#tfuse-top-sliding-panel-container .staff .staff_info .info_name {
+					padding-left:23px;
+					background:url('../images/tfuse-top-panel/icon.png') no-repeat 0 -1px;
+				}
+				#tfuse-top-sliding-panel-container .charge .charge_info .info_email,
+				#tfuse-top-sliding-panel-container .staff .staff_info .info_email {
+					padding-left:23px;
+					background:url('../images/tfuse-top-panel/icon.png') no-repeat 0 -39px;
+				}
+				#tfuse-top-sliding-panel-container .charge .charge_info .info_tel {
+					padding-left:23px;
+					background:url('../images/tfuse-top-panel/icon.png') no-repeat 0 -74px;
+				}
+				#tfuse-top-sliding-panel-container .charge .charge_info span {
+					width:40px;
+					font-weight:400;
+					display:inline-block;
+				}
+				#tfuse-top-sliding-panel-container .charge .charge_info strong {
+					color:#ff7f0d;
+				}
+	/* 이력사항 */
+	#tfuse-top-sliding-panel-container .career {
+		position:relative;
+		width:100%;
+		height:235px;
+		top:28px;
+		clear:both;
+		margin:0;
+		padding:0;
+		background:url('../images/tfuse-top-panel/line.png') no-repeat -5px 18px;
+	}
+		#tfuse-top-sliding-panel-container .career strong {
+			position:absolute;
+			top:45px;
+			padding-left:22px;
+			color:#fff;
+			background:url('../images/tfuse-top-panel/icon.png') no-repeat 0 -112px;
+		}
+		#tfuse-top-sliding-panel-container .career .career_textarea {
+			position:absolute;
+			top:66px;
+			width:100%;
+			height:150px;
+			line-height:1.6em;
+			overflow:hidden;
+			margin:0px auto;
+			overflow-y:auto;
+		}
+	
+/* 직원보기 */
+	/* 담당자 */
+	#tfuse-top-sliding-panel-container .staff {
+		clear:both;
+		position:relative;
+		top:15px;
+		left:10px;
+		width:375px;
+		height:345px;
+		padding:15px;
+		overflow:hidden;
+		overflow-y:auto;
+	}
+		#tfuse-top-sliding-panel-container .staff .staff_area {
+			display:block;
+			width:365px;
+			height:92px;
+			/* border-bottom:1px solid #404040; */
+			background:url('../images/tfuse-top-panel/line.png') no-repeat -25px 90px;
+		}
+		#tfuse-top-sliding-panel-container .staff .photo {
+			position:relative;
+			top:14px;
+			left:0;
+			float:left;
+			width:60px;
+			height:60px;
+			border:1px solid #333;
+		}
+		#tfuse-top-sliding-panel-container .staff .staff_info {
+			position:relative;
+			float:left;
+			top:19px;
+			left:10px;
+		}
+			#tfuse-top-sliding-panel-container .staff .staff_info li {
+				height:20px;
+				font-weight:700;
+				color:#8d8d8d;
+			}
+				#tfuse-top-sliding-panel-container .staff .staff_info .info_name {
+					padding-left:23px;
+					background:url('../images/tfuse-top-panel/icon.png') no-repeat 0 -1px;
+				}
+				#tfuse-top-sliding-panel-container .staff .staff_info .info_email {
+					padding-left:23px;
+					background:url('../images/tfuse-top-panel/icon.png') no-repeat 0 -39px;
+				}
+				#tfuse-top-sliding-panel-container .staff .staff_info .info_tel {
+					padding-left:23px;
+					background:url('../images/tfuse-top-panel/icon.png') no-repeat 0 -74px;
+				}
+				#tfuse-top-sliding-panel-container .staff .staff_info span {
+					width:40px;
+					font-weight:400;
+					display:inline-block;
+				}
+				#tfuse-top-sliding-panel-container .staff .staff_info strong {
+					color:#ff7f0d;
+				}
+
+/* 회사소개 */
+	#tfuse-top-sliding-panel-container #company_page_view3 {
+		width:414px;
+		height:413px;
+		background:url('../images/tfuse-top-panel/company03_bg.jpg') no-repeat 0 0;
+		position:relative;
+	}
+		#tfuse-top-sliding-panel-container #company_page_view3 .logo {
+			position:absolute;
+			top:30px;
+			left:25px;
+			display:block;
+			width:180px;
+			height:50px;
+			text-align:center;
+			margin:0 auto;
+			border:1px solid #17639e;
+			background:#03376b;
+		}
+		#tfuse-top-sliding-panel-container #company_page_view3 .slogan {
+			position:absolute;
+			top:95px;
+			left:25px;
+			font-size:14px;
+			font-weight:700;
+			line-height:150%;
+		}
+			#tfuse-top-sliding-panel-container #company_page_view3 .slogan .text1 {
+				color:#26c7f0;
+			}
+			#tfuse-top-sliding-panel-container #company_page_view3 .slogan .text2 {
+				color:#94e3ff;
+			}
+		#tfuse-top-sliding-panel-container .company_data {
+			clear:both;
+			position:relative;
+			top:166px;
+			left:26px;
+			width:336px;
+			height:188px;
+			padding:15px;
+			overflow:hidden;
+			overflow-y:auto;
+		}
+
+/* 인증서보기 */
+	.comp_box {
+		clear:both;
+		position:relative;
+		top:10px;
+		left:10px;
+		width:375px;
+		height:345px;
+		padding:15px;
+		overflow:hidden;
+		overflow-y:auto;
+	}
+	.comp_box ul li {
+		display:block;
+		float:left;
+		width:110px;
+	}
+	.comp_box ul li div.img_name {
+		padding:5px 0 0 0;
+	}
+	.comp_images {
+		border:1px solid #333333;
+	}
+
+/* 하단탭메뉴 */
+	#tfuse-top-sliding-panel-container .tab_m {
+		position:absolute;
+		left:25px;
+		bottom:15px;
+		height:86px;
+		clear:both;
+	}
+		#tfuse-top-sliding-panel-container .tab_m li,
+		#tfuse-top-sliding-panel-container .tab_m li a {
+			display:inline-block;
+			width:71px;
+			height:86px;
+			margin-right:20px;
+			background:url("../images/tfuse-top-panel/tab_m.png") no-repeat;
+		}
+			#tfuse-top-sliding-panel-container .tab_m li a {
+				text-indent:-9999px;
+			}
+				#tfuse-top-sliding-panel-container .tab_m li.m01,
+				#tfuse-top-sliding-panel-container .tab_m li.m01 a {
+					background-position:-4px 5px;
+				}
+				#tfuse-top-sliding-panel-container .tab_m li.m01 a:hover{
+					background-position:-4px -91px;
+				}
+				#tfuse-top-sliding-panel-container .tab_m li.m02,
+				#tfuse-top-sliding-panel-container .tab_m li.m02 a {
+					background-position:-84px 5px;
+				}
+				#tfuse-top-sliding-panel-container .tab_m li.m02 a:hover {
+					background-position:-84px -91px;
+				}
+				#tfuse-top-sliding-panel-container .tab_m li.m03,
+				#tfuse-top-sliding-panel-container .tab_m li.m03 a {
+					background-position:-164px 5px;
+				}
+				#tfuse-top-sliding-panel-container .tab_m li.m03 a:hover {
+					background-position:-164px -91px;
+				}
+				#tfuse-top-sliding-panel-container .tab_m li.m04,
+				#tfuse-top-sliding-panel-container .tab_m li.m04 a {
+					background-position:-244px 5px;
+				}
+				#tfuse-top-sliding-panel-container .tab_m li.m04 a:hover {
+					background-position:-244px -91px;
+				}

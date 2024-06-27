@@ -1,0 +1,36 @@
+
+c2dm_registration: ** 20120929-144049
+c2dm_registration: cmd=add, id=choi@miraensys.com, pw=qudahr98, registration_id=, device_unique_id=0EAF07C2F75E708D7EC56C37A10A76C5
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'choi@miraensys.com' and mem_pwd = '8930dbf402731154f45c4f56f3356636' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'choi@miraensys.com' and push_pwd = '8930dbf402731154f45c4f56f3356636'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '0EAF07C2F75E708D7EC56C37A10A76C5', mod_date = now() where push_id = 'choi@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"최정수"}]});
+
+c2dm_registration: ** 20120929-144050
+c2dm_registration: cmd=registration, id=choi@miraensys.com, pw=qudahr98, registration_id=APA91bHtzZkcnsw4HDWLYvm2jbN23Yf8SuHLZM3G7xZXsdOyTxog1tWqL_ohSAs3AqD_KC08hMV6L9x-ID6dfrDWRBaBmwXF3pbCJLArLE8lblRRFeV3LsocZYBBssWI_zh2VtPtPj8XF4XTeswIDlIn6ucf88Fc4g, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'choi@miraensys.com' and mem_pwd = '8930dbf402731154f45c4f56f3356636' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'choi@miraensys.com' and push_pwd = '8930dbf402731154f45c4f56f3356636' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHtzZkcnsw4HDWLYvm2jbN23Yf8SuHLZM3G7xZXsdOyTxog1tWqL_ohSAs3AqD_KC08hMV6L9x-ID6dfrDWRBaBmwXF3pbCJLArLE8lblRRFeV3LsocZYBBssWI_zh2VtPtPj8XF4XTeswIDlIn6ucf88Fc4g', mod_date = now() where push_id = 'choi@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"최정수"}]});
+
+c2dm_registration: ** 20120929-155846
+c2dm_registration: cmd=add, id=sclee@infonuri.com, pw=1554, registration_id=, device_unique_id=307F511997B7A3C855E9CAFCD9AA3E4B
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'sclee@infonuri.com' and mem_pwd = '217527267bc63ea332ac6e70cf0b332b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'sclee@infonuri.com' and push_pwd = '217527267bc63ea332ac6e70cf0b332b'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '307F511997B7A3C855E9CAFCD9AA3E4B', mod_date = now() where push_id = 'sclee@infonuri.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이승철"}]});
+
+c2dm_registration: ** 20120929-155848
+c2dm_registration: cmd=registration, id=sclee@infonuri.com, pw=1554, registration_id=APA91bFrqk2E1ApCPvBd0uXIjiOQas82CXkOeJUfWA_UtE8j-SXamc_TOa375-Kxre_RyuUasucfABsNMFLit2te0fDkowXmQkRH5N4IKznJtXTuKWnYVYEOex9Fk4Br_OMtROH5pWPnBNRP7_8wl0dikSDzyv5YdQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'sclee@infonuri.com' and mem_pwd = '217527267bc63ea332ac6e70cf0b332b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'sclee@infonuri.com' and push_pwd = '217527267bc63ea332ac6e70cf0b332b' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bFrqk2E1ApCPvBd0uXIjiOQas82CXkOeJUfWA_UtE8j-SXamc_TOa375-Kxre_RyuUasucfABsNMFLit2te0fDkowXmQkRH5N4IKznJtXTuKWnYVYEOex9Fk4Br_OMtROH5pWPnBNRP7_8wl0dikSDzyv5YdQ', mod_date = now() where push_id = 'sclee@infonuri.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이승철"}]});

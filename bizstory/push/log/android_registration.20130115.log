@@ -1,0 +1,18 @@
+
+c2dm_registration: ** 20130115-135608
+c2dm_registration: cmd=add, id=nowbest@gmail.com, pw=0209, registration_id=, device_unique_id=8B4ACE3444D5FBAACC4BAE58499D93F9
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'nowbest@gmail.com' and mem_pwd = 'a1873749811763e366a0f18a27ad59f5' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'nowbest@gmail.com' and push_pwd = 'a1873749811763e366a0f18a27ad59f5'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_consult, push_device_unique_id, reg_date, del_yn) values ('9','10','348','nowbest@gmail.com','a1873749811763e366a0f18a27ad59f5','Alex','Y','A','','Y','Y','Y','Y','','8B4ACE3444D5FBAACC4BAE58499D93F9',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"Alex"}]});
+
+c2dm_registration: ** 20130115-135608
+c2dm_registration: cmd=registration, id=nowbest@gmail.com, pw=0209, registration_id=APA91bEO0Gtca8HcAlnElCwQGdcaUM9ruJHp0wpi3MIcaVXA9IYm100BW5dC4WUr5dabgBBlvHEkcs8tmYZzsoObIc5XzjSY5w4-SoVdO9FnivJM2a5eMoYRqLl7LoF6fss-ZZD-6yLUrY72wVVsPV9THubzHTP7NQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'nowbest@gmail.com' and mem_pwd = 'a1873749811763e366a0f18a27ad59f5' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'nowbest@gmail.com' and push_pwd = 'a1873749811763e366a0f18a27ad59f5' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bEO0Gtca8HcAlnElCwQGdcaUM9ruJHp0wpi3MIcaVXA9IYm100BW5dC4WUr5dabgBBlvHEkcs8tmYZzsoObIc5XzjSY5w4-SoVdO9FnivJM2a5eMoYRqLl7LoF6fss-ZZD-6yLUrY72wVVsPV9THubzHTP7NQ', mod_date = now() where push_id = 'nowbest@gmail.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"Alex"}]});

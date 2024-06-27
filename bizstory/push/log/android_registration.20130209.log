@@ -1,0 +1,28 @@
+
+c2dm_registration: ** 20130209-223042
+c2dm_registration: cmd=add, id=test@test.com, pw=1111, registration_id=, device_unique_id=23F87E52D5476417052517B4D5B6BE1A
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'test@test.com' and mem_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'test@test.com' and push_pwd = '0b0787e8b2de7fab72f09567f0f4d551'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '23F87E52D5476417052517B4D5B6BE1A'
+				, mod_date = now()
+			where push_id = 'test@test.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"테스트"}]});
+
+c2dm_registration: ** 20130209-223043
+c2dm_registration: cmd=registration, id=test@test.com, pw=1111, registration_id=APA91bGt3EE1-TTScKYpg_Wjuv6kstTbWVJyV_wW1Qhtgv-h1NGuAcbp7tT4BPn6j9XFo0Qxgi88Q-ssAC6s7Frv8Cq2UPR7MhmJ6mskxLimbUjpRlW_naGGgspvLs5gy6uJuYU6xyMyDBgZJP8t8ijBYFHLwp-8LA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'test@test.com' and mem_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'test@test.com' and push_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGt3EE1-TTScKYpg_Wjuv6kstTbWVJyV_wW1Qhtgv-h1NGuAcbp7tT4BPn6j9XFo0Qxgi88Q-ssAC6s7Frv8Cq2UPR7MhmJ6mskxLimbUjpRlW_naGGgspvLs5gy6uJuYU6xyMyDBgZJP8t8ijBYFHLwp-8LA', mod_date = now() where push_id = 'test@test.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"테스트"}]});

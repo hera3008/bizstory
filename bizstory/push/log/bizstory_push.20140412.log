@@ -1,0 +1,11 @@
+bizstory_push: ** 20140412-084221
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=177, receiver=chanikr@miraensys.com, msg_type=receipt, message=[원당초등학교] OS 새로설치해주세..
+bizstory_push: sql = select * from push_member where push_id = 'chanikr@miraensys.com' and del_yn = 'N'
+bizstory_push: [chanikr@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140412084221840175', 32, 39, 177, 'chanikr@miraensys.com', 'A', 'APA91bH_pBTjJNL5I5oSsrQWLuKyj11kAcUGRZs2_HOiGGed_FuMclOqPaXuBBFQAuFEN7mDZ01JzsRUuYjtn264m8blFPOLxp1WiB_itTj-mrdylvNSrqrLy0AXOy9UftkuXAMqgrg14b-b3k8Dr8VO9-HgtN6510hAeG6lqbCehoj7SODoMqc', '임경찬', 'ios', 'receipt', '[원당초등학교] OS 새로설치해주세..', '9', '', now())
+bizstory_push: ** 20140412-143530
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=180, receiver=jw3132@miraensys.com, msg_type=receipt, message=[접수] [신일초등학교] 윈도우7전환
+bizstory_push: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and del_yn = 'N'
+bizstory_push: [jw3132@miraensys.com] push_device_type = A, message = N, receipt = N, work = N, notice = N, consult = N
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140412143530357308', 32, 39, 180, 'jw3132@miraensys.com', 'A', 'APA91bH0_m5cFOGJEF5Wp5X-3BpzW0nZ3GAcpTsM0_fTsaqH0O5t70I3juLmqteUxmyQvstC2lu0DulL9dKvRTGFEzjhSsSqv2trWnCP8T8RvA3uuoJ_pYrARyRyaw149FkGo2Jo-J1tstdKHqv0-YK0qZEud2o5hw', '이진우', 'ios', 'receipt', '[접수] [신일초등학교] 윈도우7전환', '9', '', now())
+bizstory_push: ** 20140412-143530

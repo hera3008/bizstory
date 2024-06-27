@@ -1,0 +1,28 @@
+
+c2dm_registration: ** 20121201-202203
+c2dm_registration: cmd=add, id=ilhoparkp@nate.com, pw=0107, registration_id=, device_unique_id=A43C12EECDA6F9E0AD9D60048D4A08EF
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'ilhoparkp@nate.com' and mem_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ilhoparkp@nate.com' and push_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'A43C12EECDA6F9E0AD9D60048D4A08EF'
+				, mod_date = now()
+			where push_id = 'ilhoparkp@nate.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"박일호"}]});
+
+c2dm_registration: ** 20121201-202204
+c2dm_registration: cmd=registration, id=ilhoparkp@nate.com, pw=0107, registration_id=APA91bEVYluJRTtzIZRi9BKzySZdr-wO0K-9lcLanl-6pyZKyZWiGdu2ob4GAu5nIFisbT0hzZ83ZS7krLYfSB7RFf9pKP9-uWWWMnf_Q3bpBDLuvtWSjCl88Db5CqnMRkKDWA3g4-vdHSFvD2oCsoyLuN8eetxPyg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'ilhoparkp@nate.com' and mem_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ilhoparkp@nate.com' and push_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bEVYluJRTtzIZRi9BKzySZdr-wO0K-9lcLanl-6pyZKyZWiGdu2ob4GAu5nIFisbT0hzZ83ZS7krLYfSB7RFf9pKP9-uWWWMnf_Q3bpBDLuvtWSjCl88Db5CqnMRkKDWA3g4-vdHSFvD2oCsoyLuN8eetxPyg', mod_date = now() where push_id = 'ilhoparkp@nate.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"박일호"}]});

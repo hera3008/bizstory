@@ -1,0 +1,97 @@
+bizstory_push: ** 20140531-094037
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=528, receiver=ubman@ubstory.net, msg_type=receipt, message=[평택대학교] 완료보고서 입니다.
+bizstory_push: sql = select * from push_member where push_id = 'ubman@ubstory.net' and del_yn = 'N'
+bizstory_push: [ubman@ubstory.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531094037117018', 1, 1, 528, 'ubman@ubstory.net', 'I', 'eb74a58ff4ca7312a88f871acf0e88ced22d528ed841241ce169ef11f1bedab5', '고정균', 'ios', 'receipt', '[평택대학교] 완료보고서 입니다.', '9', '', now())
+bizstory_push: ** 20140531-094804
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=58, part_idx=109, mem_idx=388, receiver=yoonhyunjoon@naver.com, msg_type=receipt, message=[접수] [둔전초등학교] 실물화상기 연결 -...
+bizstory_push: sql = select * from push_member where push_id = 'yoonhyunjoon@naver.com' and del_yn = 'N'
+bizstory_push: [yoonhyunjoon@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531094804459936', 58, 109, 388, 'yoonhyunjoon@naver.com', 'A', 'APA91bFshNL4q53P5_myRoR2dXmil4HATBQdgV015PH_W6yeiFgYZbRi1kbKIwaTnHo3_wq6-dKHpXj70yCUDdwYa1uKXERvn8EBeR3w64QzVnVyNWgjimQ87jU1N4CdRcWTOIxhO-Ifu3v5vh_QZTgwV5MeB_AnMXD_aPH-891eRMXlJ9DOaIU', '윤현준', 'ios', 'receipt', '[접수] [둔전초등학교] 실물화상기 연결 -...', '9', '', now())
+bizstory_push: ** 20140531-094804
+bizstory_push: ** 20140531-111341
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=24, receiver=jhcrim@naver.com, msg_type=receipt, message=[접수] [동탄국제고등학교] 급식실 토너교체
+bizstory_push: sql = select * from push_member where push_id = 'jhcrim@naver.com' and del_yn = 'N'
+bizstory_push: [jhcrim@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531111341530086', 4, 4, 24, 'jhcrim@naver.com', 'I', '52eaf554b8dd0a34046dcb19cde2d45449940c11f7d9c44c113b3db46d4d4cde', '이주형', 'ios', 'receipt', '[접수] [동탄국제고등학교] 급식실 토너교체', '9', '', now())
+bizstory_push: ** 20140531-111341
+bizstory_push: ** 20140531-122108
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014.4.22
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122108576764', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014.4.22', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122151
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014.4.21
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122151540759', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014.4.21', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122228
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014.4.18
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122228490248', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014.4.18', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122255
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014.4.17
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122255408173', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014.4.17', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122404
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014.4.16
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122404722677', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014.4.16', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122428
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014.4.15
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122428500773', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014.4.15', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122502
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014.4.24
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122502801144', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014.4.24', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122532
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014.4.14
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122532304556', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014.4.14', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122625
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014     년  05   월 1..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122625390658', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014     년  05   월 1..', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122657
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014     년  05   월 0..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122657430802', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014     년  05   월 0..', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122721
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014     년  05   월 8..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122721767718', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014     년  05   월 8..', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122747
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014     년  05   월 0..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122747757312', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014     년  05   월 0..', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122814
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014     년  05   월 0..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122814494949', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014     년  05   월 0..', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122844
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014     년  04   월 2..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122844965063', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014     년  04   월 2..', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122906
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014     년  04   월 3..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122906156156', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014     년  04   월 3..', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140531-122928
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 2014     년  04   월 2..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140531122928477497', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 2014     년  04   월 2..', '0', '등록되지 않은 사용자', now())

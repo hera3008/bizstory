@@ -1,0 +1,1475 @@
+
+bizstory_push: ** 20121005-015848
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=2, receiver=arachi76@naver.com, msg_type=reg_ok, message=[업체신청] 성원조경
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@naver.com' and del_yn = 'N'
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-070655
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] 2-2 노트북과 T..
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-075217
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[창원신월고등학교] 연수인증오류 및 동..
+bizstory_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hcmoon@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-081823
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=receipt, message=[안양외고] 노트북 점검요청
+bizstory_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005081823822442', 7, 8, 306, 'lovelyjini@daum.net', '', 'ios', 'receipt', '[안양외고] 노트북 점검요청', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-081910
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=receipt, message=[산본중학교] 1학년 1반 인터넷..
+bizstory_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005081910732676', 7, 8, 306, 'lovelyjini@daum.net', '', 'ios', 'receipt', '[산본중학교] 1학년 1반 인터넷..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-082051
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[창원신월고등학교] as희망합니다.
+bizstory_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hcmoon@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-083258
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] 2-2반 tv와 컴..
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-083532
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] 화면
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-083659
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] 화면
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-083748
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=19, receiver=bugee09@naver.com, msg_type=receipt, message=[원천초등학교] 토너 견적 요청합니..
+bizstory_push: sql = select * from push_member where push_id = 'bugee09@naver.com' and del_yn = 'N'
+bizstory_push: [bugee09@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-084209
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=22, receiver=651038@naver.com, msg_type=receipt, message=[금암초등학교] 금암초입니다.
+bizstory_push: sql = select * from push_member where push_id = '651038@naver.com' and del_yn = 'N'
+bizstory_push: [651038@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-084539
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=45, receiver=west4185@naver.com, msg_type=work, message=[업무] 형곡고 CD 50P 납품
+bizstory_push: sql = select * from push_member where push_id = 'west4185@naver.com' and del_yn = 'N'
+bizstory_push: [west4185@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-084621
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=work, message=[업무] 형남초 RZ5000 원지, 잉크 납품..
+bizstory_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and del_yn = 'N'
+bizstory_push: [chamanbok12@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-084714
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=work, message=[업무] 북삼초 ML2852 토너 납품
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-084911
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=work, message=[업무] 인평초 DDR2 1G 5300 메모리..
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-084950
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=45, receiver=west4185@naver.com, msg_type=work, message=[업무] 선주고 ST케이블 1:1.5M 납품
+bizstory_push: sql = select * from push_member where push_id = 'west4185@naver.com' and del_yn = 'N'
+bizstory_push: [west4185@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-085020
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무] 형남중 EZ531AJ 인쇄기 설치
+bizstory_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and del_yn = 'N'
+bizstory_push: [kty5458@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 형남중 EZ531AJ 인쇄기 설치
+bizstory_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and del_yn = 'N'
+bizstory_push: [gongyong129@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-085157
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=work, message=[업무] 구미왕산초 2-3반 ML 2852 토..
+bizstory_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and del_yn = 'N'
+bizstory_push: [chamanbok12@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-085242
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 도봉초 RZ5000 잉크 납품
+bizstory_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and del_yn = 'N'
+bizstory_push: [gongyong129@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-085315
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=work, message=[업무] 지산초 돌봄실 프린터 a/s
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-085339
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=289, receiver=westside2635@naver.com, msg_type=receipt, message=[삼성중학교] 노트북 관련해서 a..
+bizstory_push: sql = select * from push_member where push_id = 'westside2635@naver.com' and del_yn = 'N'
+bizstory_push: [westside2635@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-085418
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=work, message=[업무] 정수초 1-3반 PC교체건
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-085423
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=289, receiver=westside2635@naver.com, msg_type=receipt, message=[삼성중학교] 쿨메신저 관련해서 ..
+bizstory_push: sql = select * from push_member where push_id = 'westside2635@naver.com' and del_yn = 'N'
+bizstory_push: [westside2635@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-085638
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[오목초등학교] 프린터 고장
+bizstory_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and del_yn = 'N'
+bizstory_push: [babosarang@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-085937
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=18, receiver=ymk1508@nate.com, msg_type=receipt, message=[화양초등학교] ubs인식오류
+bizstory_push: sql = select * from push_member where push_id = 'ymk1508@nate.com' and del_yn = 'N'
+bizstory_push: [ymk1508@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-090101
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] 3번 모니터 전원이..
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-090107
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=154, receiver=cyberfos@incomsn.com, msg_type=receipt, message=[과천중학교] 3-2반 사운드
+bizstory_push: sql = select * from push_member where push_id = 'cyberfos@incomsn.com' and del_yn = 'N'
+bizstory_push: [cyberfos@incomsn.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-090142
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=154, receiver=cyberfos@incomsn.com, msg_type=receipt, message=[과천중학교] 제 노트북...
+bizstory_push: sql = select * from push_member where push_id = 'cyberfos@incomsn.com' and del_yn = 'N'
+bizstory_push: [cyberfos@incomsn.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-090249
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=239, receiver=talta5@hanmail.net, msg_type=receipt, message=[중등 무안중학교] 홈페이지 안됨
+bizstory_push: sql = select * from push_member where push_id = 'talta5@hanmail.net' and del_yn = 'N'
+bizstory_push: [talta5@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-090310
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=239, receiver=talta5@hanmail.net, msg_type=receipt, message=[중등 무안중학교] 무안중-- 홈페이지..
+bizstory_push: sql = select * from push_member where push_id = 'talta5@hanmail.net' and del_yn = 'N'
+bizstory_push: [talta5@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-090318
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=52, receiver=dansoo7@hanmail.net, msg_type=work, message=[업무] 게시판 이용 안내
+bizstory_push: sql = select * from push_member where push_id = 'dansoo7@hanmail.net' and del_yn = 'N'
+bizstory_push: [dansoo7@hanmail.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=55, receiver=sjkim0863@hanmail.net, msg_type=work, message=[업무] 게시판 이용 안내
+bizstory_push: sql = select * from push_member where push_id = 'sjkim0863@hanmail.net' and del_yn = 'N'
+bizstory_push: [sjkim0863@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [sjkim0863@hanmail.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [sjkim0863@hanmail.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=56, receiver=modayo@hanmail.net, msg_type=work, message=[업무] 게시판 이용 안내
+bizstory_push: sql = select * from push_member where push_id = 'modayo@hanmail.net' and del_yn = 'N'
+bizstory_push: [modayo@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-090659
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=receipt, message=[형남초등학교] 3학년 연구실 복사..
+bizstory_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and del_yn = 'N'
+bizstory_push: [chamanbok12@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-090659
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[반림중학교] 3-3컴퓨터 소리가..
+bizstory_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hcmoon@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-090700
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=receipt, message=[산본중학교] 1-3반 교실 인터..
+bizstory_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005090700569737', 7, 8, 306, 'lovelyjini@daum.net', '', 'ios', 'receipt', '[산본중학교] 1-3반 교실 인터..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-091402
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[오목초등학교] 키보드 먹통
+bizstory_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and del_yn = 'N'
+bizstory_push: [babosarang@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-091526
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=receipt, message=[형남초등학교] 3학년 연구실 복사..
+bizstory_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and del_yn = 'N'
+bizstory_push: [chamanbok12@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-092442
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=94, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[봉곡중학교] 특정사이트만 접속이..
+bizstory_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [starnts@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-092738
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=receipt, message=[안양여상고] 첨부파일테스터
+bizstory_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005092738553758', 7, 8, 306, 'lovelyjini@daum.net', '', 'ios', 'receipt', '[안양여상고] 첨부파일테스터', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-093421
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[인평초등학교] 컴퓨터 안켜짐
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-093833
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] TV 연결선이 망가..
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-093907
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[인평초등학교] 컴퓨터 안켜짐
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-093915
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[사곡초등학교] 업무관리시스템
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-093956
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[사곡초등학교] 업무관리시스템
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-094029
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[북삼초등학교] 레이 선생님  컴퓨..
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-094103
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[북삼초등학교] 레이 선생님  컴퓨..
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-094149
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=94, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[창원중앙고등학교] 영어전용실 점검
+bizstory_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [starnts@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-094316
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[경구고등학교] 경구고등(10월5일..
+bizstory_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and del_yn = 'N'
+bizstory_push: [cpui7@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-094350
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=180, receiver=jw3132@miraensys.com, msg_type=receipt, message=[대화초등학교] 과학실 컴퓨터 소리..
+bizstory_push: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and del_yn = 'N'
+bizstory_push: [jw3132@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-094353
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=288, receiver=h9421040@daum.net, msg_type=receipt, message=[일동중학교] 4층 최문호 선생님..
+bizstory_push: sql = select * from push_member where push_id = 'h9421040@daum.net' and del_yn = 'N'
+bizstory_push: [h9421040@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-094418
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=191, receiver=hsg1028@greatworks.co.kr, msg_type=receipt, message=[창원명지여자고등학교] 한글 파일 점검
+bizstory_push: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hsg1028@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-094459
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] 가좌고 1학년 11..
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-094530
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[경구고등학교] 경구고등(10월5일..
+bizstory_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and del_yn = 'N'
+bizstory_push: [cpui7@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-094928
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[북삼고등학교] 2층 인터넷 카페 ..
+bizstory_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and del_yn = 'N'
+bizstory_push: [cpui7@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-095004
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[북삼고등학교] 2층 인터넷 카페 ..
+bizstory_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and del_yn = 'N'
+bizstory_push: [cpui7@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-095048
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=152, receiver=admin@incomsn.com, msg_type=receipt, message=[당정초등학교] 프린터 문제요
+bizstory_push: sql = select * from push_member where push_id = 'admin@incomsn.com' and del_yn = 'N'
+bizstory_push: [admin@incomsn.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-100031
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=289, receiver=westside2635@naver.com, msg_type=receipt, message=[경북중학교] 플루터용 잉크와 용..
+bizstory_push: sql = select * from push_member where push_id = 'westside2635@naver.com' and del_yn = 'N'
+bizstory_push: [westside2635@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-100146
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[북삼초등학교] 인터넷에서의 다운이..
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-100318
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=90, receiver=acuana2@naver.com, msg_type=receipt, message=[창원남산고등학교] 그린 마일리지 프로..
+bizstory_push: sql = select * from push_member where push_id = 'acuana2@naver.com' and del_yn = 'N'
+bizstory_push: [acuana2@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = N
+bizstory_push: APNS PUSH
+bizstory_push: [acuana2@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = N
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-100637
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=289, receiver=westside2635@naver.com, msg_type=receipt, message=[경북중학교] 노트북 수리 견적 ..
+bizstory_push: sql = select * from push_member where push_id = 'westside2635@naver.com' and del_yn = 'N'
+bizstory_push: [westside2635@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-100748
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=94, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[경원중학교] 그린마일리지 문제
+bizstory_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [starnts@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-100945
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=24, receiver=jhcrim@naver.com, msg_type=receipt, message=[구봉초등학교] 5학년 연구실 프린..
+bizstory_push: sql = select * from push_member where push_id = 'jhcrim@naver.com' and del_yn = 'N'
+bizstory_push: [jhcrim@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [jhcrim@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-101106
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=18, receiver=ymk1508@nate.com, msg_type=receipt, message=[광교중학교] 노트북 2대, 칼라..
+bizstory_push: sql = select * from push_member where push_id = 'ymk1508@nate.com' and del_yn = 'N'
+bizstory_push: [ymk1508@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-101147
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[북삼초등학교] 인터넷에서의 다운이..
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-101157
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=52, receiver=dansoo7@hanmail.net, msg_type=receipt, message=[(주)유비스토리] 지출결의서
+bizstory_push: sql = select * from push_member where push_id = 'dansoo7@hanmail.net' and del_yn = 'N'
+bizstory_push: [dansoo7@hanmail.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-101311
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 인동고 행정실 팩스 a/s
+bizstory_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and del_yn = 'N'
+bizstory_push: [gongyong129@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-101336
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=125, receiver=4004jini@naver.com, msg_type=receipt, message=[안양시립 호계도서관] 토리 건
+bizstory_push: sql = select * from push_member where push_id = '4004jini@naver.com' and del_yn = 'N'
+bizstory_push: [4004jini@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [4004jini@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-101855
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=191, receiver=hsg1028@greatworks.co.kr, msg_type=receipt, message=[창원명곡고등학교] 문의드립니다..
+bizstory_push: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hsg1028@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-102225
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=289, receiver=westside2635@naver.com, msg_type=receipt, message=[삼성중학교] 노트북 관련해서 a..
+bizstory_push: sql = select * from push_member where push_id = 'westside2635@naver.com' and del_yn = 'N'
+bizstory_push: [westside2635@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-102323
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=177, receiver=chanikr@miraensys.com, msg_type=receipt, message=[백신중학교] 포맷 요청
+bizstory_push: sql = select * from push_member where push_id = 'chanikr@miraensys.com' and del_yn = 'N'
+bizstory_push: [chanikr@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-102336
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=175, receiver=kclee@miraensys.com, msg_type=receipt, message=[무원중학교] 인터넷 접속 불량
+bizstory_push: sql = select * from push_member where push_id = 'kclee@miraensys.com' and del_yn = 'N'
+bizstory_push: [kclee@miraensys.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-102421
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=52, receiver=dansoo7@hanmail.net, msg_type=receipt, message=[(주)유비스토리] 9월 통장내역
+bizstory_push: sql = select * from push_member where push_id = 'dansoo7@hanmail.net' and del_yn = 'N'
+bizstory_push: [dansoo7@hanmail.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-102736
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=309, receiver=ksj6604@naver.com, msg_type=work, message=[업무] 오픈마켓 api 연동 확인
+bizstory_push: sql = select * from push_member where push_id = 'ksj6604@naver.com' and del_yn = 'N'
+bizstory_push: [ksj6604@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-102815
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=177, receiver=chanikr@miraensys.com, msg_type=receipt, message=[정발고등학교] cd플레이어 고장
+bizstory_push: sql = select * from push_member where push_id = 'chanikr@miraensys.com' and del_yn = 'N'
+bizstory_push: [chanikr@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-102923
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무코멘트] 오픈마켓 api 연동 확인
+bizstory_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and del_yn = 'N'
+bizstory_push: [edu_plan@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=, msg_type=work, message=[업무코멘트] 오픈마켓 api 연동 확인
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005102926105590', 14, 18, 95, '', '', 'ios', 'work', '[업무코멘트] 오픈마켓 api 연동 확인', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-103106
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무보고] 오픈마켓 api 연동 확인
+bizstory_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and del_yn = 'N'
+bizstory_push: [edu_plan@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=, msg_type=work, message=[업무보고] 오픈마켓 api 연동 확인
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005103111412801', 14, 18, 95, '', '', 'ios', 'work', '[업무보고] 오픈마켓 api 연동 확인', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-103300
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[창원여자고등학교] 모니터 교체
+bizstory_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hcmoon@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-103356
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=241, receiver=memilmook@nate.com, msg_type=receipt, message=[초등 한빛초등학교] 교무실 복사기 인쇄..
+bizstory_push: sql = select * from push_member where push_id = 'memilmook@nate.com' and del_yn = 'N'
+bizstory_push: [memilmook@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-103417
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=309, receiver=ksj6604@naver.com, msg_type=work, message=[업무] test
+bizstory_push: sql = select * from push_member where push_id = 'ksj6604@naver.com' and del_yn = 'N'
+bizstory_push: [ksj6604@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-103429
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=241, receiver=memilmook@nate.com, msg_type=receipt, message=[기타 목포교육지원청] 위센타 컴 느려져요
+bizstory_push: sql = select * from push_member where push_id = 'memilmook@nate.com' and del_yn = 'N'
+bizstory_push: [memilmook@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-103813
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005103813995251', 1, 1, 14, '', '', 'ios', 'work', '[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=arachi76@naver.com, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@naver.com' and del_yn = 'N'
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=naryong82@nate.com, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005103831894168', 1, 1, 14, '', '', 'ios', 'work', '[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-104012
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=18, receiver=ymk1508@nate.com, msg_type=receipt, message=[화양초등학교] 3층 본관 영어실 ..
+bizstory_push: sql = select * from push_member where push_id = 'ymk1508@nate.com' and del_yn = 'N'
+bizstory_push: [ymk1508@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-104601
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=291, receiver=ciery@nate.com, msg_type=receipt, message=[접수 담당자변경] 플루터용 잉크와 용지 견적요청
+bizstory_push: sql = select * from push_member where push_id = 'ciery@nate.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005104601229219', 45, 81, 291, 'ciery@nate.com', '', 'ios', 'receipt', '[접수 담당자변경] 플루터용 잉크와 용지 견적요청', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-104842
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=45, receiver=west4185@naver.com, msg_type=receipt, message=[도송중학교] 모니터 22인치 견..
+bizstory_push: sql = select * from push_member where push_id = 'west4185@naver.com' and del_yn = 'N'
+bizstory_push: [west4185@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-104931
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=45, receiver=west4185@naver.com, msg_type=receipt, message=[도송중학교] 모니터 불량
+bizstory_push: sql = select * from push_member where push_id = 'west4185@naver.com' and del_yn = 'N'
+bizstory_push: [west4185@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-105514
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=52, receiver=dansoo7@hanmail.net, msg_type=receipt, message=[(주)유비스토리] 주식양수도계약서
+bizstory_push: sql = select * from push_member where push_id = 'dansoo7@hanmail.net' and del_yn = 'N'
+bizstory_push: [dansoo7@hanmail.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-105635
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=52, receiver=dansoo7@hanmail.net, msg_type=receipt, message=[(주)유비스토리] 9월 통장내역
+bizstory_push: sql = select * from push_member where push_id = 'dansoo7@hanmail.net' and del_yn = 'N'
+bizstory_push: [dansoo7@hanmail.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-110046
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=45, receiver=west4185@naver.com, msg_type=receipt, message=[도송중학교] 모니터 22인치 견..
+bizstory_push: sql = select * from push_member where push_id = 'west4185@naver.com' and del_yn = 'N'
+bizstory_push: [west4185@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-110055
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=45, receiver=west4185@naver.com, msg_type=receipt, message=[도송중학교] 모니터 불량
+bizstory_push: sql = select * from push_member where push_id = 'west4185@naver.com' and del_yn = 'N'
+bizstory_push: [west4185@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-111503
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무보고] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005111503490350', 1, 1, 14, '', '', 'ios', 'work', '[업무보고] 회사소개 브로셔(마케팅자료) & 지명..', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=yukki76@nate.com, msg_type=work, message=[업무보고] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = 'yukki76@nate.com' and del_yn = 'N'
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-112853
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=241, receiver=memilmook@nate.com, msg_type=receipt, message=[초등 영산초등학교] 행정실 컴 점검요청
+bizstory_push: sql = select * from push_member where push_id = 'memilmook@nate.com' and del_yn = 'N'
+bizstory_push: [memilmook@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-112855
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=134, receiver=thjin21@dasol21.net, msg_type=receipt, message=[곡성교육문화회관] 문자발송오류
+bizstory_push: sql = select * from push_member where push_id = 'thjin21@dasol21.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005112855418627', 1, 11, 134, 'thjin21@dasol21.net', '', 'ios', 'receipt', '[곡성교육문화회관] 문자발송오류', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-112858
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=132, receiver=acp3748@greatworks.co.kr, msg_type=receipt, message=[창원대암고등학교] V3 사용설정이 안..
+bizstory_push: sql = select * from push_member where push_id = 'acp3748@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [acp3748@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-112947
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=134, receiver=thjin21@dasol21.net, msg_type=receipt, message=[곡성교육문화회관] 계약하기로 했습니다..
+bizstory_push: sql = select * from push_member where push_id = 'thjin21@dasol21.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005112947659814', 1, 11, 134, 'thjin21@dasol21.net', '', 'ios', 'receipt', '[곡성교육문화회관] 계약하기로 했습니다..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-113159
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=39, part_idx=53, mem_idx=229, receiver=ohjungho1234@nate.com, msg_type=receipt, message=[우강개발(주)[에이젼트 test용]] TEST
+bizstory_push: sql = select * from push_member where push_id = 'ohjungho1234@nate.com' and del_yn = 'N'
+bizstory_push: [ohjungho1234@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [ohjungho1234@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-113735
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=receipt, message=[왕산초등학교] 실물화상기 연결 오..
+bizstory_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and del_yn = 'N'
+bizstory_push: [chamanbok12@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-114046
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=receipt, message=[왕산초등학교] 실물화상기 연결 오..
+bizstory_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and del_yn = 'N'
+bizstory_push: [chamanbok12@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-114505
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=25, receiver=ljy@naver.com, msg_type=receipt, message=[상촌중학교] 이용자컴퓨터
+bizstory_push: sql = select * from push_member where push_id = 'ljy@naver.com' and del_yn = 'N'
+bizstory_push: [ljy@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-115912
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=180, receiver=jw3132@miraensys.com, msg_type=receipt, message=[대화초등학교] 교무실 프린터와 연..
+bizstory_push: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and del_yn = 'N'
+bizstory_push: [jw3132@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-120653
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=288, receiver=h9421040@daum.net, msg_type=receipt, message=[일동중학교] 노트북 포맷, 설치
+bizstory_push: sql = select * from push_member where push_id = 'h9421040@daum.net' and del_yn = 'N'
+bizstory_push: [h9421040@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-120710
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] 6번 컴퓨터 인터넷..
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-121957
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=25, receiver=ljy@naver.com, msg_type=receipt, message=[월문초등학교] 도서관/강당 인터넷..
+bizstory_push: sql = select * from push_member where push_id = 'ljy@naver.com' and del_yn = 'N'
+bizstory_push: [ljy@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-122553
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=, msg_type=work, message=[업무보고] 옥계중 인쇄기 종이걸림
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005122553361988', 5, 5, 17, '', '', 'ios', 'work', '[업무보고] 옥계중 인쇄기 종이걸림', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-122713
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=, msg_type=work, message=[업무보고] 옥계초 인쇄기 a/s
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005122713238729', 5, 5, 17, '', '', 'ios', 'work', '[업무보고] 옥계초 인쇄기 a/s', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-123221
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=24, receiver=jhcrim@naver.com, msg_type=receipt, message=[구봉초등학교] 인쇄시 그래픽,그림..
+bizstory_push: sql = select * from push_member where push_id = 'jhcrim@naver.com' and del_yn = 'N'
+bizstory_push: [jhcrim@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [jhcrim@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-124715
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=154, receiver=cyberfos@incomsn.com, msg_type=receipt, message=[문원초등학교] 악성코드 제거바람
+bizstory_push: sql = select * from push_member where push_id = 'cyberfos@incomsn.com' and del_yn = 'N'
+bizstory_push: [cyberfos@incomsn.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-124806
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[초등  동초등학교] 행정실 컴 안됨
+bizstory_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and del_yn = 'N'
+bizstory_push: [tassman1@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-125354
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 인평초 DDR2 1G 5300 메모리..
+bizstory_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and del_yn = 'N'
+bizstory_push: [tssh2003@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=, msg_type=work, message=[업무보고] 인평초 DDR2 1G 5300 메모리..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005125401848157', 5, 5, 17, '', '', 'ios', 'work', '[업무보고] 인평초 DDR2 1G 5300 메모리..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-125538
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=154, receiver=cyberfos@incomsn.com, msg_type=receipt, message=[문원초등학교] 4학년 연구실-영어..
+bizstory_push: sql = select * from push_member where push_id = 'cyberfos@incomsn.com' and del_yn = 'N'
+bizstory_push: [cyberfos@incomsn.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-125547
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 북삼초 ML2852 토너 납품
+bizstory_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and del_yn = 'N'
+bizstory_push: [tssh2003@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=, msg_type=work, message=[업무보고] 북삼초 ML2852 토너 납품
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005125549261668', 5, 5, 17, '', '', 'ios', 'work', '[업무보고] 북삼초 ML2852 토너 납품', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-125605
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=37, part_idx=51, mem_idx=301, receiver=kabi27@naver.com, msg_type=receipt, message=[관교초등학교] PC-Keeper ..
+bizstory_push: sql = select * from push_member where push_id = 'kabi27@naver.com' and del_yn = 'N'
+bizstory_push: [kabi27@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-130048
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=309, receiver=ksj6604@naver.com, msg_type=work, message=[업무] 오픈마켓 API 연동 승인 요청
+bizstory_push: sql = select * from push_member where push_id = 'ksj6604@naver.com' and del_yn = 'N'
+bizstory_push: [ksj6604@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-130308
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=308, receiver=dramasuyeon@naver.com, msg_type=work, message=[업무] CI&BI 개발
+bizstory_push: sql = select * from push_member where push_id = 'dramasuyeon@naver.com' and del_yn = 'N'
+bizstory_push: [dramasuyeon@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-130544
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=308, receiver=dramasuyeon@naver.com, msg_type=work, message=[업무] Excel 대체 시스템 확인
+bizstory_push: sql = select * from push_member where push_id = 'dramasuyeon@naver.com' and del_yn = 'N'
+bizstory_push: [dramasuyeon@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=309, receiver=ksj6604@naver.com, msg_type=work, message=[업무] Excel 대체 시스템 확인
+bizstory_push: sql = select * from push_member where push_id = 'ksj6604@naver.com' and del_yn = 'N'
+bizstory_push: [ksj6604@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=310, receiver=behappyall@naver.com, msg_type=work, message=[업무] Excel 대체 시스템 확인
+bizstory_push: sql = select * from push_member where push_id = 'behappyall@naver.com' and del_yn = 'N'
+bizstory_push: [behappyall@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=311, receiver=wbg92@naver.com, msg_type=work, message=[업무] Excel 대체 시스템 확인
+bizstory_push: sql = select * from push_member where push_id = 'wbg92@naver.com' and del_yn = 'N'
+bizstory_push: [wbg92@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-130602
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=280, receiver=kejmch@nate.com, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'kejmch@nate.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005130602702978', 42, 78, 280, 'kejmch@nate.com', '', 'ios', 'work', '[업무] 12차 필래회 회의 내용', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=265, receiver=arisong22@naver.com, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'arisong22@naver.com' and del_yn = 'N'
+bizstory_push: [arisong22@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=281, receiver=phil302@hanmail.net, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'phil302@hanmail.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005130604180918', 42, 78, 281, 'phil302@hanmail.net', '', 'ios', 'work', '[업무] 12차 필래회 회의 내용', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=252, receiver=h5478@hanmail.net, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'h5478@hanmail.net' and del_yn = 'N'
+bizstory_push: [h5478@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=254, receiver=arachi76@gmail.com, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@gmail.com' and del_yn = 'N'
+bizstory_push: [arachi76@gmail.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=257, receiver=chro4933@hanmail.net, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'chro4933@hanmail.net' and del_yn = 'N'
+bizstory_push: [chro4933@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=253, receiver=pabeka1@nate.com, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'pabeka1@nate.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005130618642288', 42, 78, 253, 'pabeka1@nate.com', '', 'ios', 'work', '[업무] 12차 필래회 회의 내용', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=258, receiver=greendunk@hanmail.net, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'greendunk@hanmail.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005130618725477', 42, 78, 258, 'greendunk@hanmail.net', '', 'ios', 'work', '[업무] 12차 필래회 회의 내용', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=255, receiver=j-terius@hanmail.net, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'j-terius@hanmail.net' and del_yn = 'N'
+bizstory_push: [j-terius@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=260, receiver=harimq@hanmail.net, msg_type=work, message=[업무] 12차 필래회 회의 내용
+bizstory_push: sql = select * from push_member where push_id = 'harimq@hanmail.net' and del_yn = 'N'
+bizstory_push: [harimq@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-130633
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=90, receiver=acuana2@naver.com, msg_type=receipt, message=[안남중학교] 1-3반 교실에 동..
+bizstory_push: sql = select * from push_member where push_id = 'acuana2@naver.com' and del_yn = 'N'
+bizstory_push: [acuana2@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = N
+bizstory_push: APNS PUSH
+bizstory_push: [acuana2@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = N
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-131841
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무코멘트] CI&BI 개발
+bizstory_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and del_yn = 'N'
+bizstory_push: [edu_plan@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=, msg_type=work, message=[업무코멘트] CI&BI 개발
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005131844267020', 14, 18, 95, '', '', 'ios', 'work', '[업무코멘트] CI&BI 개발', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-132641
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=308, receiver=dramasuyeon@naver.com, msg_type=work, message=[업무] 10월5일 업무공유
+bizstory_push: sql = select * from push_member where push_id = 'dramasuyeon@naver.com' and del_yn = 'N'
+bizstory_push: [dramasuyeon@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=309, receiver=ksj6604@naver.com, msg_type=work, message=[업무] 10월5일 업무공유
+bizstory_push: sql = select * from push_member where push_id = 'ksj6604@naver.com' and del_yn = 'N'
+bizstory_push: [ksj6604@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=310, receiver=behappyall@naver.com, msg_type=work, message=[업무] 10월5일 업무공유
+bizstory_push: sql = select * from push_member where push_id = 'behappyall@naver.com' and del_yn = 'N'
+bizstory_push: [behappyall@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=311, receiver=wbg92@naver.com, msg_type=work, message=[업무] 10월5일 업무공유
+bizstory_push: sql = select * from push_member where push_id = 'wbg92@naver.com' and del_yn = 'N'
+bizstory_push: [wbg92@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-132726
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=90, receiver=acuana2@naver.com, msg_type=receipt, message=[반송중학교] 컴퓨터 소리가 안납..
+bizstory_push: sql = select * from push_member where push_id = 'acuana2@naver.com' and del_yn = 'N'
+bizstory_push: [acuana2@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = N
+bizstory_push: APNS PUSH
+bizstory_push: [acuana2@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = N
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-132857
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=90, receiver=acuana2@naver.com, msg_type=receipt, message=[반송중학교] (1-6교실)pc소..
+bizstory_push: sql = select * from push_member where push_id = 'acuana2@naver.com' and del_yn = 'N'
+bizstory_push: [acuana2@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = N
+bizstory_push: APNS PUSH
+bizstory_push: [acuana2@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = N
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-133141
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=280, receiver=kejmch@nate.com, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'kejmch@nate.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005133141867384', 42, 78, 280, 'kejmch@nate.com', '', 'ios', 'work', '[업무] 1박2일 끝장 업무처리', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=265, receiver=arisong22@naver.com, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'arisong22@naver.com' and del_yn = 'N'
+bizstory_push: [arisong22@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=281, receiver=phil302@hanmail.net, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'phil302@hanmail.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005133145660516', 42, 78, 281, 'phil302@hanmail.net', '', 'ios', 'work', '[업무] 1박2일 끝장 업무처리', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=252, receiver=h5478@hanmail.net, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'h5478@hanmail.net' and del_yn = 'N'
+bizstory_push: [h5478@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=254, receiver=arachi76@gmail.com, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@gmail.com' and del_yn = 'N'
+bizstory_push: [arachi76@gmail.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=257, receiver=chro4933@hanmail.net, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'chro4933@hanmail.net' and del_yn = 'N'
+bizstory_push: [chro4933@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=253, receiver=pabeka1@nate.com, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'pabeka1@nate.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005133201776065', 42, 78, 253, 'pabeka1@nate.com', '', 'ios', 'work', '[업무] 1박2일 끝장 업무처리', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=258, receiver=greendunk@hanmail.net, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'greendunk@hanmail.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005133201247002', 42, 78, 258, 'greendunk@hanmail.net', '', 'ios', 'work', '[업무] 1박2일 끝장 업무처리', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=255, receiver=j-terius@hanmail.net, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'j-terius@hanmail.net' and del_yn = 'N'
+bizstory_push: [j-terius@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-133204
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[경구중학교] 경구중학교
+bizstory_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and del_yn = 'N'
+bizstory_push: [cpui7@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=260, receiver=harimq@hanmail.net, msg_type=work, message=[업무] 1박2일 끝장 업무처리
+bizstory_push: sql = select * from push_member where push_id = 'harimq@hanmail.net' and del_yn = 'N'
+bizstory_push: [harimq@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-134548
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=94, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[봉곡중학교] 컴퓨터 및 TV화면..
+bizstory_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [starnts@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-134848
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[경구중학교] 경구중학교
+bizstory_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and del_yn = 'N'
+bizstory_push: [cpui7@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-135600
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=289, receiver=westside2635@naver.com, msg_type=receipt, message=[경북중학교] 노트북 수리 견적 ..
+bizstory_push: sql = select * from push_member where push_id = 'westside2635@naver.com' and del_yn = 'N'
+bizstory_push: [westside2635@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-141017
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005141017891838', 1, 1, 14, '', '', 'ios', 'work', '[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=yukki76@nate.com, msg_type=work, message=[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = 'yukki76@nate.com' and del_yn = 'N'
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-141244
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=2, receiver=arachi76@naver.com, msg_type=message, message=[쪽지] 다음주 수요일 저녁에 노이사 7시 이..
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@naver.com' and del_yn = 'N'
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-141326
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] 프린터기에 양면인쇄..
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-141422
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=174, receiver=pantera0219@miraensys.com, msg_type=receipt, message=[중산고등학교] 익스플로워 창에 '..
+bizstory_push: sql = select * from push_member where push_id = 'pantera0219@miraensys.com' and del_yn = 'N'
+bizstory_push: [pantera0219@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-141507
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=receipt, message=[안양여상고] 하드 디스크 공간이..
+bizstory_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005141507948735', 7, 8, 306, 'lovelyjini@daum.net', '', 'ios', 'receipt', '[안양여상고] 하드 디스크 공간이..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-141655
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=174, receiver=pantera0219@miraensys.com, msg_type=receipt, message=[중산고등학교] '연결이 안된다'는..
+bizstory_push: sql = select * from push_member where push_id = 'pantera0219@miraensys.com' and del_yn = 'N'
+bizstory_push: [pantera0219@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-141818
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[송죽초등학교] 업무포털 장애
+bizstory_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and del_yn = 'N'
+bizstory_push: [babosarang@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-141832
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=174, receiver=pantera0219@miraensys.com, msg_type=receipt, message=[중산고등학교] 인터넷 연결
+bizstory_push: sql = select * from push_member where push_id = 'pantera0219@miraensys.com' and del_yn = 'N'
+bizstory_push: [pantera0219@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [pantera0219@miraensys.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [pantera0219@miraensys.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-141930
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[송죽초등학교] 케이블 점검 요청
+bizstory_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and del_yn = 'N'
+bizstory_push: [babosarang@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-142626
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=25, receiver=ljy@naver.com, msg_type=receipt, message=[상촌중학교] 2학년 3반 텔레비..
+bizstory_push: sql = select * from push_member where push_id = 'ljy@naver.com' and del_yn = 'N'
+bizstory_push: [ljy@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-143158
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=22, receiver=651038@naver.com, msg_type=receipt, message=[오산원일초등학교] 어학실 터치 스크린..
+bizstory_push: sql = select * from push_member where push_id = '651038@naver.com' and del_yn = 'N'
+bizstory_push: [651038@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-145240
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=45, receiver=west4185@naver.com, msg_type=receipt, message=[선주고등학교] 사운드케이블 교체 ..
+bizstory_push: sql = select * from push_member where push_id = 'west4185@naver.com' and del_yn = 'N'
+bizstory_push: [west4185@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-145740
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[장성중학교] 2-10 멀티미디어..
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-145850
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=265, receiver=arisong22@naver.com, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'arisong22@naver.com' and del_yn = 'N'
+bizstory_push: [arisong22@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=281, receiver=phil302@hanmail.net, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'phil302@hanmail.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005145854199395', 42, 78, 281, 'phil302@hanmail.net', '', 'ios', 'work', '[업무] 국외부재자신고.재외선거인 등록신청', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=252, receiver=h5478@hanmail.net, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'h5478@hanmail.net' and del_yn = 'N'
+bizstory_push: [h5478@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=254, receiver=arachi76@gmail.com, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@gmail.com' and del_yn = 'N'
+bizstory_push: [arachi76@gmail.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=257, receiver=chro4933@hanmail.net, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'chro4933@hanmail.net' and del_yn = 'N'
+bizstory_push: [chro4933@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=253, receiver=pabeka1@nate.com, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'pabeka1@nate.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005145900750888', 42, 78, 253, 'pabeka1@nate.com', '', 'ios', 'work', '[업무] 국외부재자신고.재외선거인 등록신청', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=258, receiver=greendunk@hanmail.net, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'greendunk@hanmail.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005145900468672', 42, 78, 258, 'greendunk@hanmail.net', '', 'ios', 'work', '[업무] 국외부재자신고.재외선거인 등록신청', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=259, receiver=wyd123@hanmail.net, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'wyd123@hanmail.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005145900253892', 42, 78, 259, 'wyd123@hanmail.net', '', 'ios', 'work', '[업무] 국외부재자신고.재외선거인 등록신청', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=255, receiver=j-terius@hanmail.net, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'j-terius@hanmail.net' and del_yn = 'N'
+bizstory_push: [j-terius@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=42, part_idx=78, mem_idx=260, receiver=harimq@hanmail.net, msg_type=work, message=[업무] 국외부재자신고.재외선거인 등록신청
+bizstory_push: sql = select * from push_member where push_id = 'harimq@hanmail.net' and del_yn = 'N'
+bizstory_push: [harimq@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-150238
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=94, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[팔룡중학교] 교감선생님 인터넷이..
+bizstory_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [starnts@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-150805
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[지산초등학교] 문서 보기 안됨
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-151240
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[창원용호고등학교] 문서처리가 안돼요.
+bizstory_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hcmoon@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-151714
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=60, receiver=cndgh0506@naver.com, msg_type=receipt, message=[지산초등학교] 문서 보기 안됨
+bizstory_push: sql = select * from push_member where push_id = 'cndgh0506@naver.com' and del_yn = 'N'
+bizstory_push: [cndgh0506@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-151755
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=receipt, message=[접수 담당자변경] 관광실습실 빔프로젝터
+bizstory_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005151755185017', 7, 8, 306, 'lovelyjini@daum.net', '', 'ios', 'receipt', '[접수 담당자변경] 관광실습실 빔프로젝터', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-152259
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = 'i2day@naver.com' and del_yn = 'N'
+bizstory_push: [i2day@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [i2day@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005152301930067', 1, 1, 14, '', '', 'ios', 'work', '[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=yukki76@nate.com, msg_type=work, message=[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = 'yukki76@nate.com' and del_yn = 'N'
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-152404
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[가좌고등학교] 6번 컴퓨터 인터넷..
+bizstory_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and del_yn = 'N'
+bizstory_push: [mindcafe@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-152411
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = 'i2day@naver.com' and del_yn = 'N'
+bizstory_push: [i2day@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [i2day@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005152414680862', 1, 1, 14, '', '', 'ios', 'work', '[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=yukki76@nate.com, msg_type=work, message=[업무코멘트] 회사소개 브로셔(마케팅자료) & 지명..
+bizstory_push: sql = select * from push_member where push_id = 'yukki76@nate.com' and del_yn = 'N'
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-153241
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[창원신월고등학교] 컴퓨터 선 연결.
+bizstory_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hcmoon@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-153534
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무코멘트] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = 'i2day@naver.com' and del_yn = 'N'
+bizstory_push: [i2day@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [i2day@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=naryong82@nate.com, msg_type=work, message=[업무코멘트] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=yukki76@nate.com, msg_type=work, message=[업무코멘트] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = 'yukki76@nate.com' and del_yn = 'N'
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-153727
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=receipt, message=[안양외고] 본교무실 이혜진 선..
+bizstory_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005153727548290', 7, 8, 306, 'lovelyjini@daum.net', '', 'ios', 'receipt', '[안양외고] 본교무실 이혜진 선..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-153743
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=receipt, message=[안양외고] 교체한 모든pc 쿨..
+bizstory_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005153743971486', 7, 8, 306, 'lovelyjini@daum.net', '', 'ios', 'receipt', '[안양외고] 교체한 모든pc 쿨..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-154217
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[창원용호고등학교] 교원연수를 위한 인..
+bizstory_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hcmoon@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-154434
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=154, receiver=cyberfos@incomsn.com, msg_type=receipt, message=[안양서초등학교] 5학년연구실-박효균..
+bizstory_push: sql = select * from push_member where push_id = 'cyberfos@incomsn.com' and del_yn = 'N'
+bizstory_push: [cyberfos@incomsn.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-154728
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=28, receiver=saladini@nate.com, msg_type=receipt, message=[기안중학교] 포맷관련
+bizstory_push: sql = select * from push_member where push_id = 'saladini@nate.com' and del_yn = 'N'
+bizstory_push: [saladini@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-154937
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무] 사곡고 인쇄기 원지, 잉크 납품
+bizstory_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and del_yn = 'N'
+bizstory_push: [kty5458@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-160033
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=25, receiver=ljy@naver.com, msg_type=receipt, message=[상촌중학교] 프린터 설치해 주세..
+bizstory_push: sql = select * from push_member where push_id = 'ljy@naver.com' and del_yn = 'N'
+bizstory_push: [ljy@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-160251
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=241, receiver=memilmook@nate.com, msg_type=receipt, message=[기타 목포교육지원청] 시설계인쇄 안됨
+bizstory_push: sql = select * from push_member where push_id = 'memilmook@nate.com' and del_yn = 'N'
+bizstory_push: [memilmook@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-160331
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[고등 제일여자고등학교] 3년실 전체 점검
+bizstory_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and del_yn = 'N'
+bizstory_push: [tassman1@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-160403
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[고등 제일여자고등학교] 3년실 점검근지 토..
+bizstory_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and del_yn = 'N'
+bizstory_push: [tassman1@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-160435
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[초등  동초등학교] 교장샘 컴 점검
+bizstory_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and del_yn = 'N'
+bizstory_push: [tassman1@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-160518
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=241, receiver=memilmook@nate.com, msg_type=receipt, message=[초등 남악초등학교] 수석교사실 모니터 ..
+bizstory_push: sql = select * from push_member where push_id = 'memilmook@nate.com' and del_yn = 'N'
+bizstory_push: [memilmook@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-162023
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=132, receiver=acp3748@greatworks.co.kr, msg_type=receipt, message=[창원남고등학교] 네이버 뉴스를 검색..
+bizstory_push: sql = select * from push_member where push_id = 'acp3748@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [acp3748@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-162151
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=36, receiver=neoggt@naver.com, msg_type=work, message=[업무] 안양여상 미청구건 처리
+bizstory_push: sql = select * from push_member where push_id = 'neoggt@naver.com' and del_yn = 'N'
+bizstory_push: [neoggt@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [neoggt@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-162525
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=152, receiver=admin@incomsn.com, msg_type=receipt, message=[당정초등학교] 당정초등학교 홈페이..
+bizstory_push: sql = select * from push_member where push_id = 'admin@incomsn.com' and del_yn = 'N'
+bizstory_push: [admin@incomsn.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-162601
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 형남중 EZ531AJ 인쇄기 설치
+bizstory_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and del_yn = 'N'
+bizstory_push: [tssh2003@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=gongyong129@naver.com, msg_type=work, message=[업무보고] 형남중 EZ531AJ 인쇄기 설치
+bizstory_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and del_yn = 'N'
+bizstory_push: [gongyong129@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=, msg_type=work, message=[업무보고] 형남중 EZ531AJ 인쇄기 설치
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005162609373708', 5, 5, 17, '', '', 'ios', 'work', '[업무보고] 형남중 EZ531AJ 인쇄기 설치', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-162644
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 사곡고 인쇄기 원지, 잉크 납품
+bizstory_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and del_yn = 'N'
+bizstory_push: [tssh2003@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=, msg_type=work, message=[업무보고] 사곡고 인쇄기 원지, 잉크 납품
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005162652330688', 5, 5, 17, '', '', 'ios', 'work', '[업무보고] 사곡고 인쇄기 원지, 잉크 납품', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-162857
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=, msg_type=work, message=[업무보고] 북삼고1-B교무실
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005162857377876', 5, 5, 140, '', '', 'ios', 'work', '[업무보고] 북삼고1-B교무실', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-163136
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=, msg_type=work, message=[업무보고] 삼원테크복사기점검
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005163136339991', 5, 5, 140, '', '', 'ios', 'work', '[업무보고] 삼원테크복사기점검', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-163357
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 형남초 RZ5000 원지, 잉크 납품..
+bizstory_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and del_yn = 'N'
+bizstory_push: [tssh2003@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=, msg_type=work, message=[업무보고] 형남초 RZ5000 원지, 잉크 납품..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005163400494434', 5, 5, 17, '', '', 'ios', 'work', '[업무보고] 형남초 RZ5000 원지, 잉크 납품..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-163431
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 구미왕산초 2-3반 ML 2852 토..
+bizstory_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and del_yn = 'N'
+bizstory_push: [tssh2003@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=, msg_type=work, message=[업무보고] 구미왕산초 2-3반 ML 2852 토..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005163433251969', 5, 5, 17, '', '', 'ios', 'work', '[업무보고] 구미왕산초 2-3반 ML 2852 토..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-163433
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=94, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[봉곡중학교] 3층 영어교과교실C..
+bizstory_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [starnts@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-163436
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=54, receiver=coke@infonuri.com, msg_type=receipt, message=[(사)한국산림기술인협회] 테스트
+bizstory_push: sql = select * from push_member where push_id = 'coke@infonuri.com' and del_yn = 'N'
+bizstory_push: [coke@infonuri.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-163542
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=naryong82@nate.com, msg_type=work, message=[업무보고] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=yukki76@nate.com, msg_type=work, message=[업무보고] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = 'yukki76@nate.com' and del_yn = 'N'
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=arachi76@naver.com, msg_type=work, message=[업무보고] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@naver.com' and del_yn = 'N'
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-163609
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=54, receiver=coke@infonuri.com, msg_type=receipt, message=[(사)한국산림기술인협회] 테스트
+bizstory_push: sql = select * from push_member where push_id = 'coke@infonuri.com' and del_yn = 'N'
+bizstory_push: [coke@infonuri.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무보고] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005163611231510', 1, 1, 14, '', '', 'ios', 'work', '[업무보고] 유비스토리 홈페이지 보강', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-163928
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=naryong82@nate.com, msg_type=work, message=[업무코멘트] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=yukki76@nate.com, msg_type=work, message=[업무코멘트] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = 'yukki76@nate.com' and del_yn = 'N'
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=arachi76@naver.com, msg_type=work, message=[업무코멘트] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@naver.com' and del_yn = 'N'
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무코멘트] 유비스토리 홈페이지 보강
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005163954527367', 1, 1, 14, '', '', 'ios', 'work', '[업무코멘트] 유비스토리 홈페이지 보강', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-164424
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=191, receiver=hsg1028@greatworks.co.kr, msg_type=receipt, message=[창원명지여자고등학교] A205 컴퓨터 화..
+bizstory_push: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [hsg1028@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-164903
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=35, part_idx=40, mem_idx=189, receiver=neo@neolohas.net, msg_type=work, message=[업무] 오즈 결제건입니다.
+bizstory_push: sql = select * from push_member where push_id = 'neo@neolohas.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005164903734758', 35, 40, 189, 'neo@neolohas.net', '', 'ios', 'work', '[업무] 오즈 결제건입니다.', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-170248
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=receipt, message=[접수 담당자변경] 오현정 선생님 노트북 파워교체
+bizstory_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005170248770592', 7, 8, 306, 'lovelyjini@daum.net', '', 'ios', 'receipt', '[접수 담당자변경] 오현정 선생님 노트북 파워교체', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-170633
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=94, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[창원중앙고등학교] 1학년 6반 교실 ..
+bizstory_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [starnts@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-171437
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=94, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[창원중앙고등학교] 인터넷 연결 중 차..
+bizstory_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and del_yn = 'N'
+bizstory_push: [starnts@greatworks.co.kr] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-172356
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = 'i2day@naver.com' and del_yn = 'N'
+bizstory_push: [i2day@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [i2day@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=naryong82@nate.com, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005172408939414', 1, 1, 14, '', '', 'ios', 'work', '[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-172713
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005172713372534', 1, 1, 14, '', '', 'ios', 'work', '[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=arachi76@naver.com, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@naver.com' and del_yn = 'N'
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=naryong82@nate.com, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [naryong82@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005172746634713', 1, 1, 14, '', '', 'ios', 'work', '[업무코멘트] 영업관련 도서, 세미나 & 교육공지와..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-174455
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무보고] 홈페이지 개발&유지보수 주간보고사항
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005174455343412', 1, 1, 14, '', '', 'ios', 'work', '[업무보고] 홈페이지 개발&유지보수 주간보고사항', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=yukki76@nate.com, msg_type=work, message=[업무보고] 홈페이지 개발&유지보수 주간보고사항
+bizstory_push: sql = select * from push_member where push_id = 'yukki76@nate.com' and del_yn = 'N'
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [yukki76@nate.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=hidesb@naver.com, msg_type=work, message=[업무보고] 홈페이지 개발&유지보수 주간보고사항
+bizstory_push: sql = select * from push_member where push_id = 'hidesb@naver.com' and del_yn = 'N'
+bizstory_push: [hidesb@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [hidesb@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=arachi76@naver.com, msg_type=work, message=[업무보고] 홈페이지 개발&유지보수 주간보고사항
+bizstory_push: sql = select * from push_member where push_id = 'arachi76@naver.com' and del_yn = 'N'
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [arachi76@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=, msg_type=work, message=[업무보고] 홈페이지 개발&유지보수 주간보고사항
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005174532275076', 1, 1, 14, '', '', 'ios', 'work', '[업무보고] 홈페이지 개발&유지보수 주간보고사항', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-175316
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=35, part_idx=40, mem_idx=193, receiver=, msg_type=work, message=[업무코멘트] 오즈 결제건입니다.
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005175316980074', 35, 40, 193, '', '', 'ios', 'work', '[업무코멘트] 오즈 결제건입니다.', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=35, part_idx=40, mem_idx=193, receiver=neo@neolohas.net, msg_type=work, message=[업무코멘트] 오즈 결제건입니다.
+bizstory_push: sql = select * from push_member where push_id = 'neo@neolohas.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005175316950607', 35, 40, 193, 'neo@neolohas.net', '', 'ios', 'work', '[업무코멘트] 오즈 결제건입니다.', '0', '등록되지 않은 사용자', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=35, part_idx=40, mem_idx=193, receiver=, msg_type=work, message=[업무코멘트] 오즈 결제건입니다.
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005175316592729', 35, 40, 193, '', '', 'ios', 'work', '[업무코멘트] 오즈 결제건입니다.', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-175946
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=134, receiver=thjin21@dasol21.net, msg_type=receipt, message=[나주공공도서관] 이용자PC에서 아이..
+bizstory_push: sql = select * from push_member where push_id = 'thjin21@dasol21.net' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005175946778358', 1, 11, 134, 'thjin21@dasol21.net', '', 'ios', 'receipt', '[나주공공도서관] 이용자PC에서 아이..', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-180454
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무] 기프티콘 발송
+bizstory_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and del_yn = 'N'
+bizstory_push: [edu_plan@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+
+bizstory_push: ** 20121005-181903
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 지산초 돌봄실 프린터 a/s
+bizstory_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and del_yn = 'N'
+bizstory_push: [tssh2003@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=, msg_type=work, message=[업무보고] 지산초 돌봄실 프린터 a/s
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005181906757490', 5, 5, 17, '', '', 'ios', 'work', '[업무보고] 지산초 돌봄실 프린터 a/s', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-183134
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무코멘트] 오픈마켓 API 연동 승인 요청
+bizstory_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and del_yn = 'N'
+bizstory_push: [edu_plan@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=, msg_type=work, message=[업무코멘트] 오픈마켓 API 연동 승인 요청
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121005183135658624', 14, 18, 95, '', '', 'ios', 'work', '[업무코멘트] 오픈마켓 API 연동 승인 요청', '0', '등록되지 않은 사용자', now())
+
+bizstory_push: ** 20121005-184938
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=message, message=[쪽지] 다음주 수요일 비즈스토리 업체들 정기..
+bizstory_push: sql = select * from push_member where push_id = 'i2day@naver.com' and del_yn = 'N'
+bizstory_push: [i2day@naver.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [i2day@naver.com] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+
+bizstory_push: ** 20121005-185950
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=55, receiver=sjkim0863@hanmail.net, msg_type=receipt, message=[쌈도둑] 인기왕
+bizstory_push: sql = select * from push_member where push_id = 'sjkim0863@hanmail.net' and del_yn = 'N'
+bizstory_push: [sjkim0863@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: [sjkim0863@hanmail.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH
+bizstory_push: [sjkim0863@hanmail.net] push_device_type = I, message = Y, receipt = Y, work = Y, notice = Y
+bizstory_push: APNS PUSH

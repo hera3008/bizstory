@@ -1,0 +1,45 @@
+
+apns_registration: ** 20130209-004308
+apns_registration: cmd=add, id=minsug86@nate.com, pw=dydsu23, registration_id=63a2cbce9bb0a7a8b0674b87c6ea7e9ed1c0e5dd1052776d4acefc60a656b4fb, device_unique_id=63a2cbce9bb0a7a8b0674b87c6ea7e9ed1c0e5dd1052776d4acefc60a656b4fb
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'minsug86@nate.com' and mem_pwd = 'fa5c3359f4d6f0d7d2c0bbdffb1918aa' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'minsug86@nate.com' and push_pwd = 'fa5c3359f4d6f0d7d2c0bbdffb1918aa' and push_device_type = 'I' and push_registration_id = '63a2cbce9bb0a7a8b0674b87c6ea7e9ed1c0e5dd1052776d4acefc60a656b4fb'
+apns_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_consult, push_device_unique_id, reg_date, del_yn) values ('1','1','86','minsug86@nate.com','fa5c3359f4d6f0d7d2c0bbdffb1918aa','공민석','Y','I','63a2cbce9bb0a7a8b0674b87c6ea7e9ed1c0e5dd1052776d4acefc60a656b4fb','Y','Y','Y','Y','','63a2cbce9bb0a7a8b0674b87c6ea7e9ed1c0e5dd1052776d4acefc60a656b4fb',now(),'N')
+apns_registration: resCode = 200
+
+apns_registration: ** 20130209-133937
+apns_registration: cmd=add, id=loveguzi@gmail.com, pw=love1234, registration_id=d206acddccf39fb736184df618bbd23c5e9fea4830a0d86b7bc49751f97132c9, device_unique_id=d206acddccf39fb736184df618bbd23c5e9fea4830a0d86b7bc49751f97132c9
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'loveguzi@gmail.com' and mem_pwd = '6e638093ce4bdb63634ed5f3ef3a9409' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'loveguzi@gmail.com' and push_pwd = '6e638093ce4bdb63634ed5f3ef3a9409' and push_device_type = 'I' and push_registration_id = 'd206acddccf39fb736184df618bbd23c5e9fea4830a0d86b7bc49751f97132c9'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = 'd206acddccf39fb736184df618bbd23c5e9fea4830a0d86b7bc49751f97132c9'
+				, mod_date = now()
+			where push_id = 'loveguzi@gmail.com' and push_device_type = 'I' and push_registration_id = 'd206acddccf39fb736184df618bbd23c5e9fea4830a0d86b7bc49751f97132c9'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130209-233428
+apns_registration: cmd=add, id=rock8875@gmail.com, pw=8875, registration_id=6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5, device_unique_id=6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'rock8875@gmail.com' and mem_pwd = '88f39ae5515668c9fde92d91fdc5882c' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'rock8875@gmail.com' and push_pwd = '88f39ae5515668c9fde92d91fdc5882c' and push_device_type = 'I' and push_registration_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+				, mod_date = now()
+			where push_id = 'rock8875@gmail.com' and push_device_type = 'I' and push_registration_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+apns_registration: resCode = 200

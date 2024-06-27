@@ -1,0 +1,90 @@
+
+c2dm_registration: ** 20120918-081335
+c2dm_registration: cmd=del, id=starnts@greatworks.co.kr, pw=3451, registration_id=, device_unique_id=6D6E0212C59D4738DEBFED9CE2827FE1
+c2dm_registration: message=Y, receipt=N, work=N, notice=N
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695'
+c2dm_registration: sql = update push_member set push_enable = 'N', push_message = 'Y', push_receipt = 'N', push_work = 'N', push_notice = 'N', push_registration_id = '', push_device_unique_id = '6D6E0212C59D4738DEBFED9CE2827FE1', mod_date = now() where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});
+
+c2dm_registration: ** 20120918-081335
+c2dm_registration: cmd=del, id=starnts@greatworks.co.kr, pw=3451, registration_id=, device_unique_id=6D6E0212C59D4738DEBFED9CE2827FE1
+c2dm_registration: message=N, receipt=N, work=N, notice=N
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695'
+c2dm_registration: sql = update push_member set push_enable = 'N', push_message = 'N', push_receipt = 'N', push_work = 'N', push_notice = 'N', push_registration_id = '', push_device_unique_id = '6D6E0212C59D4738DEBFED9CE2827FE1', mod_date = now() where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});
+
+c2dm_registration: ** 20120918-081336
+c2dm_registration: cmd=del, id=starnts@greatworks.co.kr, pw=3451, registration_id=, device_unique_id=6D6E0212C59D4738DEBFED9CE2827FE1
+c2dm_registration: message=N, receipt=Y, work=N, notice=N
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695'
+c2dm_registration: sql = update push_member set push_enable = 'N', push_message = 'N', push_receipt = 'Y', push_work = 'N', push_notice = 'N', push_registration_id = '', push_device_unique_id = '6D6E0212C59D4738DEBFED9CE2827FE1', mod_date = now() where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});
+
+c2dm_registration: ** 20120918-081337
+c2dm_registration: cmd=del, id=starnts@greatworks.co.kr, pw=3451, registration_id=, device_unique_id=6D6E0212C59D4738DEBFED9CE2827FE1
+c2dm_registration: message=Y, receipt=Y, work=N, notice=N
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695'
+c2dm_registration: sql = update push_member set push_enable = 'N', push_message = 'Y', push_receipt = 'Y', push_work = 'N', push_notice = 'N', push_registration_id = '', push_device_unique_id = '6D6E0212C59D4738DEBFED9CE2827FE1', mod_date = now() where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});
+
+c2dm_registration: ** 20120918-081339
+c2dm_registration: cmd=del, id=starnts@greatworks.co.kr, pw=3451, registration_id=, device_unique_id=6D6E0212C59D4738DEBFED9CE2827FE1
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=N
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695'
+c2dm_registration: sql = update push_member set push_enable = 'N', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'N', push_registration_id = '', push_device_unique_id = '6D6E0212C59D4738DEBFED9CE2827FE1', mod_date = now() where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});
+
+c2dm_registration: ** 20120918-081347
+c2dm_registration: cmd=del, id=starnts@greatworks.co.kr, pw=3451, registration_id=, device_unique_id=6D6E0212C59D4738DEBFED9CE2827FE1
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695'
+c2dm_registration: sql = update push_member set push_enable = 'N', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '6D6E0212C59D4738DEBFED9CE2827FE1', mod_date = now() where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});
+
+c2dm_registration: ** 20120918-081347
+c2dm_registration: cmd=add, id=starnts@greatworks.co.kr, pw=3451, registration_id=, device_unique_id=6D6E0212C59D4738DEBFED9CE2827FE1
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '6D6E0212C59D4738DEBFED9CE2827FE1', mod_date = now() where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});
+
+c2dm_registration: ** 20120918-081348
+c2dm_registration: cmd=registration, id=starnts@greatworks.co.kr, pw=3451, registration_id=APA91bH_hfDyPf7XjP8-DnAUTqNfgKtJw3fux2OxSOPAVfG1-eAUbYm8HaqEiILtiddactKnKtAmrbsDLXQAfxS3jZX2n4uhAUcWLJq5SlaW_z927yCBxuTbLBax4mIM4UyLQILTfBx3qlfW98uirCITnO-KQJOuKQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bH_hfDyPf7XjP8-DnAUTqNfgKtJw3fux2OxSOPAVfG1-eAUbYm8HaqEiILtiddactKnKtAmrbsDLXQAfxS3jZX2n4uhAUcWLJq5SlaW_z927yCBxuTbLBax4mIM4UyLQILTfBx3qlfW98uirCITnO-KQJOuKQ', mod_date = now() where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});
+
+c2dm_registration: ** 20120918-142054
+c2dm_registration: cmd=add, id=chanikr@miraensys.com, pw=1294, registration_id=, device_unique_id=467257725FA9FD360089185B2AC19DA5
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'chanikr@miraensys.com' and mem_pwd = 'c025e2a380b659f6371707420d680fe2' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'chanikr@miraensys.com' and push_pwd = 'c025e2a380b659f6371707420d680fe2'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_device_unique_id, reg_date, del_yn) values ('32','39','177','chanikr@miraensys.com','c025e2a380b659f6371707420d680fe2','임경찬','Y','A','','Y','Y','Y','Y','467257725FA9FD360089185B2AC19DA5',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임경찬"}]});
+
+c2dm_registration: ** 20120918-142055
+c2dm_registration: cmd=registration, id=chanikr@miraensys.com, pw=1294, registration_id=APA91bFw7GJKTnrluJ6DHF5OzkahXu1mLYvW7CNxn_pNV6g0RxoepuzuJXmMdfsX6uZVzSj_nO9Lm5iR4CdA1wQx3kHq3yjiZ0SLtSsWZhD0qFMI23jQ8nC8H8QzMYidBUcjWiZZWUrSjbjDm1Q2cf8SSooNdGNILA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'chanikr@miraensys.com' and mem_pwd = 'c025e2a380b659f6371707420d680fe2' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'chanikr@miraensys.com' and push_pwd = 'c025e2a380b659f6371707420d680fe2' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bFw7GJKTnrluJ6DHF5OzkahXu1mLYvW7CNxn_pNV6g0RxoepuzuJXmMdfsX6uZVzSj_nO9Lm5iR4CdA1wQx3kHq3yjiZ0SLtSsWZhD0qFMI23jQ8nC8H8QzMYidBUcjWiZZWUrSjbjDm1Q2cf8SSooNdGNILA', mod_date = now() where push_id = 'chanikr@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임경찬"}]});

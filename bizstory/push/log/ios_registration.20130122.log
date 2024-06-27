@@ -1,0 +1,90 @@
+
+apns_registration: ** 20130122-005226
+apns_registration: cmd=add, id=minsug86@nate.com, pw=7890, registration_id=52d3093426ba62ef93dbf7c9af02b95c9dfdd8237b0581d8be5bf3ffceb6818d, device_unique_id=52d3093426ba62ef93dbf7c9af02b95c9dfdd8237b0581d8be5bf3ffceb6818d
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'minsug86@nate.com' and mem_pwd = '1bc02a27116bde8483f7830a5fd5dad8' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'minsug86@nate.com' and push_pwd = '1bc02a27116bde8483f7830a5fd5dad8' and push_device_type = 'I' and push_registration_id = '52d3093426ba62ef93dbf7c9af02b95c9dfdd8237b0581d8be5bf3ffceb6818d'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '52d3093426ba62ef93dbf7c9af02b95c9dfdd8237b0581d8be5bf3ffceb6818d'
+				, mod_date = now()
+			where push_id = 'minsug86@nate.com' and push_device_type = 'I' and push_registration_id = '52d3093426ba62ef93dbf7c9af02b95c9dfdd8237b0581d8be5bf3ffceb6818d'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130122-101200
+apns_registration: cmd=add, id=minsug86@nate.com, pw=7890, registration_id=84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76, device_unique_id=84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'minsug86@nate.com' and mem_pwd = '1bc02a27116bde8483f7830a5fd5dad8' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'minsug86@nate.com' and push_pwd = '1bc02a27116bde8483f7830a5fd5dad8' and push_device_type = 'I' and push_registration_id = '84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76'
+				, mod_date = now()
+			where push_id = 'minsug86@nate.com' and push_device_type = 'I' and push_registration_id = '84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130122-112513
+apns_registration: cmd=add, id=rock8875@gmail.com, pw=8875, registration_id=6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5, device_unique_id=6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'rock8875@gmail.com' and mem_pwd = '88f39ae5515668c9fde92d91fdc5882c' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'rock8875@gmail.com' and push_pwd = '88f39ae5515668c9fde92d91fdc5882c' and push_device_type = 'I' and push_registration_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+				, mod_date = now()
+			where push_id = 'rock8875@gmail.com' and push_device_type = 'I' and push_registration_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130122-154333
+apns_registration: cmd=add, id=kdj@gunsol.com, pw=0000, registration_id=2f783c2c1aa10071cbf03e7a9903c5bf2abcd53b83fc1a375fa95bf8165a3132, device_unique_id=2f783c2c1aa10071cbf03e7a9903c5bf2abcd53b83fc1a375fa95bf8165a3132
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'kdj@gunsol.com' and mem_pwd = '52d44f8f9e7c12d731ae9de92d2682f5' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'kdj@gunsol.com' and push_pwd = '52d44f8f9e7c12d731ae9de92d2682f5' and push_device_type = 'I' and push_registration_id = '2f783c2c1aa10071cbf03e7a9903c5bf2abcd53b83fc1a375fa95bf8165a3132'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '2f783c2c1aa10071cbf03e7a9903c5bf2abcd53b83fc1a375fa95bf8165a3132'
+				, mod_date = now()
+			where push_id = 'kdj@gunsol.com' and push_device_type = 'I' and push_registration_id = '2f783c2c1aa10071cbf03e7a9903c5bf2abcd53b83fc1a375fa95bf8165a3132'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130122-180544
+apns_registration: cmd=add, id=minsug86@nate.com, pw=7890, registration_id=84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76, device_unique_id=84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'minsug86@nate.com' and mem_pwd = '1bc02a27116bde8483f7830a5fd5dad8' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'minsug86@nate.com' and push_pwd = '1bc02a27116bde8483f7830a5fd5dad8' and push_device_type = 'I' and push_registration_id = '84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76'
+				, mod_date = now()
+			where push_id = 'minsug86@nate.com' and push_device_type = 'I' and push_registration_id = '84261326dcf7e75b100a8c7dbcbbabfc4d51c258ea93fa51797d7965759e0c76'
+apns_registration: resCode = 200

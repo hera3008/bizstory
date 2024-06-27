@@ -1,0 +1,15 @@
+bizstory_push: ** 20140405-155217
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=69, part_idx=147, mem_idx=488, receiver=griunnimhun@hanmail.net, msg_type=work, message=[업무] 일신도서현매송금내역입니다
+bizstory_push: sql = select * from push_member where push_id = 'griunnimhun@hanmail.net' and del_yn = 'N'
+bizstory_push: [griunnimhun@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140405155217324223', 69, 147, 488, 'griunnimhun@hanmail.net', 'A', 'APA91bHreDRWqqCL-X3KBc2EQDGPuEWMPUu1AqIZOCfp0lqsf0dD97JOLMU3Dj2t0PSRmaCr4yomJPw5lWbKaiKdHclOZTS2l48qWgA-z371ueOSZR2JWp-hNEt8pu_SQnmtAlcEZ4c386q2x71qTQzPm-D3jPgNvw', '정성훈', 'ios', 'work', '[업무] 일신도서현매송금내역입니다', '9', '', now())
+bizstory_push: ** 20140405-155922
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[사곡고등학교] 영양사실-fs 11..
+bizstory_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and del_yn = 'N'
+bizstory_push: [cpui7@daum.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140405155922920433', 5, 5, 83, 'cpui7@daum.net', 'A', 'APA91bEnh3lsA-Vk0Ps2_lF-3RA8DReacx8bjG_YFOvJD_Jqp30qEhjwqriJyjwcjmuenhpQTmfd2RgTvVQmR1gP0CE4Mp8-9MYKQW69uJ2WMjjzTFnr4ONmwR_Lxj-reU1DAHS6xbOVlHjw1SQPEZmvY-VK9hNPQWQ8byhRzn72jap0TCMkJpI', '황진섭', 'ios', 'receipt', '[사곡고등학교] 영양사실-fs 11..', '9', '', now())
+bizstory_push: ** 20140405-172909
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=69, part_idx=147, mem_idx=496, receiver=rladhral73@nate.com, msg_type=work, message=[업무] 2014년3월출판사송금내역
+bizstory_push: sql = select * from push_member where push_id = 'rladhral73@nate.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140405172909253554', 69, 147, 496, 'rladhral73@nate.com', '', 'ios', 'work', '[업무] 2014년3월출판사송금내역', '0', '등록되지 않은 사용자', now())

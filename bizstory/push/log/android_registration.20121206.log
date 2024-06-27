@@ -1,0 +1,28 @@
+
+c2dm_registration: ** 20121206-200400
+c2dm_registration: cmd=add, id=kthy@chol.com, pw=server, registration_id=, device_unique_id=8AC632DF775CA5A619D578B2A354684C
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'kthy@chol.com' and mem_pwd = '2fb307432726a93a546f2c38dfb1bec9' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '8AC632DF775CA5A619D578B2A354684C'
+				, mod_date = now()
+			where push_id = 'kthy@chol.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김태형"}]});
+
+c2dm_registration: ** 20121206-200401
+c2dm_registration: cmd=registration, id=kthy@chol.com, pw=server, registration_id=APA91bH3ka8T4iqfwnhmYrcAlb0igQTFZ9sjotROJ4eCnG158CisjwDskdpECodijoFis8n5l3lbpI54Wlw6eaiWK75olHvfB4TxEexTrUzV4wOs16qKQIk1jq7hCUBEGAolEC_flVBsGydSKh35TVHxEdDYYYESxw, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'kthy@chol.com' and mem_pwd = '2fb307432726a93a546f2c38dfb1bec9' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9' and push_device_type = 'A' 
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김태형"}]});

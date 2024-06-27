@@ -1,0 +1,18 @@
+
+c2dm_registration: ** 20121217-103451
+c2dm_registration: cmd=add, id=ytj@gunsol.com, pw=bytj6364, registration_id=, device_unique_id=EFC510D17477A138FDB9A494157B3473
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'ytj@gunsol.com' and mem_pwd = 'f777cc41b41950998e0f010415132efc' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ytj@gunsol.com' and push_pwd = 'f777cc41b41950998e0f010415132efc'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_consult, push_device_unique_id, reg_date, del_yn) values ('8','9','49','ytj@gunsol.com','f777cc41b41950998e0f010415132efc','윤태정','Y','A','','Y','Y','Y','Y','','EFC510D17477A138FDB9A494157B3473',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"윤태정"}]});
+
+c2dm_registration: ** 20121217-103452
+c2dm_registration: cmd=registration, id=ytj@gunsol.com, pw=bytj6364, registration_id=APA91bGpZNEKz01qwT2IbVnivI7yUJaRwHrS_3EnrS3MMD_Lgom6BeVJ2o4r059atHQ3DDmuND8obIIXVkfohw1N9wjen5Tn7c8cESpJcjexicKochzjm7VrpwCbSWD1Ryg2FH-4oliRSUjQlRAdvw0sjUgAINZ2lQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'ytj@gunsol.com' and mem_pwd = 'f777cc41b41950998e0f010415132efc' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ytj@gunsol.com' and push_pwd = 'f777cc41b41950998e0f010415132efc' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGpZNEKz01qwT2IbVnivI7yUJaRwHrS_3EnrS3MMD_Lgom6BeVJ2o4r059atHQ3DDmuND8obIIXVkfohw1N9wjen5Tn7c8cESpJcjexicKochzjm7VrpwCbSWD1Ryg2FH-4oliRSUjQlRAdvw0sjUgAINZ2lQ', mod_date = now() where push_id = 'ytj@gunsol.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"윤태정"}]});

@@ -1,0 +1,93 @@
+.visualize {
+	background: rgb(250, 250, 250); border: 1px solid rgb(136, 136, 136); position: relative;
+}
+.visualize canvas {
+	position: absolute;
+}
+.visualize ul {
+	margin: 0px; padding: 0px;
+}
+.visualize li {
+	margin: 0px; padding: 0px;
+}
+.visualize .visualize-info {
+	background: rgb(250, 250, 250); padding: 3px 5px; border: 1px solid rgb(136, 136, 136); top: -20px; right: 10px; position: absolute; opacity: 0.8;
+}
+.visualize .visualize-title {
+	color: rgb(51, 51, 51); font-size: 1.1em; margin-bottom: 3px; display: block;
+}
+.visualize ul.visualize-key {
+	list-style: none;
+}
+.visualize ul.visualize-key li {
+	list-style: none; padding-left: 10px; margin-right: 10px; float: left; position: relative;
+}
+.visualize ul.visualize-key .visualize-key-color {
+	left: 0px; top: 50%; width: 6px; height: 6px; margin-top: -3px; position: absolute;
+}
+.visualize ul.visualize-key .visualize-key-label {
+	color: rgb(0, 0, 0);
+}
+.visualize-pie .visualize-labels {
+	list-style: none;
+}
+.visualize-pie .visualize-label-pos {
+	margin: 0px; padding: 0px; position: absolute;
+}
+.visualize-pie .visualize-label {
+	margin: 0px; padding: 0px; position: absolute;
+}
+.visualize-pie .visualize-label {
+	color: rgb(255, 255, 255); font-size: 1em; font-weight: bold; display: block;
+}
+.visualize-pie-outside .visualize-label {
+	color: rgb(0, 0, 0); font-weight: normal;
+}
+.visualize-labels-x {
+	list-style: none; left: 0px; top: 0px; position: absolute;
+}
+.visualize-labels-y {
+	list-style: none; left: 0px; top: 0px; position: absolute;
+}
+.visualize-labels-x li {
+	bottom: 0px; position: absolute;
+}
+.visualize-labels-y li {
+	bottom: 0px; position: absolute;
+}
+.visualize-labels-x li span.label {
+	color: rgb(85, 85, 85); position: absolute;
+}
+.visualize-labels-y li span.label {
+	color: rgb(85, 85, 85); position: absolute;
+}
+.visualize-labels-x li span.line {
+	border: 0px solid rgb(204, 204, 204); position: absolute;
+}
+.visualize-labels-y li span.line {
+	border: 0px solid rgb(204, 204, 204); position: absolute;
+}
+.visualize-labels-x li {
+	height: 100%;
+}
+.visualize-labels-x li span.label {
+	top: 100%; margin-top: 5px;
+}
+.visualize-labels-x li span.line {
+	height: 100%; border-left-width: 1px; display: block;
+}
+.visualize-labels-x li span.line {
+	border: 0px currentColor;
+}
+.visualize-labels-y li {
+	width: 100%;
+}
+.visualize-labels-y li span.label {
+	width: 100px; text-align: right; right: 100%; margin-right: 5px; display: block;
+}
+.visualize-labels-y li span.line {
+	width: 100%; border-top-width: 1px;
+}
+.visualize-bar .visualize-labels-x li span.label {
+	width: 100%; text-align: center;
+}

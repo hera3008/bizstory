@@ -1,0 +1,642 @@
+
+/********************************************************************************************************************************************************/
+/* 담당자 - 지사별, 그룹별 */
+
+	#fsidebar {
+		width:190px;
+		height:100%;
+		background:url("../../common/images/common/data_sidebar_bg.gif") repeat-y;
+		background-position:0 0;
+	}
+
+	#fsub_navi {
+		clear:both;
+		width:100%;
+		width:190px;
+		height:100%;
+		font-size:75%;
+		letter-spacing:-.05em;
+		*letter-spacing:-.05em;
+		position:relative;
+	}
+	#fsub_navi ul {
+		display:none;
+	}
+	#fsub_navi li {
+		position:relative;
+		width:100%;
+		width:190px;
+	}
+	/* IE leaves a blank space where span is added so this is to avoid that */
+	* html #fsub_navi li{
+		float:left;
+		display:inline;
+	}
+	#fsub_navi li a {
+		display:block;
+		height:30px;
+		line-height:30px;
+		*line-height:38px;
+		padding-left:10px;
+		/* border-top:1px solid #bbc1cc; */
+		text-shadow:#e75d02 1px 1px 0;
+		color:#ffffff;
+		font-weight:700;
+		background:#729dd7;
+		background:url("../../common/images/common/data_table_sidbar_bg.gif") repeat-x 0 50%;
+		border-bottom:1px solid #de6e00;
+	}
+	#fsub_navi li a:active {
+		background-position:0 50%;
+	}
+	#fsub_navi li span {
+		float:right; position:absolute;
+		top:2px; *top:0;
+		right:7px;
+		width:100%;
+		width:190px; height:32px;
+		cursor:auto; cursor:pointer; *cursor:hand;
+		font-size:0;
+	}
+	#fsub_navi li span,
+	#fsub_navi li span.collapsed {
+		background:url("../../common/images/icon/collapsed.png") no-repeat;
+		background-position:95% 38%;
+	} 
+	#fsub_navi li span.expanded {
+		background:url("../../common/images/icon/expanded.png") no-repeat;
+		background-position:95% 38%;
+	}
+
+	/* 2단계 */
+	#fsub_navi li li {
+		width:184px;
+		background:#faf7ef url("../../common/images/icon/folder2.png") 13px 6px no-repeat;
+	}
+	#fsub_navi li li.frist {
+		margin-top:8px;
+	}
+	#fsub_navi li li.end {
+		margin-bottom:8px;
+	}
+	#fsub_navi li li a {
+		color:#666;
+		display:block;
+		height:22px;
+		line-height:24px;
+		padding-left:32px;
+		border-top:none;
+		background:none;
+		font-weight:400;
+		background-position:30px 50%;
+		border-bottom:none;
+		text-shadow:#fff 1px 1px 0;
+	}
+	#fsub_navi li li a:hover {
+		color:#3f3f3f;
+		background-position:30px 50%;
+	}
+	/* 3단계 */
+	#fsub_navi li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 20px 0px no-repeat;
+	}
+	#fsub_navi li li li.frist {
+		margin-top:5px;
+	}
+	#fsub_navi li li li.end {
+		margin-bottom:7px;
+	}
+	#fsub_navi li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:42px;
+		padding-top:2px;
+		padding-bottom:2px;
+		border-top:none;
+		background:none;
+	}
+	#fsub_navi li li li a:hover {
+		color:#3f3f3f;
+		background:none;
+		text-decoration:underline;
+	}
+	/* 4단계 */
+	#fsub_navi li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 28px 0px no-repeat;
+	}
+	#fsub_navi li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:50px;
+		border-top:none;
+		background:none;
+	}
+	/* 5단계 */
+	#fsub_navi li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 36px 0px no-repeat;
+	}
+	#fsub_navi li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:58px;
+		border-top:none;
+		background:none;
+	}
+	/* 6단계 */
+	#fsub_navi li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 44px 0px no-repeat;
+	}
+	#fsub_navi li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:66px;
+		border-top:none;
+		background:none;
+	}
+	/* 7단계 */
+	#fsub_navi li li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 52px 0px no-repeat;
+	}
+	#fsub_navi li li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:74px;
+		border-top:none;
+		background:none;
+	}
+	/* 8단계 */
+	#fsub_navi li li li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 60px 0px no-repeat;
+	}
+	#fsub_navi li li li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:82px;
+		border-top:none;
+		background:none;
+	}
+	/* 9단계 */
+	#fsub_navi li li li li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 68px 0px no-repeat;
+	}
+	#fsub_navi li li li li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:90px;
+		border-top:none;
+		background:none;
+	}
+	/* 10단계 */
+	#fsub_navi li li li li li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 76px 0px no-repeat;
+	}
+	#fsub_navi li li li li li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:98px;
+		border-top:none;
+		background:none;
+	}
+
+	#fsub_navi li li span {
+		float:right;
+		position:absolute;
+		top:3px;
+		*top:1px;
+		right:4px;
+		width:100%;
+		height:21px;
+		cursor:auto;
+		font-size:0;
+		cursor:pointer;
+		*cursor:hand;
+	}
+	#fsub_navi li li span,
+	#fsub_navi li li span.collapsed {
+		background:url("../../common/images/icon/collapsed2.png") no-repeat;
+		background-position:95% 50%;
+	} 
+	#fsub_navi li li span.expanded {
+		background:url("../../common/images/icon/expanded2.png") no-repeat;
+		background-position:95% 50%;
+	}
+
+/********************************************************************************************************************************************************/
+/* Sub Navi2 */
+
+	#ffsidebar {
+		width:400px;
+		height:100%;
+		background:url("../../common/images/common/data_sidebar_bg.gif") repeat-y;
+		background-position:0 0;
+	}
+
+	#ffsub_navi {
+		clear:both;
+		width:100%; width:400px; height:100%;
+		font-size:75%;
+		letter-spacing:-.05em; *letter-spacing:-.05em;
+		position:relative;
+	}
+	#ffsub_navi ul {
+		display:none;
+	}
+	#ffsub_navi li {
+		position:relative;
+		width:100%; width:400px;
+	}
+	/* IE leaves a blank space where span is added so this is to avoid that */
+	* html #ffsub_navi li{
+		float:left;
+		display:inline;
+	}
+	#ffsub_navi li a {
+		display:block;
+		height:30px;
+		line-height:30px; *line-height:38px;
+		padding-left:10px;
+		text-shadow:#e75d02 1px 1px 0;
+		color:#ffffff;
+		font-weight:700;
+		background:#729dd7; background:url("../../common/images/common/data_table_sidbar_bg.gif") repeat-x 0 50%;
+		border-bottom:1px solid #de6e00;
+	}
+	#ffsub_navi li a:active {
+		background-position:0 50%;
+	}
+	#ffsub_navi li span {
+		float:right; position:absolute;
+		top:2px; *top:0;
+		right:7px;
+		width:100%; width:400px; height:32px;
+		cursor:auto; cursor:pointer; *cursor:hand;
+		font-size:0;
+	}
+	#ffsub_navi li span,
+	#ffsub_navi li span.collapsed {
+		background:url("../../common/images/icon/collapsed.png") no-repeat;
+		background-position:95% 38%;
+	} 
+	#ffsub_navi li span.expanded {
+		background:url("../../common/images/icon/expanded.png") no-repeat;
+		background-position:95% 38%;
+		font-weight:900;
+	}
+
+	/* 2단계 */
+	#ffsub_navi li li {
+		width:394px;
+		background:#faf7ef url("../../common/images/icon/folder2.png") 13px 6px no-repeat;
+	}
+	#ffsub_navi li li.frist {
+		margin-top:8px;
+	}
+	#ffsub_navi li li.end {
+		margin-bottom:8px;
+	}
+	#ffsub_navi li li a {
+		color:#666;
+		display:block;
+		height:22px;
+		line-height:24px;
+		padding-left:32px;
+		border-top:none;
+		background:none;
+		font-weight:400;
+		background-position:30px 50%;
+		border-bottom:none;
+		text-shadow:#fff 1px 1px 0;
+	}
+	#ffsub_navi li li a:hover {
+		color:#3f3f3f;
+		background-position:30px 50%;
+	}
+	/* 3단계 */
+	#ffsub_navi li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 20px 0px no-repeat;
+	}
+	#ffsub_navi li li li.frist {
+		margin-top:5px;
+	}
+	#ffsub_navi li li li.end {
+		margin-bottom:7px;
+	}
+	#ffsub_navi li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:42px;
+		padding-top:2px;
+		padding-bottom:2px;
+		border-top:none;
+		background:none;
+	}
+	#ffsub_navi li li li a:hover {
+		color:#3f3f3f;
+		background:none;
+		text-decoration:underline;
+	}
+	/* 4단계 */
+	#ffsub_navi li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 28px 0px no-repeat;
+	}
+	#ffsub_navi li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:50px;
+		border-top:none;
+		background:none;
+	}
+	/* 5단계 */
+	#ffsub_navi li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 36px 0px no-repeat;
+	}
+	#ffsub_navi li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:58px;
+		border-top:none;
+		background:none;
+	}
+	/* 6단계 */
+	#ffsub_navi li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 44px 0px no-repeat;
+	}
+	#ffsub_navi li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:66px;
+		border-top:none;
+		background:none;
+	}
+	/* 7단계 */
+	#ffsub_navi li li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 52px 0px no-repeat;
+	}
+	#ffsub_navi li li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:74px;
+		border-top:none;
+		background:none;
+	}
+	/* 8단계 */
+	#ffsub_navi li li li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 60px 0px no-repeat;
+	}
+	#ffsub_navi li li li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:82px;
+		border-top:none;
+		background:none;
+	}
+	/* 9단계 */
+	#ffsub_navi li li li li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 68px 0px no-repeat;
+	}
+	#ffsub_navi li li li li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:90px;
+		border-top:none;
+		background:none;
+	}
+	/* 10단계 */
+	#ffsub_navi li li li li li li li li li li {
+		background:#fff;
+		background:#faf7ef url("../../common/images/icon/st.png") 76px 0px no-repeat;
+	}
+	#ffsub_navi li li li li li li li li li li a {
+		color:#666;
+		display:block;
+		height:21px;
+		line-height:23px;
+		padding-left:98px;
+		border-top:none;
+		background:none;
+	}
+
+	#ffsub_navi li li span {
+		float:right;
+		position:absolute;
+		top:3px; *top:1px;
+		right:4px;
+		width:100%;
+		height:21px;
+		cursor:auto;
+		font-size:0;
+		cursor:pointer; *cursor:hand;
+	}
+	#ffsub_navi li li span,
+	#ffsub_navi li li span.collapsed {
+		background:url("../../common/images/icon/collapsed2.png") no-repeat;
+		background-position:95% 50%;
+	} 
+	#ffsub_navi li li span.expanded {
+		background:url("../../common/images/icon/expanded2.png") no-repeat;
+		background-position:95% 50%;
+	}
+
+
+
+/********************************************************************************************************************************************************/
+/* 권한설정시 */
+
+	#auth_folder_navi {
+		clear:both;
+		width:100%; height:100%;
+		font-size:75%;
+		letter-spacing:-.05em; *letter-spacing:-.05em;
+		position:relative;
+	}
+	#auth_folder_navi ul {
+		display:none;
+	}
+	#auth_folder_navi li {
+		position:relative;
+		width:100%;
+	}
+	/* IE leaves a blank space where span is added so this is to avoid that */
+	* html #auth_folder_navi li{
+		float:left;
+		display:inline;
+	}
+	#auth_folder_navi li a {
+		font-weight:700;
+		padding-left:17px;
+		background:url("../../common/images/icon/st1.gif") -5px -6px no-repeat;
+	}
+	#auth_folder_navi li span {
+		position:absolute;
+		float:left;
+		width:500px; height:32px;
+		line-height:31px;
+		cursor:auto; cursor:pointer; *cursor:hand;
+		top:0; *top:0;
+	}
+	#auth_folder_navi li strong {
+		float:right;
+		width:32px; height:32px; line-height:31px;
+	}
+	#auth_folder_navi li strong,
+	#auth_folder_navi li strong.collapsed {
+		background:url("../../common/images/icon/collapsed.png") no-repeat;
+		background-position:95% 38%;
+	} 
+	#auth_folder_navi li strong.expanded {
+		background:url("../../common/images/icon/expanded.png") no-repeat;
+		background-position:95% 38%;
+		font-weight:900;
+	}
+
+	/* 2단계 */
+	#auth_folder_navi li li {
+		width:100%;
+	}
+	#auth_folder_navi li li a {
+		font-weight:400;
+		padding-left:29px;
+		background:url("../../common/images/icon/st2.gif") 6px -5px no-repeat;
+	}
+	/* 3단계 */
+	#auth_folder_navi li li li a {
+		font-weight:400;
+		padding-left:40px;
+		background:url("../../common/images/icon/st3.gif") 17px -5px no-repeat;
+	}
+	/* 4단계 */
+	#auth_folder_navi li li li li a {
+		font-weight:400;
+		padding-left:51px;
+		background:url("../../common/images/icon/st4.gif") 28px -5px no-repeat;
+	}
+	/* 5단계 */
+	#auth_folder_navi li li li li li a {
+		font-weight:400;
+		padding-left:62px;
+		background:url("../../common/images/icon/st5.gif") 40px -5px no-repeat;
+	}
+	/* 6단계 */
+	#auth_folder_navi li li li li li li a {
+		font-weight:400;
+		padding-left:73px;
+		background:url("../../common/images/icon/st6.gif") 50px -5px no-repeat;
+	}
+	/* 7단계 */
+	#auth_folder_navi li li li li li li li a {
+		font-weight:400;
+		padding-left:84px;
+		background:url("../../common/images/icon/st7.gif") 60px -5px no-repeat;
+	}
+	/* 8단계 */
+	#auth_folder_navi li li li li li li li li a {
+		font-weight:400;
+		padding-left:95px;
+		background:url("../../common/images/icon/st8.gif") 70px -5px no-repeat;
+	}
+	/* 9단계 */
+	#auth_folder_navi li li li li li li li li li a {
+		font-weight:400;
+		padding-left:106px;
+		background:url("../../common/images/icon/st9.gif") 80px -5px no-repeat;
+	}
+	/* 10단계 */
+	#auth_folder_navi li li li li li li li li li li a {
+		font-weight:400;
+		padding-left:117px;
+		background:url("../../common/images/icon/st10.gif") 90px -5px no-repeat;
+	}
+
+	.authtable {
+		clear:both;
+		float:none;
+		width:100%;
+		margin:0px auto;
+		border-left:1px solid #979fa1;
+		font-size:12px;
+	}
+	.authtable th {
+		font-weight:700;
+		padding:6px 5px;
+		line-height:24px;
+		text-align:center;
+		color:#666;
+		letter-spacing:-.1em;
+		*letter-spacing:-.05em;
+		border-right:1px solid #979fa1;
+		border-bottom:1px solid #979fa1;
+		background:url("../../common/images/table/header-bg.png") repeat-x;
+		background-position:0px 50%;
+	}
+	.authtable thead th {
+		height:23px;
+		padding-top:6px;
+		padding-bottom:1px;
+		line-height:26px;
+		overflow:hidden;
+		border-top:1px solid #979fa1;
+		border-bottom:1px solid #979fa1;
+	}
+	.authtable td {
+		padding-top:7px;
+		padding-bottom:7px;
+		padding-left:5px;
+		padding-right:5px;
+		font-weight:400;
+		line-height:15px;
+		letter-spacing:-.05em;
+		*letter-spacing:-.05em;
+		text-align:center;
+		vertical-align:middle;
+		background:#f4f4f4;
+		border-right:1px solid #979fa1;
+		border-bottom:1px solid #979fa1;
+	}
+	.authtable td.left {
+		text-align:left;
+	}

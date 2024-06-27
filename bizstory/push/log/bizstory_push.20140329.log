@@ -1,0 +1,18 @@
+bizstory_push: ** 20140329-090329
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=67, part_idx=145, mem_idx=474, receiver=drfac@nate.com, msg_type=receipt, message=[접수] [성원중학교] 인터넷안됨
+bizstory_push: sql = select * from push_member where push_id = 'drfac@nate.com' and del_yn = 'N'
+bizstory_push: [drfac@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140329090329120312', 67, 145, 474, 'drfac@nate.com', 'A', 'APA91bHUnNVLjWW6nVmZgs9w6dYFrNoubZwbGGe7vH9XBItk006nYH30BhGj4o7zV-NUHFa31Ft5ubFUyWxCSLKYlhSNK1iZQepBBwZO9NhTdgpoKhsXIT1s760ACcZJwB-9T1POJVMfQ5Q4ZrHimagg0-2iG7V1tDSE2OKaci0w4h0RLH7SGiE', '황성준', 'ios', 'receipt', '[접수] [성원중학교] 인터넷안됨', '9', '', now())
+bizstory_push: ** 20140329-090329
+bizstory_push: ** 20140329-104816
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=411, receiver=jowsgo@miraensys.com, msg_type=receipt, message=[접수] [가람중학교] 아래한글이 안열려요
+bizstory_push: sql = select * from push_member where push_id = 'jowsgo@miraensys.com' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140329104816119787', 32, 39, 411, 'jowsgo@miraensys.com', '', 'ios', 'receipt', '[접수] [가람중학교] 아래한글이 안열려요', '0', '등록되지 않은 사용자', now())
+bizstory_push: ** 20140329-104816
+bizstory_push: ** 20140329-112541
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=174, receiver=pantera0219@miraensys.com, msg_type=receipt, message=[접수] [경기영상과학고등학교] 컴퓨터 디스크..
+bizstory_push: sql = select * from push_member where push_id = 'pantera0219@miraensys.com' and del_yn = 'N'
+bizstory_push: [pantera0219@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140329112541245378', 32, 39, 174, 'pantera0219@miraensys.com', 'A', 'APA91bHT7MW6-FIPFs8jjpVYou4NqqlQKRHeiwe27GptnFQ82p8Zg1M-jhx97XCDyQVUWiKAI27DXswN5mlIAUpXIumoMDGrtOW1Gg0bwa9wGT8UM4T37cNif2t75VhnZMx12XmKGMNRgW_dG-Ja32gbOX3djVCQfg', '신철혁', 'ios', 'receipt', '[접수] [경기영상과학고등학교] 컴퓨터 디스크..', '9', '', now())
+bizstory_push: ** 20140329-112541

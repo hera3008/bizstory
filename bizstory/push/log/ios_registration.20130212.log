@@ -1,0 +1,18 @@
+
+apns_registration: ** 20130212-155522
+apns_registration: cmd=add, id=choidh73@hanmail.net, pw=1777, registration_id=52eaf554b8dd0a34046dcb19cde2d45449940c11f7d9c44c113b3db46d4d4cde, device_unique_id=52eaf554b8dd0a34046dcb19cde2d45449940c11f7d9c44c113b3db46d4d4cde
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'choidh73@hanmail.net' and mem_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'choidh73@hanmail.net' and push_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and push_device_type = 'I' and push_registration_id = '52eaf554b8dd0a34046dcb19cde2d45449940c11f7d9c44c113b3db46d4d4cde'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '52eaf554b8dd0a34046dcb19cde2d45449940c11f7d9c44c113b3db46d4d4cde'
+				, mod_date = now()
+			where push_id = 'choidh73@hanmail.net' and push_device_type = 'I' and push_registration_id = '52eaf554b8dd0a34046dcb19cde2d45449940c11f7d9c44c113b3db46d4d4cde'
+apns_registration: resCode = 200

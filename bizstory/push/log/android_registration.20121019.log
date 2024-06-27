@@ -1,0 +1,46 @@
+
+c2dm_registration: ** 20121019-133239
+c2dm_registration: cmd=add, id=cyberfos@incomsn.com, pw=9789, registration_id=, device_unique_id=F75BCBBF444A5D33A471242E05470FC7
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'cyberfos@incomsn.com' and mem_pwd = '3c1fe1e5545cba81117008ed7968826c' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'cyberfos@incomsn.com' and push_pwd = '3c1fe1e5545cba81117008ed7968826c'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'F75BCBBF444A5D33A471242E05470FC7'
+				, mod_date = now()
+			where push_id = 'cyberfos@incomsn.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"계동환"}]});
+
+c2dm_registration: ** 20121019-133240
+c2dm_registration: cmd=registration, id=cyberfos@incomsn.com, pw=9789, registration_id=APA91bE4LUqu4j-dHxwp1ZBqDGLYcIsmeWMZYMHfcTqgzGA-MiScLIoUvHtAgNCvGlJrfBpOqx3F2zZ1De7TOODznhqhOfD6-Lr61fn-t81y7JPEpGMt0xBkm9O1XavVY2SBGseIU7yJwtRmI_-o7vkCxeX47Nn0zQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'cyberfos@incomsn.com' and mem_pwd = '3c1fe1e5545cba81117008ed7968826c' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'cyberfos@incomsn.com' and push_pwd = '3c1fe1e5545cba81117008ed7968826c' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bE4LUqu4j-dHxwp1ZBqDGLYcIsmeWMZYMHfcTqgzGA-MiScLIoUvHtAgNCvGlJrfBpOqx3F2zZ1De7TOODznhqhOfD6-Lr61fn-t81y7JPEpGMt0xBkm9O1XavVY2SBGseIU7yJwtRmI_-o7vkCxeX47Nn0zQ', mod_date = now() where push_id = 'cyberfos@incomsn.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"계동환"}]});
+
+c2dm_registration: ** 20121019-155404
+c2dm_registration: cmd=add, id=kjsno0@naver.com, pw=1111, registration_id=, device_unique_id=15D8A9CAF596765EED4E0D7188785D1B
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'kjsno0@naver.com' and mem_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kjsno0@naver.com' and push_pwd = '0b0787e8b2de7fab72f09567f0f4d551'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_consult, push_device_unique_id, reg_date, del_yn) values ('44','80','297','kjsno0@naver.com','0b0787e8b2de7fab72f09567f0f4d551','김재선','Y','A','','Y','Y','Y','Y','','15D8A9CAF596765EED4E0D7188785D1B',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김재선"}]});
+
+c2dm_registration: ** 20121019-155406
+c2dm_registration: cmd=registration, id=kjsno0@naver.com, pw=1111, registration_id=APA91bHFflfcq6gWaTZvy2RuKOmGG_DDpOkmtUTvc5jvYn2PwZPROGoDfCJURDghy9nHOprX-m1-GOgtJIStuJMI0QRv80LLxsp76exanAKU0luhqiPDqjEKxrsuMtkxwmEnG52qpRXAvDPh-3oiF1B0DeFGgItP5Q, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'kjsno0@naver.com' and mem_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kjsno0@naver.com' and push_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHFflfcq6gWaTZvy2RuKOmGG_DDpOkmtUTvc5jvYn2PwZPROGoDfCJURDghy9nHOprX-m1-GOgtJIStuJMI0QRv80LLxsp76exanAKU0luhqiPDqjEKxrsuMtkxwmEnG52qpRXAvDPh-3oiF1B0DeFGgItP5Q', mod_date = now() where push_id = 'kjsno0@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김재선"}]});

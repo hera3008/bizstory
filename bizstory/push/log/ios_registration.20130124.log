@@ -1,0 +1,36 @@
+
+apns_registration: ** 20130124-093716
+apns_registration: cmd=add, id=kthy@chol.com, pw=server, registration_id=77fd4d9c67bbd08de5f0cd54927f7a230ba90cf9a94c74514713c25f458b406b, device_unique_id=77fd4d9c67bbd08de5f0cd54927f7a230ba90cf9a94c74514713c25f458b406b
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'kthy@chol.com' and mem_pwd = '2fb307432726a93a546f2c38dfb1bec9' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9' and push_device_type = 'I' and push_registration_id = '77fd4d9c67bbd08de5f0cd54927f7a230ba90cf9a94c74514713c25f458b406b'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '77fd4d9c67bbd08de5f0cd54927f7a230ba90cf9a94c74514713c25f458b406b'
+				, mod_date = now()
+			where push_id = 'kthy@chol.com' and push_device_type = 'I' and push_registration_id = '77fd4d9c67bbd08de5f0cd54927f7a230ba90cf9a94c74514713c25f458b406b'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130124-184055
+apns_registration: cmd=add, id=philolee@naver.com, pw=0107, registration_id=b38e9e87a6844141aa4510a5c95d7315912c3d4a7ded9b45306c3317b27919fb, device_unique_id=b38e9e87a6844141aa4510a5c95d7315912c3d4a7ded9b45306c3317b27919fb
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'philolee@naver.com' and mem_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'philolee@naver.com' and push_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and push_device_type = 'I' and push_registration_id = 'b38e9e87a6844141aa4510a5c95d7315912c3d4a7ded9b45306c3317b27919fb'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = 'b38e9e87a6844141aa4510a5c95d7315912c3d4a7ded9b45306c3317b27919fb'
+				, mod_date = now()
+			where push_id = 'philolee@naver.com' and push_device_type = 'I' and push_registration_id = 'b38e9e87a6844141aa4510a5c95d7315912c3d4a7ded9b45306c3317b27919fb'
+apns_registration: resCode = 200

@@ -1,0 +1,101 @@
+/* login_Neo Arena type 관련 css
+body {
+	background: url("../images/neoarena/bg_body.jpg") repeat;
+	background-position: 0 0;
+	}
+  */
+	/* 로그인 백그라운드 */
+	#layout_table td#container #login_frame {
+			background:none;
+	}
+
+	/* 로그인 상단 관련 메뉴 */
+	#header {height: 43px;
+		position: relative;
+		z-index: 6;
+		background: url("../images/neoarena/header_img.png") repeat-x;
+		background-position: 0 -200px;}
+	#header .srevice_menu {
+		width:180px;
+	}
+	#layout_table td#container {
+		width: 100%;
+		height: 100%;
+		vertical-align: top;
+		position: relative;
+		z-index: 12;background: url('../images/neoarena/bg_header.png') left top repeat-x;
+		}
+	
+		/* 로그인 백그라운드 */
+		#layout_table td#container #login_frame .login_logo {
+			width:426px;
+			height:243px;
+			position:absolute;
+			top:90px;
+			left:0;
+			text-indent:-9999px;
+			background:url("../images/vcenter/login_logo.png") no-repeat;
+			background-position:0 0px;
+			margin-top:-16px;
+			margin-left:-28px;
+		}	
+		#layout_table td#container #login_frame .loginform {
+			width:570px; height:290px;
+			background:url("../images/neoarena/login_form.png") no-repeat;
+			background-position:0px 0px;
+		}
+
+		
+			#layout_table td#container #login_frame .login_app {
+				width:367px;
+				height:147px;
+				position:absolute;
+				top:180px;
+				left:10px;
+				background:url("../images/vcenter/login_text.png") no-repeat;
+				background-position:0 0;
+				margin-top:11px;
+			}
+			
+			#layout_table td#container #login_frame .login_box {
+				width: 570px;
+				height: 290px;
+				margin: 0px auto;
+				position: relative;}
+				
+				#layout_table td#container #login_frame .loginform .login_body {
+					width: 270px;
+					height: 105px;
+					position: absolute;
+					top: 115px;
+					left: 246px;	}
+				
+				
+				#layout_table td#container #login_frame .loginform .login_title .txt {position: absolute;left: 6px;top: 0;}	
+				#layout_table td#container #login_frame .loginform .login_title .txt2 {position: absolute;left: 236px;top: 0;}		
+				
+				#layout_table td#container #login_frame .loginform .login_body div .login_right {float: right;margin-top:4px;}		
+				.btn_big2 input, .btn_big2 span, .btn_big2 strong {
+					color: #fff !important;
+					font-weight: 700 !important;
+					font-size: 12px !important;
+					height: 26px; padding:0 50px;
+					line-height: 27px;
+					border: solid 1px #16478c;
+					background:#2558a0;}
+					
+				#layout_table td#container #login_frame .loginform .login_foot {
+					width: 270px;
+					height: 30px;
+					position: absolute;
+					top: 220px;
+					left: 246px;
+					font-size: 12px;
+					z-index: 10;
+					}
+					#layout_table td#container #login_frame .loginform .login_foot li {
+						float: left;
+						display: inline;
+						margin-left: 18px;
+						}
+					#layout_table td#container #login_frame .loginform .login_foot li:first-child {margin-left: 0;}

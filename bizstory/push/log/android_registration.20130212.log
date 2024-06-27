@@ -1,0 +1,28 @@
+
+c2dm_registration: ** 20130212-151841
+c2dm_registration: cmd=add, id=neo@neolohas.net, pw=neo0624, registration_id=, device_unique_id=73FB246C269F700779DFA67259FEB72B
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'neo@neolohas.net' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neo@neolohas.net' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '73FB246C269F700779DFA67259FEB72B'
+				, mod_date = now()
+			where push_id = 'neo@neolohas.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});
+
+c2dm_registration: ** 20130212-151841
+c2dm_registration: cmd=registration, id=neo@neolohas.net, pw=neo0624, registration_id=APA91bGr8ppxmTqXMvZKEvy7TXZJ_kOR3Pzgiw2Md9cWLjBV01a8La8XKG543Fv5_wpSlQ-d4T1Xpl-8-_NnIqmZ38gQkCFhPR3sk3SD-VbIwDrvn6t8VmjK_CkD1RYVaP2D31eez2kbohp-FjbvUOstxuL2TLYLYg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'neo@neolohas.net' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neo@neolohas.net' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGr8ppxmTqXMvZKEvy7TXZJ_kOR3Pzgiw2Md9cWLjBV01a8La8XKG543Fv5_wpSlQ-d4T1Xpl-8-_NnIqmZ38gQkCFhPR3sk3SD-VbIwDrvn6t8VmjK_CkD1RYVaP2D31eez2kbohp-FjbvUOstxuL2TLYLYg', mod_date = now() where push_id = 'neo@neolohas.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});

@@ -1,0 +1,28 @@
+
+c2dm_registration: ** 20121126-084122
+c2dm_registration: cmd=add, id=651038@naver.com, pw=1777, registration_id=, device_unique_id=A72446677F345BCE66464E3B43AD11E9
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = '651038@naver.com' and mem_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = '651038@naver.com' and push_pwd = '8a23d82a178f8f8c0ddf20316a143ca3'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'A72446677F345BCE66464E3B43AD11E9'
+				, mod_date = now()
+			where push_id = '651038@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이원익"}]});
+
+c2dm_registration: ** 20121126-084123
+c2dm_registration: cmd=registration, id=651038@naver.com, pw=1777, registration_id=APA91bGWO7CvuxcsLMDvy_NevlbFxy3MQNypcDoVnuY_bNFGx-mBRsgpcF6g2_fRfkEv0Jm3X9vTO_JEEoNnw6Hn03xiF1WZSc9Bt1iYd0fPP0_ic0NhULq0DNPqtjFI6dxY9NWb8KM8tXOfDDDwR4hUK4ENayJBEQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = '651038@naver.com' and mem_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = '651038@naver.com' and push_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGWO7CvuxcsLMDvy_NevlbFxy3MQNypcDoVnuY_bNFGx-mBRsgpcF6g2_fRfkEv0Jm3X9vTO_JEEoNnw6Hn03xiF1WZSc9Bt1iYd0fPP0_ic0NhULq0DNPqtjFI6dxY9NWb8KM8tXOfDDDwR4hUK4ENayJBEQ', mod_date = now() where push_id = '651038@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이원익"}]});

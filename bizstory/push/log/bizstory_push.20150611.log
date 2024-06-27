@@ -1,0 +1,15 @@
+bizstory_push: ** 20150611-141216
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=29, mem_idx=15, receiver=naryong82@nate.com, msg_type=message, message=[쪽지] ^_^ 지금 보냅니다!
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = Y
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20150611141216269619', 1, 1, 15, 'naryong82@nate.com', 'A', 'APA91bFnDKOgvIE0VcFKm_MCcfTlL8s5RacuOJ2hIc-YLQT62KLh2qescudxh9Fn_hlo8-xsartrIiSN_txHoM2khirrNK0n2wTnHfbo1Z40iWYgMqMqwLPVpmPGDxjGRnESCwDmDRBZC0JOQsFFMBjvpkTBZv56Ag', '김나영', 'ios', 'message', '[쪽지] ^_^ 지금 보냅니다!', '9', '', now())
+bizstory_push: ** 20150611-141611
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=29, mem_idx=15, receiver=naryong82@nate.com, msg_type=message, message=[쪽지] 파일 회신 보내드립니다 실장님^^&n..
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = Y
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20150611141611200922', 1, 1, 15, 'naryong82@nate.com', 'A', 'APA91bFnDKOgvIE0VcFKm_MCcfTlL8s5RacuOJ2hIc-YLQT62KLh2qescudxh9Fn_hlo8-xsartrIiSN_txHoM2khirrNK0n2wTnHfbo1Z40iWYgMqMqwLPVpmPGDxjGRnESCwDmDRBZC0JOQsFFMBjvpkTBZv56Ag', '김나영', 'ios', 'message', '[쪽지] 파일 회신 보내드립니다 실장님^^&n..', '9', '', now())
+bizstory_push: ** 20150611-141754
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=29, mem_idx=15, receiver=naryong82@nate.com, msg_type=message, message=[쪽지] ^^&nbsp;
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = Y
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20150611141754808000', 1, 1, 15, 'naryong82@nate.com', 'A', 'APA91bFnDKOgvIE0VcFKm_MCcfTlL8s5RacuOJ2hIc-YLQT62KLh2qescudxh9Fn_hlo8-xsartrIiSN_txHoM2khirrNK0n2wTnHfbo1Z40iWYgMqMqwLPVpmPGDxjGRnESCwDmDRBZC0JOQsFFMBjvpkTBZv56Ag', '김나영', 'ios', 'message', '[쪽지] ^^&nbsp;', '9', '', now())

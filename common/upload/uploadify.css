@@ -1,0 +1,50 @@
+.uploadifyQueueItem {
+	clear:both;
+	float:none;
+	background:url("item_bg.gif") repeat-x;
+	background-position:0 100%;
+	border:1px solid #dddee2;
+	color:#666c7a;
+	font-size:11px;
+	margin-top:4px;
+	padding:5px 10px;
+	width:365px;
+	position:relative;
+	-webkit-border-radius:2px;
+	letter-spacing:.0em;
+}
+.uploadifyError {
+	background-color:#e9eeff !important;
+	border:1px solid #92b4e6 !important;
+}
+.uploadifyQueueItem .cancel {
+	position:absolute;
+	right:10px;
+	top:5px;
+}
+.uploadifyQueue .completed {
+	background-color:#e9eeff;
+	border:1px solid #92b4e6 !important;
+}
+.uploadifyProgress {
+	margin-top:10px;
+	width:100%;
+	height:7px;
+	overflow:hidden;
+	background:url("progress.gif") repeat-x;
+	background-position:0 0;
+	border-left:1px solid #92d37c !important;
+	border-bottom:1px solid #c9cacf !important;
+	border-right:1px solid #c9cacf !important;
+	-webkit-border-radius:2px;
+	position:relative;
+}
+.uploadifyProgressBar {
+	background:url("progressbar.gif") repeat-x;
+	background-position:0 0;
+	height:7px;
+	width:1px;
+	position:absolute;
+	top:-4px;
+	left:0;
+}

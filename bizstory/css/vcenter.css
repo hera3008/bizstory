@@ -1,0 +1,41 @@
+/* login_Vcenter type 관련 css  */
+
+	/* 로그인 백그라운드 */
+	#layout_table td#container #login_frame {
+		background:url("../images/vcenter/login_bg.gif") repeat-x;
+		background-position:0px 0px;
+	}
+
+	/* 로그인 상단 관련 메뉴 */
+	#header .srevice_menu {
+		width:180px;
+	}
+		/* 로그인 백그라운드 */
+		#layout_table td#container #login_frame .login_logo {
+			width:426px;
+			height:243px;
+			position:absolute;
+			top:90px;
+			left:0;
+			text-indent:-9999px;
+			background:url("../images/vcenter/login_logo.png") no-repeat;
+			background-position:0 0px;
+			margin-top:-16px;
+			margin-left:-28px;
+		}	
+		#layout_table td#container #login_frame .loginform {
+			background:url("../images/vcenter/login_form.png") no-repeat;
+			background-position:0px 0px;
+		}
+
+		
+			#layout_table td#container #login_frame .login_app {
+				width:367px;
+				height:147px;
+				position:absolute;
+				top:180px;
+				left:10px;
+				background:url("../images/vcenter/login_text.png") no-repeat;
+				background-position:0 0;
+				margin-top:11px;
+			}

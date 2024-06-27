@@ -1,0 +1,36 @@
+
+c2dm_registration: ** 20120917-112336
+c2dm_registration: cmd=add, id=h5478@naver.com, pw=5478, registration_id=, device_unique_id=1C3168610881E3096D91869B41F9B1E3
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'h5478@naver.com' and mem_pwd = '218808227109df6c173faad7f6206a0c' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'h5478@naver.com' and push_pwd = '218808227109df6c173faad7f6206a0c'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '1C3168610881E3096D91869B41F9B1E3', mod_date = now() where push_id = 'h5478@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김혁"}]});
+
+c2dm_registration: ** 20120917-112337
+c2dm_registration: cmd=registration, id=h5478@naver.com, pw=5478, registration_id=APA91bHSHrtLdtp-koPnmcO6kTda2Svr9DRAI-PI5Ml7mVABVEhS41I-3bw0MZgJGxPE_oU9YWMVnB24ZzOQuq16Noj0bH1iLEme3tl8wp_zd_L3xkJigrSAhGE3maUihNoZ1oJ0pIs8ZEkG2dNIHxCD4udiZlmjHw, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'h5478@naver.com' and mem_pwd = '218808227109df6c173faad7f6206a0c' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'h5478@naver.com' and push_pwd = '218808227109df6c173faad7f6206a0c' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHSHrtLdtp-koPnmcO6kTda2Svr9DRAI-PI5Ml7mVABVEhS41I-3bw0MZgJGxPE_oU9YWMVnB24ZzOQuq16Noj0bH1iLEme3tl8wp_zd_L3xkJigrSAhGE3maUihNoZ1oJ0pIs8ZEkG2dNIHxCD4udiZlmjHw', mod_date = now() where push_id = 'h5478@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김혁"}]});
+
+c2dm_registration: ** 20120917-124322
+c2dm_registration: cmd=add, id=tssh2003@hanmail.net, pw=tssh2003, registration_id=, device_unique_id=CAC97A00935032996B24C804F4B105B1
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'tssh2003@hanmail.net' and mem_pwd = '931c9e4632151df9772099669e6162ba' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_pwd = '931c9e4632151df9772099669e6162ba'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = 'CAC97A00935032996B24C804F4B105B1', mod_date = now() where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"신도시스템"}]});
+
+c2dm_registration: ** 20120917-124323
+c2dm_registration: cmd=registration, id=tssh2003@hanmail.net, pw=tssh2003, registration_id=APA91bFfEVjZCw_PhUhLyAwwb5FMBxstQU0LrjQYi3dKFF8Ity_zTarYNznYhSSh5S2SaBkHdWwcw9SY3PzoLhjGAdMIT0KtPWbLnRiyMQcI1-YQRU86L26FuvKxTS9EyPKo3FtaT-MCwfOBq8pCs8a2X2BBp0TzHg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'tssh2003@hanmail.net' and mem_pwd = '931c9e4632151df9772099669e6162ba' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_pwd = '931c9e4632151df9772099669e6162ba' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bFfEVjZCw_PhUhLyAwwb5FMBxstQU0LrjQYi3dKFF8Ity_zTarYNznYhSSh5S2SaBkHdWwcw9SY3PzoLhjGAdMIT0KtPWbLnRiyMQcI1-YQRU86L26FuvKxTS9EyPKo3FtaT-MCwfOBq8pCs8a2X2BBp0TzHg', mod_date = now() where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"신도시스템"}]});

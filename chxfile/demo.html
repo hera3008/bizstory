@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CHXFile Demo</title>
+<script type="text/javascript" for="CHXFile" src="/bizstory/js/common.js" charset="utf-8"></script>
+<script type="text/javascript" for="CHXFile" event="ServerReply(chk_idx)">
+	if (chk_idx != '')
+	{
+		alert(chk_idx);
+		$.ajax({
+			type: 'get', dataType: 'jsonp', url: 'http://220.90.137.175/filecenter/xupload/filecenter_activex_ok.php', jsonp : 'callback',
+			data: { 'comp_idx' : '1', 'part_idx' : '1', 'mem_idx' : '8', 'up_idx' : '3230', 'chk_idx' : chk_idx },
+			success: function(msg) {
+				if (msg.success == 'Y')
+				{
+					alert('완료되었습니다.');
+				}
+				else
+				{
+					alert(msg.error_string);
+				}
+			},
+			error: function(xhr, status, error)
+			{
+				var error_msg = xhr + "\n\n" + status + "\n\n" + error + "\n\n";
+				//alert(error_msg);
+				return false;
+			}
+		});
+	}
+</script>
+</head>
+<body>
+<?
+	$filesize1 = 2 * 1024 * 1024 * 1024;
+	$filesize2 = 100 * 1024 * 1024 * 1024;
+	// 21474836480
+?>
+<p>&nbsp;</p>
+
+<!-- CHXFile 출력: 시작 -->
+<div style="border:1px #ccc solid;width:80%">
+<object id="CHXFile"
+		width="100%" height="200"
+		classid="clsid:16ADD49A-D148-401E-877C-1B2D1DDEBC7E"
+		codebase="chxfile.cab#version=1,0,0,5">
+
+<!-- 업로드 파일을 처리할 서버사이드 스크립트 경로 -->
+<!--<param name="ServerURL" value="http://www.bizstory.co.kr/cgi-bin/chxfile/chxfile.cgi" />-->
+<param name="ServerURL" value="http://220.90.137.175/cgi-bin/chxfile/chxfile.cgi" />
+
+<param name="MaxFileCount" value="1000" />
+
+<!-- 한번에 전송할 수 있는 파일 하나당 크기: 기본값(2기가) -->
+
+<!-- 한번에 전송할 수 있는 전체 파일 크기: 기본값(2기가) -->
+
+<!-- 같이 전송할 FORM 양식 이름 -->
+<!--<param name="HtmlForm" value="isForm" />-->
+</object>
+</div>
+<!-- CHXFile 출력: 끝 -->
+
+<!-- 전송할 입력 FORM: 시작 -->
+<form name="isForm" method="post">
+<input type="text" name="fm_text" value="text value" />
+<input type="checkbox" name="fm_checkbox" value="checkbox value" />
+<input type="hidden" name="fm_hidden" value="hidden value" />
+<textarea name="fm_textarea">textarea value</textarea>
+</form>
+<!-- 전송할 입력 FORM: 끝 -->
+
+<p>
+<input type="button" value="파일 추가" onclick="CHXFile.AddFile()" />
+<input type="button" value="파일 삭제" onclick="CHXFile.Remove()" />
+<input type="button" value="전체 삭제" onclick="CHXFile.RemoveAll()" />
+<input type="button" value="파일 전송" onclick="CHXFile.Upload()" />
+</p>
+</body>
+</html>

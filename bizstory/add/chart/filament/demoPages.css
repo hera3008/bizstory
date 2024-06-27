@@ -1,0 +1,21 @@
+body {
+	background: rgb(255, 255, 255); margin: 20px; color: rgb(68, 68, 68); font-family: "Segoe UI", Frutiger, Tahoma, "Helvetica", "Helvetica Neue", Arial, sans-serif; font-size: 62.5%;
+}
+#demoHeader {
+	background: rgb(61, 135, 23); margin: 0px 0px 5em; padding: 15px; height: 1%; position: relative;
+}
+a img {
+	border: 0px currentColor;
+}
+#demoHeader img {
+	margin-bottom: 0.9em; float: left;
+}
+#demoHeader h1 {
+	margin: 0px 0px 0px 20px; color: rgb(255, 255, 255); line-height: 1.8em; padding-left: 20px; font-size: 1.4em; font-weight: bold; border-left-color: rgb(255, 255, 255); border-left-width: 1px; border-left-style: solid; float: left;
+}
+#demoHeader h1 a {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+p#copyright {
+	margin: 0px; padding: 0.5em 0px 0px; width: 100%; color: rgb(255, 255, 255); clear: both; font-size: 1.1em; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid;
+}

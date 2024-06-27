@@ -1,0 +1,46 @@
+
+c2dm_registration: ** 20121024-091254
+c2dm_registration: cmd=add, id=jrang10004@daum.net, pw=0107, registration_id=, device_unique_id=499607055B50AB1A848D644A9D3F662A
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'jrang10004@daum.net' and mem_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jrang10004@daum.net' and push_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '499607055B50AB1A848D644A9D3F662A'
+				, mod_date = now()
+			where push_id = 'jrang10004@daum.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"조종수"}]});
+
+c2dm_registration: ** 20121024-091255
+c2dm_registration: cmd=registration, id=jrang10004@daum.net, pw=0107, registration_id=APA91bGoJYEpikUYHe14ofOt6EbsItgQJMy3kvKJNfohi4gdYSYT75XCLZ8jjgn_QIPhWQo-gDX-rfvcV-kFSAQAflVBi18LIFXA3OZyyRQyDE6i489XNZWlQaB_tkRZjrTGncvNiaN-YSCfiQeLTqT1YXNmHxgm5A, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'jrang10004@daum.net' and mem_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jrang10004@daum.net' and push_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGoJYEpikUYHe14ofOt6EbsItgQJMy3kvKJNfohi4gdYSYT75XCLZ8jjgn_QIPhWQo-gDX-rfvcV-kFSAQAflVBi18LIFXA3OZyyRQyDE6i489XNZWlQaB_tkRZjrTGncvNiaN-YSCfiQeLTqT1YXNmHxgm5A', mod_date = now() where push_id = 'jrang10004@daum.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"조종수"}]});
+
+c2dm_registration: ** 20121024-115630
+c2dm_registration: cmd=add, id=sagubee@naver.com, pw=1111, registration_id=, device_unique_id=DFB61141C6D7401A5943E63617A86418
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'sagubee@naver.com' and mem_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'sagubee@naver.com' and push_pwd = '0b0787e8b2de7fab72f09567f0f4d551'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_consult, push_device_unique_id, reg_date, del_yn) values ('35','40','336','sagubee@naver.com','0b0787e8b2de7fab72f09567f0f4d551','양태원','Y','A','','Y','Y','Y','Y','','DFB61141C6D7401A5943E63617A86418',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"양태원"}]});
+
+c2dm_registration: ** 20121024-115631
+c2dm_registration: cmd=registration, id=sagubee@naver.com, pw=1111, registration_id=APA91bFwmNg54c8qGG017xYxDhH1TeeNpr-u9TjTpViEu79Wng98D3bYMNF61brbhMnHuASZ4W8eSZzn556eghJPj8rwO3mpM6i25swTcBP3jLZLK2CV-9G7dA_fkC8KWfgx1qknMIbVrhkulGRZJZ5qd_epdjvfyg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'sagubee@naver.com' and mem_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'sagubee@naver.com' and push_pwd = '0b0787e8b2de7fab72f09567f0f4d551' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bFwmNg54c8qGG017xYxDhH1TeeNpr-u9TjTpViEu79Wng98D3bYMNF61brbhMnHuASZ4W8eSZzn556eghJPj8rwO3mpM6i25swTcBP3jLZLK2CV-9G7dA_fkC8KWfgx1qknMIbVrhkulGRZJZ5qd_epdjvfyg', mod_date = now() where push_id = 'sagubee@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"양태원"}]});

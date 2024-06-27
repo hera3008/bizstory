@@ -1,0 +1,84 @@
+
+c2dm_registration: ** 20121017-113326
+c2dm_registration: cmd=add, id=lovelyjini@daum.net, pw=sd578648, registration_id=, device_unique_id=A90DD370159EF9C861B16EF819B41568
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'lovelyjini@daum.net' and mem_pwd = 'c574471ad46a76445a1fc9a6333795d6' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and push_pwd = 'c574471ad46a76445a1fc9a6333795d6'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'A90DD370159EF9C861B16EF819B41568'
+				, mod_date = now()
+			where push_id = 'lovelyjini@daum.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이호진"}]});
+
+c2dm_registration: ** 20121017-113327
+c2dm_registration: cmd=registration, id=lovelyjini@daum.net, pw=sd578648, registration_id=APA91bHV-SlnFL99hIu0oVMtPQk99LIHeKM1fz17LNu83fCATX7SfL5CTYpkza6wBhd6txJGxSvYEqCdFy8e7NtH6SL9iQDlvvBBVlJthj8d5pJ0iq3zN_8F8K9_QaA_L2jlmwt3TykeONlUZ-4ydqUGWPEdmRJgdg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'lovelyjini@daum.net' and mem_pwd = 'c574471ad46a76445a1fc9a6333795d6' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and push_pwd = 'c574471ad46a76445a1fc9a6333795d6' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHV-SlnFL99hIu0oVMtPQk99LIHeKM1fz17LNu83fCATX7SfL5CTYpkza6wBhd6txJGxSvYEqCdFy8e7NtH6SL9iQDlvvBBVlJthj8d5pJ0iq3zN_8F8K9_QaA_L2jlmwt3TykeONlUZ-4ydqUGWPEdmRJgdg', mod_date = now() where push_id = 'lovelyjini@daum.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이호진"}]});
+
+c2dm_registration: ** 20121017-141600
+c2dm_registration: cmd=add, id=neo@neolohas.net, pw=neo0624, registration_id=, device_unique_id=73FB246C269F700779DFA67259FEB72B
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'neo@neolohas.net' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neo@neolohas.net' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '73FB246C269F700779DFA67259FEB72B'
+				, mod_date = now()
+			where push_id = 'neo@neolohas.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});
+
+c2dm_registration: ** 20121017-141600
+c2dm_registration: cmd=registration, id=neo@neolohas.net, pw=neo0624, registration_id=APA91bEok_xmyW8wQsKECJQzzyAGtJaDCSGvojnU-LCZ3Twlx2lo7SptCIqMk_X6uYcJb1MokBdY1ZCf6FDvhIJBORm5ZmCrTZask7bb0pfnbDVcKo8_UTaE8CGMvEeA6oAGls8rQd8CkahIWDM8s-68CiEQmiNxUQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'neo@neolohas.net' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neo@neolohas.net' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bEok_xmyW8wQsKECJQzzyAGtJaDCSGvojnU-LCZ3Twlx2lo7SptCIqMk_X6uYcJb1MokBdY1ZCf6FDvhIJBORm5ZmCrTZask7bb0pfnbDVcKo8_UTaE8CGMvEeA6oAGls8rQd8CkahIWDM8s-68CiEQmiNxUQ', mod_date = now() where push_id = 'neo@neolohas.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});
+
+c2dm_registration: ** 20121017-164240
+c2dm_registration: cmd=add, id=yukki76@nate.com, pw=9009, registration_id=, device_unique_id=F16E9CA19A84BE1CEF1E84A62C0E70C2
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'yukki76@nate.com' and mem_pwd = 'e915eb7e3a04c7ccd8e6bfa88c6d7804' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'yukki76@nate.com' and push_pwd = 'e915eb7e3a04c7ccd8e6bfa88c6d7804'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'F16E9CA19A84BE1CEF1E84A62C0E70C2'
+				, mod_date = now()
+			where push_id = 'yukki76@nate.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김경화"}]});
+
+c2dm_registration: ** 20121017-164240
+c2dm_registration: cmd=registration, id=yukki76@nate.com, pw=9009, registration_id=APA91bFr3-KNeQpBK25kSUey_FneQpCYzEJ_zWfNA1Q7hteBxFb06zl4g54SbEbgkCfPs5ZGgUdatvd_omTP8ofNqPvTK5o7O8SM1S4XRLG2VY02iR0jJRCR8ujETbxawIIsPbCB4c1z69mFDTRix6jR9Wq3-au88g, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'yukki76@nate.com' and mem_pwd = 'e915eb7e3a04c7ccd8e6bfa88c6d7804' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'yukki76@nate.com' and push_pwd = 'e915eb7e3a04c7ccd8e6bfa88c6d7804' and push_device_type = 'A' 
+c2dm_registration: sql = select * from push_member where push_id = 'yukki76@nate.com' and push_pwd = 'e915eb7e3a04c7ccd8e6bfa88c6d7804' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김경화"}]});

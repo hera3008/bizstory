@@ -1,0 +1,112 @@
+
+c2dm_registration: ** 20121105-125539
+c2dm_registration: cmd=add, id=kthy@chol.com, pw=server, registration_id=, device_unique_id=8AC632DF775CA5A619D578B2A354684C
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'kthy@chol.com' and mem_pwd = '2fb307432726a93a546f2c38dfb1bec9' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '8AC632DF775CA5A619D578B2A354684C'
+				, mod_date = now()
+			where push_id = 'kthy@chol.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김태형"}]});
+
+c2dm_registration: ** 20121105-125540
+c2dm_registration: cmd=registration, id=kthy@chol.com, pw=server, registration_id=APA91bEZ0h0M5crM0cJ-U6PYxAOxAj8mvkCQ10OQcTftXbIc9QRZFXsHl_XraqeDeqAYZvWM_WpEL_HUxaQLzLIymA54To3_UYt1xvVUCrMxvvb0KtLBxn0Eh7mtU0JKF0xFvAZxszvHSKb5RUY3CTT97jKRNuCBFQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'kthy@chol.com' and mem_pwd = '2fb307432726a93a546f2c38dfb1bec9' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9' and push_device_type = 'A' 
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김태형"}]});
+
+c2dm_registration: ** 20121105-132008
+c2dm_registration: cmd=add, id=kthy@chol.com, pw=server, registration_id=, device_unique_id=7995DD8C1F713C13E580E4E33B49E37D
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'kthy@chol.com' and mem_pwd = '2fb307432726a93a546f2c38dfb1bec9' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '7995DD8C1F713C13E580E4E33B49E37D'
+				, mod_date = now()
+			where push_id = 'kthy@chol.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김태형"}]});
+
+c2dm_registration: ** 20121105-132009
+c2dm_registration: cmd=registration, id=kthy@chol.com, pw=server, registration_id=APA91bGifXvoAjr6aFujxeahBft_vKO6B2BFZv6VK_uHwmZqBRkGIDephmBSI0LeNkypFItnwZuP5tw8T7f6eoLNp4Yp_itIUgsb0arcPb82zuWqxlu3BPUsC84xLnUp90u1Mn-Jhb1lS30XpJMUH0HPgrAUVXILyA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'kthy@chol.com' and mem_pwd = '2fb307432726a93a546f2c38dfb1bec9' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9' and push_device_type = 'A' 
+c2dm_registration: sql = select * from push_member where push_id = 'kthy@chol.com' and push_pwd = '2fb307432726a93a546f2c38dfb1bec9' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김태형"}]});
+
+c2dm_registration: ** 20121105-143134
+c2dm_registration: cmd=add, id=neoggt@naver.com, pw=neo0624, registration_id=, device_unique_id=73FB246C269F700779DFA67259FEB72B
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'neoggt@naver.com' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neoggt@naver.com' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '73FB246C269F700779DFA67259FEB72B'
+				, mod_date = now()
+			where push_id = 'neoggt@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});
+
+c2dm_registration: ** 20121105-143135
+c2dm_registration: cmd=registration, id=neoggt@naver.com, pw=neo0624, registration_id=APA91bGr8ppxmTqXMvZKEvy7TXZJ_kOR3Pzgiw2Md9cWLjBV01a8La8XKG543Fv5_wpSlQ-d4T1Xpl-8-_NnIqmZ38gQkCFhPR3sk3SD-VbIwDrvn6t8VmjK_CkD1RYVaP2D31eez2kbohp-FjbvUOstxuL2TLYLYg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'neoggt@naver.com' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neoggt@naver.com' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGr8ppxmTqXMvZKEvy7TXZJ_kOR3Pzgiw2Md9cWLjBV01a8La8XKG543Fv5_wpSlQ-d4T1Xpl-8-_NnIqmZ38gQkCFhPR3sk3SD-VbIwDrvn6t8VmjK_CkD1RYVaP2D31eez2kbohp-FjbvUOstxuL2TLYLYg', mod_date = now() where push_id = 'neoggt@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});
+
+c2dm_registration: ** 20121105-231141
+c2dm_registration: cmd=add, id=biryoung@nate.com, pw=7319, registration_id=, device_unique_id=D3D34790FAF93E4A02D22764712415F2
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'biryoung@nate.com' and mem_pwd = 'b6402b6876f5bc436cfe0046318f6707' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'biryoung@nate.com' and push_pwd = 'b6402b6876f5bc436cfe0046318f6707'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'D3D34790FAF93E4A02D22764712415F2'
+				, mod_date = now()
+			where push_id = 'biryoung@nate.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임상민"}]});
+
+c2dm_registration: ** 20121105-231143
+c2dm_registration: cmd=registration, id=biryoung@nate.com, pw=7319, registration_id=APA91bHDMnrcl_g9HwTduK-3Rbkj7nB6bsLTeUDOswKyAHz9Y25oH3rydBT3GYoLyhn1iufDnhTHs59Y53fNvr6MwfA3hAlrgTOLHIzHKgsfcCsT3eIKch1awhM1YqWe1q6WimeyVnmb1IG-kliif_cj0qbA8qzBeQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'biryoung@nate.com' and mem_pwd = 'b6402b6876f5bc436cfe0046318f6707' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'biryoung@nate.com' and push_pwd = 'b6402b6876f5bc436cfe0046318f6707' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHDMnrcl_g9HwTduK-3Rbkj7nB6bsLTeUDOswKyAHz9Y25oH3rydBT3GYoLyhn1iufDnhTHs59Y53fNvr6MwfA3hAlrgTOLHIzHKgsfcCsT3eIKch1awhM1YqWe1q6WimeyVnmb1IG-kliif_cj0qbA8qzBeQ', mod_date = now() where push_id = 'biryoung@nate.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임상민"}]});

@@ -1,0 +1,198 @@
+
+c2dm_registration: ** 20120925-100841
+c2dm_registration: cmd=add, id=min21983@nate.com, pw=wldus58, registration_id=, device_unique_id=D323C9AA7EE4FC36E34C2AF1A27DE1F6
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'min21983@nate.com' and mem_pwd = 'b36caaae406e466a85b29119cf52d66d' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'min21983@nate.com' and push_pwd = 'b36caaae406e466a85b29119cf52d66d'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = 'D323C9AA7EE4FC36E34C2AF1A27DE1F6', mod_date = now() where push_id = 'min21983@nate.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김민이"}]});
+
+c2dm_registration: ** 20120925-100842
+c2dm_registration: cmd=registration, id=min21983@nate.com, pw=wldus58, registration_id=APA91bHniZ7EMaND9E_FSx0lLDmWITvWlQGBYjtt0wWPKhhxoFmttpUOEGnxaLMv72h-v7BlCZZegmFYSkdDpwiyltOXYM_3pwhV-5rIfGGnYeRko6ay60OkB13nl3BA87EzNGW9-yfGbroc4FADs3MxW7DosGdTKg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'min21983@nate.com' and mem_pwd = 'b36caaae406e466a85b29119cf52d66d' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'min21983@nate.com' and push_pwd = 'b36caaae406e466a85b29119cf52d66d' and push_device_type = 'A' 
+c2dm_registration: sql = select * from push_member where push_id = 'min21983@nate.com' and push_pwd = 'b36caaae406e466a85b29119cf52d66d' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"김민이"}]});
+
+c2dm_registration: ** 20120925-141426
+c2dm_registration: cmd=add, id=jw3132@miraensys.com, pw=8124, registration_id=, device_unique_id=155FCAF37925FE88B488E63BC92D989B
+c2dm_registration: message=N, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'N', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '155FCAF37925FE88B488E63BC92D989B', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141427
+c2dm_registration: cmd=add, id=jw3132@miraensys.com, pw=8124, registration_id=, device_unique_id=155FCAF37925FE88B488E63BC92D989B
+c2dm_registration: message=N, receipt=N, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'N', push_receipt = 'N', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '155FCAF37925FE88B488E63BC92D989B', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141429
+c2dm_registration: cmd=add, id=jw3132@miraensys.com, pw=8124, registration_id=, device_unique_id=155FCAF37925FE88B488E63BC92D989B
+c2dm_registration: message=N, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95'
+
+c2dm_registration: ** 20120925-141429
+c2dm_registration: cmd=registration, id=jw3132@miraensys.com, pw=8124, registration_id=APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'N', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '155FCAF37925FE88B488E63BC92D989B', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141436
+c2dm_registration: cmd=registration, id=jw3132@miraensys.com, pw=8124, registration_id=APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141437
+c2dm_registration: cmd=add, id=jw3132@miraensys.com, pw=8124, registration_id=, device_unique_id=155FCAF37925FE88B488E63BC92D989B
+c2dm_registration: message=N, receipt=N, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'N', push_receipt = 'N', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '155FCAF37925FE88B488E63BC92D989B', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141438
+c2dm_registration: cmd=registration, id=jw3132@miraensys.com, pw=8124, registration_id=APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141438
+c2dm_registration: cmd=registration, id=jw3132@miraensys.com, pw=8124, registration_id=APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141439
+c2dm_registration: cmd=add, id=jw3132@miraensys.com, pw=8124, registration_id=, device_unique_id=155FCAF37925FE88B488E63BC92D989B
+c2dm_registration: message=N, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'N', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '155FCAF37925FE88B488E63BC92D989B', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141440
+c2dm_registration: cmd=add, id=jw3132@miraensys.com, pw=8124, registration_id=, device_unique_id=155FCAF37925FE88B488E63BC92D989B
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '155FCAF37925FE88B488E63BC92D989B', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141454
+c2dm_registration: cmd=registration, id=jw3132@miraensys.com, pw=8124, registration_id=APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-141455
+c2dm_registration: cmd=registration, id=jw3132@miraensys.com, pw=8124, registration_id=APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'jw3132@miraensys.com' and mem_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_pwd = 'f53ab460d6c9bc7e7c988c9d0aee9e95' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHpdPyDF6B27q3rcAnRvWFhaNc_J2EF0xovYqGWSPiaZVOzbF58ccuux2E-5h-CJ8pF_M7gei3IcgcmaXcy6GEtQFSI8R7haW7qHfABQeZRYh9iWMjPxz5DIPDs_J-rhm2tEC7FD2WWdokGJGVLRLCi6V5SZA', mod_date = now() where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이진우"}]});
+
+c2dm_registration: ** 20120925-143623
+c2dm_registration: cmd=add, id=neostm@naver.com, pw=3636, registration_id=, device_unique_id=FEBB2286D39464D72C443960BF9AF5F4
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'neostm@naver.com' and mem_pwd = '1676bc6d64fa5cc622b8a1d8a434f6d4' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neostm@naver.com' and push_pwd = '1676bc6d64fa5cc622b8a1d8a434f6d4'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = 'FEBB2286D39464D72C443960BF9AF5F4', mod_date = now() where push_id = 'neostm@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이양성"}]});
+
+c2dm_registration: ** 20120925-143624
+c2dm_registration: cmd=registration, id=neostm@naver.com, pw=3636, registration_id=APA91bGwDapJtRcznClvgU_9cNSG2YfHEjxmDS17rvrNBjdT45wV_kQcfirlVnd6t-gZyVs2459IaYE7K-_ZBJgrlDlEM0I7-SfXW9Dug8x7uMl4afU8y_lnets8gL2vEauHvpXQhSACbhFpSkVJqJC_K0ht1dYICw, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'neostm@naver.com' and mem_pwd = '1676bc6d64fa5cc622b8a1d8a434f6d4' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neostm@naver.com' and push_pwd = '1676bc6d64fa5cc622b8a1d8a434f6d4' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGwDapJtRcznClvgU_9cNSG2YfHEjxmDS17rvrNBjdT45wV_kQcfirlVnd6t-gZyVs2459IaYE7K-_ZBJgrlDlEM0I7-SfXW9Dug8x7uMl4afU8y_lnets8gL2vEauHvpXQhSACbhFpSkVJqJC_K0ht1dYICw', mod_date = now() where push_id = 'neostm@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이양성"}]});
+
+c2dm_registration: ** 20120925-161502
+c2dm_registration: cmd=add, id=theskun@naver.com, pw=3542, registration_id=, device_unique_id=7F2F8B5039CCE1DAE5E504ACF64A6F9C
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'theskun@naver.com' and mem_pwd = '686d921fccc28175f656759bd8f75c25' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'theskun@naver.com' and push_pwd = '686d921fccc28175f656759bd8f75c25'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_device_unique_id, reg_date, del_yn) values ('36','50','246','theskun@naver.com','686d921fccc28175f656759bd8f75c25','신부근','Y','A','','Y','Y','Y','Y','7F2F8B5039CCE1DAE5E504ACF64A6F9C',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"신부근"}]});
+
+c2dm_registration: ** 20120925-161503
+c2dm_registration: cmd=registration, id=theskun@naver.com, pw=3542, registration_id=APA91bEaa1-k7zLxs-thMRRBXHDjIfRl-nMI68nwhXSuvf5R6XNNWWfPlztGTPDVvc3jzSgMzjKanS3K7kpU9E03UlbxcSSJf9UTiiGd-xAi14HhEhBdWgCFwMh0gPsk4q9T60AR283qthBWsAI7o44sCbd6lJPgdA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'theskun@naver.com' and mem_pwd = '686d921fccc28175f656759bd8f75c25' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'theskun@naver.com' and push_pwd = '686d921fccc28175f656759bd8f75c25' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bEaa1-k7zLxs-thMRRBXHDjIfRl-nMI68nwhXSuvf5R6XNNWWfPlztGTPDVvc3jzSgMzjKanS3K7kpU9E03UlbxcSSJf9UTiiGd-xAi14HhEhBdWgCFwMh0gPsk4q9T60AR283qthBWsAI7o44sCbd6lJPgdA', mod_date = now() where push_id = 'theskun@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"신부근"}]});
+
+c2dm_registration: ** 20120925-223742
+c2dm_registration: cmd=add, id=choi@miraensys.com, pw=qudahr98, registration_id=, device_unique_id=0EAF07C2F75E708D7EC56C37A10A76C5
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'choi@miraensys.com' and mem_pwd = '8930dbf402731154f45c4f56f3356636' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'choi@miraensys.com' and push_pwd = '8930dbf402731154f45c4f56f3356636'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_device_unique_id, reg_date, del_yn) values ('32','39','172','choi@miraensys.com','8930dbf402731154f45c4f56f3356636','최정수','Y','A','','Y','Y','Y','Y','0EAF07C2F75E708D7EC56C37A10A76C5',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"최정수"}]});
+
+c2dm_registration: ** 20120925-223742
+c2dm_registration: cmd=registration, id=choi@miraensys.com, pw=qudahr98, registration_id=APA91bH25mAIAURw_eruoL02u3LxIYRE1VG90FEdNYYf_sJvQczDHiTay81X1ET69NsvWvlIIVX_YFLqdD-WC0DTQq3yAq5m7oMBwZuMZ8WoIskm9ulV4cF-lUt9bR7qdOvzfg_7uCQmPtAcKG_dnUzI8al6-thTKA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'choi@miraensys.com' and mem_pwd = '8930dbf402731154f45c4f56f3356636' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'choi@miraensys.com' and push_pwd = '8930dbf402731154f45c4f56f3356636' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bH25mAIAURw_eruoL02u3LxIYRE1VG90FEdNYYf_sJvQczDHiTay81X1ET69NsvWvlIIVX_YFLqdD-WC0DTQq3yAq5m7oMBwZuMZ8WoIskm9ulV4cF-lUt9bR7qdOvzfg_7uCQmPtAcKG_dnUzI8al6-thTKA', mod_date = now() where push_id = 'choi@miraensys.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"최정수"}]});
+
+c2dm_registration: ** 20120925-224747
+c2dm_registration: cmd=add, id=airtrack13@gmail.com, pw=4621, registration_id=, device_unique_id=A56283FC4348BF1A6A1B48B21A293384
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'airtrack13@gmail.com' and mem_pwd = '482246a260781bd67caf57daaa0e14ae' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'airtrack13@gmail.com' and push_pwd = '482246a260781bd67caf57daaa0e14ae'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = 'A56283FC4348BF1A6A1B48B21A293384', mod_date = now() where push_id = 'airtrack13@gmail.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"최진우"}]});
+
+c2dm_registration: ** 20120925-224748
+c2dm_registration: cmd=registration, id=airtrack13@gmail.com, pw=4621, registration_id=APA91bGOVD5p1UVkXN7IwsA7eLiUii7vV80bCg66DtVxKmm5xBd4N6TBZCgnqZUAxKJbgVqxF_vQK2L9dksS-pzBLGMYq9Qu1EStE78iXL_6cM6hD7Q2p6Ifd-sErSBCPiLaFy2frOwC6Tq-M1IitDmBXwo5W-m2IQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'airtrack13@gmail.com' and mem_pwd = '482246a260781bd67caf57daaa0e14ae' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'airtrack13@gmail.com' and push_pwd = '482246a260781bd67caf57daaa0e14ae' and push_device_type = 'A' 
+c2dm_registration: sql = select * from push_member where push_id = 'airtrack13@gmail.com' and push_pwd = '482246a260781bd67caf57daaa0e14ae' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"최진우"}]});

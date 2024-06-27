@@ -1,0 +1,15 @@
+table {
+	border-collapse: collapse;
+}
+table.accessHide {
+	left: -999999px; position: absolute;
+}
+caption {
+	margin: 0px 0px 0.5em; text-align: left; font-size: 1.3em;
+}
+fieldset {
+	margin: 5px 5px 5px 0px; width: 45%; float: left;
+}
+legend {
+	font-size: 1.2em;
+}

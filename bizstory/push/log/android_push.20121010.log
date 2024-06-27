@@ -1,0 +1,1998 @@
+
+android_push: ** 20121010-075845
+android_push: sender=bizstorycokr@gmail.com, comp_idx=37, part_idx=51, mem_idx=224, receiver=j_amjjang@naver.com, msg_type=receipt, message=[문일여자고등학교] 상담부 컴퓨터
+android_push: sql = select * from push_member where push_id = 'j_amjjang@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [j_amjjang@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010075845521164', 37, 51, 224, 'j_amjjang@naver.com', '이지성', 'android', 'receipt', '[문일여자고등학교] 상담부 컴퓨터', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [문일여자고등학교] 상담부 컴퓨터
+android_push: sendMessageToPhone = id=0:1349823229216982%04ff75350409fe03
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010075845521164'
+
+android_push: ** 20121010-080337
+android_push: sender=bizstorycokr@gmail.com, comp_idx=37, part_idx=51, mem_idx=224, receiver=j_amjjang@naver.com, msg_type=receipt, message=[문일여자고등학교] 2학년 임혜원샘 컴..
+android_push: sql = select * from push_member where push_id = 'j_amjjang@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [j_amjjang@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010080337705978', 37, 51, 224, 'j_amjjang@naver.com', '이지성', 'android', 'receipt', '[문일여자고등학교] 2학년 임혜원샘 컴..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [문일여자고등학교] 2학년 임혜원샘 컴..
+android_push: sendMessageToPhone = id=0:1349823521285929%04ff7535f3640baa
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010080337705978'
+
+android_push: ** 20121010-080443
+android_push: sender=bizstorycokr@gmail.com, comp_idx=37, part_idx=51, mem_idx=224, receiver=j_amjjang@naver.com, msg_type=receipt, message=[문일여자고등학교] 진학부 프린터 설정
+android_push: sql = select * from push_member where push_id = 'j_amjjang@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [j_amjjang@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010080443736425', 37, 51, 224, 'j_amjjang@naver.com', '이지성', 'android', 'receipt', '[문일여자고등학교] 진학부 프린터 설정', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [문일여자고등학교] 진학부 프린터 설정
+android_push: sendMessageToPhone = id=0:1349823587420437%04ff75351c1b6205
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010080443736425'
+
+android_push: ** 20121010-080510
+android_push: sender=bizstorycokr@gmail.com, comp_idx=37, part_idx=51, mem_idx=224, receiver=j_amjjang@naver.com, msg_type=receipt, message=[문일여자고등학교] 1-8 교실
+android_push: sql = select * from push_member where push_id = 'j_amjjang@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [j_amjjang@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010080510841032', 37, 51, 224, 'j_amjjang@naver.com', '이지성', 'android', 'receipt', '[문일여자고등학교] 1-8 교실', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [문일여자고등학교] 1-8 교실
+android_push: sendMessageToPhone = id=0:1349823614286634%04ff7535dbca3403
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010080510841032'
+
+android_push: ** 20121010-080547
+android_push: sender=bizstorycokr@gmail.com, comp_idx=37, part_idx=51, mem_idx=224, receiver=j_amjjang@naver.com, msg_type=receipt, message=[문일여자고등학교] 2-10 교실 컴퓨..
+android_push: sql = select * from push_member where push_id = 'j_amjjang@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [j_amjjang@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010080547609441', 37, 51, 224, 'j_amjjang@naver.com', '이지성', 'android', 'receipt', '[문일여자고등학교] 2-10 교실 컴퓨..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [문일여자고등학교] 2-10 교실 컴퓨..
+android_push: sendMessageToPhone = id=0:1349823651770984%04ff7535821afc3f
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010080547609441'
+
+android_push: ** 20121010-080626
+android_push: sender=bizstorycokr@gmail.com, comp_idx=37, part_idx=51, mem_idx=224, receiver=j_amjjang@naver.com, msg_type=receipt, message=[문일여자고등학교] 학습도움실 컴퓨터
+android_push: sql = select * from push_member where push_id = 'j_amjjang@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [j_amjjang@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010080626715069', 37, 51, 224, 'j_amjjang@naver.com', '이지성', 'android', 'receipt', '[문일여자고등학교] 학습도움실 컴퓨터', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [문일여자고등학교] 학습도움실 컴퓨터
+android_push: sendMessageToPhone = id=0:1349823689740692%04ff75351377e627
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010080626715069'
+
+android_push: ** 20121010-080741
+android_push: sender=bizstorycokr@gmail.com, comp_idx=37, part_idx=51, mem_idx=224, receiver=j_amjjang@naver.com, msg_type=receipt, message=[문일여자고등학교] 정보부 컴퓨터
+android_push: sql = select * from push_member where push_id = 'j_amjjang@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [j_amjjang@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010080741490660', 37, 51, 224, 'j_amjjang@naver.com', '이지성', 'android', 'receipt', '[문일여자고등학교] 정보부 컴퓨터', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [문일여자고등학교] 정보부 컴퓨터
+android_push: sendMessageToPhone = id=0:1349823764895790%04ff75356a4f896e
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010080741490660'
+
+android_push: ** 20121010-081326
+android_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=180, receiver=jw3132@miraensys.com, msg_type=receipt, message=[덕이중학교] 마우스 버튼 미작동
+android_push: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [jw3132@miraensys.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010081326318297', 32, 39, 180, 'jw3132@miraensys.com', '이진우', 'android', 'receipt', '[덕이중학교] 마우스 버튼 미작동', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [덕이중학교] 마우스 버튼 미작동
+android_push: sendMessageToPhone = id=0:1349824110153244%04ff753544220cc1
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010081326318297'
+
+android_push: ** 20121010-081725
+
+android_push: ** 20121010-082054
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=28, receiver=saladini@nate.com, msg_type=receipt, message=[기안중학교] 본관 2층 자연과학..
+android_push: sql = select * from push_member where push_id = 'saladini@nate.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [saladini@nate.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010082054691893', 4, 4, 28, 'saladini@nate.com', '김택현', 'android', 'receipt', '[기안중학교] 본관 2층 자연과학..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [기안중학교] 본관 2층 자연과학..
+android_push: sendMessageToPhone = id=0:1349824558764471%04ff75354f016ec6
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010082054691893'
+
+android_push: ** 20121010-082826
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[고현초등학교] 전자세금계산서 주세..
+android_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [babosarang@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010082826758827', 4, 4, 20, 'babosarang@hanmail.net', '박주현', 'android', 'receipt', '[고현초등학교] 전자세금계산서 주세..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [고현초등학교] 전자세금계산서 주세..
+android_push: sendMessageToPhone = id=0:1349825010963164%04ff753524cd7f12
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010082826758827'
+
+android_push: ** 20121010-083643
+
+android_push: ** 20121010-083958
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무] 구미고 미술실 CHP-428 토너 납..
+android_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [kty5458@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010083958271578', 5, 5, 140, 'kty5458@hanmail.net', '김태영', 'android', 'work', '[업무] 구미고 미술실 CHP-428 토너 납..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 구미고 미술실 CHP-428 토너 납..
+android_push: sendMessageToPhone = id=0:1349825701451082%04ff7535465c16f8
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010083958271578'
+
+android_push: ** 20121010-084029
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 비산초 행정실 TA3500 토너 납품
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084029523460', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무] 비산초 행정실 TA3500 토너 납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 비산초 행정실 TA3500 토너 납품
+android_push: sendMessageToPhone = id=0:1349825732995108%04ff753506594ee0
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084029523460'
+
+android_push: ** 20121010-084148
+
+android_push: ** 20121010-084201
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무코멘트] 업무요청란에 답변을 자세히 적어주시기..
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084201261961', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무코멘트] 업무요청란에 답변을 자세히 적어주시기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 업무요청란에 답변을 자세히 적어주시기..
+android_push: sendMessageToPhone = id=0:1349825824809529%04ff7535b306f74b
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084201261961'
+
+android_push: ** 20121010-084204
+
+android_push: ** 20121010-084205
+
+android_push: ** 20121010-084206
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=work, message=[업무코멘트] 업무요청란에 답변을 자세히 적어주시기..
+android_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cpui7@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084206854775', 5, 5, 83, 'cpui7@daum.net', '황진섭', 'android', 'work', '[업무코멘트] 업무요청란에 답변을 자세히 적어주시기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 업무요청란에 답변을 자세히 적어주시기..
+android_push: sendMessageToPhone = id=0:1349825828953684%04ff7535c5b67187
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084206854775'
+
+android_push: ** 20121010-084207
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무코멘트] 업무요청란에 답변을 자세히 적어주시기..
+android_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [kty5458@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084207372854', 5, 5, 140, 'kty5458@hanmail.net', '김태영', 'android', 'work', '[업무코멘트] 업무요청란에 답변을 자세히 적어주시기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 업무요청란에 답변을 자세히 적어주시기..
+android_push: sendMessageToPhone = id=0:1349825831571670%04ff7535f22fbb73
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084207372854'
+
+android_push: ** 20121010-084210
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무코멘트] 업무요청란에 답변을 자세히 적어주시기..
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084210556034', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무코멘트] 업무요청란에 답변을 자세히 적어주시기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 업무요청란에 답변을 자세히 적어주시기..
+android_push: sendMessageToPhone = id=0:1349825833134674%04ff7535eb147efd
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084210556034'
+
+android_push: ** 20121010-084212
+
+android_push: ** 20121010-084245
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=191, receiver=hsg1028@greatworks.co.kr, msg_type=receipt, message=[창원명지여자고등학교] 교무센터 이경인선생..
+android_push: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [hsg1028@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084245648318', 13, 17, 191, 'hsg1028@greatworks.co.kr', '한승규', 'android', 'receipt', '[창원명지여자고등학교] 교무센터 이경인선생..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [창원명지여자고등학교] 교무센터 이경인선생..
+android_push: sendMessageToPhone = id=0:1349825869290732%04ff75352cdee2c4
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084245648318'
+
+android_push: ** 20121010-084256
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 경북외고 과학실 ML2150G 재생토..
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084256210005', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무] 경북외고 과학실 ML2150G 재생토..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 경북외고 과학실 ML2150G 재생토..
+android_push: sendMessageToPhone = id=0:1349825879938591%04ff7535c2a4f388
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084256210005'
+
+android_push: ** 20121010-084501
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 옥계동부초 RZ5000 잉크 납품, ..
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084501308420', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무] 옥계동부초 RZ5000 잉크 납품, ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 옥계동부초 RZ5000 잉크 납품, ..
+android_push: sendMessageToPhone = id=0:1349826005018268%04ff75357137ab3e
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084501308420'
+
+android_push: ** 20121010-084627
+android_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=174, receiver=pantera0219@miraensys.com, msg_type=receipt, message=[중산고등학교] 나이스가 안되요
+android_push: sql = select * from push_member where push_id = 'pantera0219@miraensys.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [pantera0219@miraensys.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084627907281', 32, 39, 174, 'pantera0219@miraensys.com', '신철혁', 'android', 'receipt', '[중산고등학교] 나이스가 안되요', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [중산고등학교] 나이스가 안되요
+android_push: sendMessageToPhone = id=0:1349826090669366%04ff75351ce07017
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084627907281'
+
+android_push: ** 20121010-084632
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무] 구미교육청 학무과 토너 회수통 수거,..
+android_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [kty5458@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084632568076', 5, 5, 140, 'kty5458@hanmail.net', '김태영', 'android', 'work', '[업무] 구미교육청 학무과 토너 회수통 수거,..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 구미교육청 학무과 토너 회수통 수거,..
+android_push: sendMessageToPhone = id=0:1349826095676934%04ff753575c40bfe
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084632568076'
+
+android_push: ** 20121010-084704
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무] 문장초 스피커 2ea 납품
+android_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [kty5458@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084704618332', 5, 5, 140, 'kty5458@hanmail.net', '김태영', 'android', 'work', '[업무] 문장초 스피커 2ea 납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 문장초 스피커 2ea 납품
+android_push: sendMessageToPhone = id=0:1349826128457245%04ff75353d9fd8c1
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084704618332'
+
+android_push: ** 20121010-084839
+android_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=154, receiver=cyberfos@incomsn.com, msg_type=receipt, message=[과천중학교] 제노트북 윈도우재설..
+android_push: sql = select * from push_member where push_id = 'cyberfos@incomsn.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cyberfos@incomsn.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084839194765', 27, 33, 154, 'cyberfos@incomsn.com', '계동환', 'android', 'receipt', '[과천중학교] 제노트북 윈도우재설..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [과천중학교] 제노트북 윈도우재설..
+android_push: sendMessageToPhone = id=0:1349826222651472%04ff753509edb579
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084839194765'
+
+android_push: ** 20121010-084927
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[서호초등학교] 교감선생님 컴퓨터 ..
+android_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [babosarang@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084927757029', 4, 4, 20, 'babosarang@hanmail.net', '박주현', 'android', 'receipt', '[서호초등학교] 교감선생님 컴퓨터 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [서호초등학교] 교감선생님 컴퓨터 ..
+android_push: sendMessageToPhone = id=0:1349826271491774%04ff7535d68a792d
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084927757029'
+
+android_push: ** 20121010-084936
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=21, receiver=jsjjangga@daum.net, msg_type=receipt, message=[석우중학교] 빔화면 색 이상(3..
+android_push: sql = select * from push_member where push_id = 'jsjjangga@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [jsjjangga@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010084936961679', 4, 4, 21, 'jsjjangga@daum.net', '권준성', 'android', 'receipt', '[석우중학교] 빔화면 색 이상(3..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [석우중학교] 빔화면 색 이상(3..
+android_push: sendMessageToPhone = id=0:1349826280303495%04ff75350cfa9071
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010084936961679'
+
+android_push: ** 20121010-085214
+
+android_push: ** 20121010-085309
+
+android_push: ** 20121010-085442
+
+android_push: ** 20121010-085526
+
+android_push: ** 20121010-085543
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=21, receiver=jsjjangga@daum.net, msg_type=receipt, message=[석우중학교] 노트북 화면 이상
+android_push: sql = select * from push_member where push_id = 'jsjjangga@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [jsjjangga@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010085543980721', 4, 4, 21, 'jsjjangga@daum.net', '권준성', 'android', 'receipt', '[석우중학교] 노트북 화면 이상', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [석우중학교] 노트북 화면 이상
+android_push: sendMessageToPhone = id=0:1349826646995482%04ff7535797c7e69
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010085543980721'
+
+android_push: ** 20121010-085916
+android_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=306, receiver=lovelyjini@daum.net, msg_type=work, message=[업무코멘트] 안양외고 노트북어댑터 견적서 요청입니..
+android_push: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [lovelyjini@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010085916517868', 7, 8, 306, 'lovelyjini@daum.net', '이호진', 'android', 'work', '[업무코멘트] 안양외고 노트북어댑터 견적서 요청입니..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 안양외고 노트북어댑터 견적서 요청입니..
+android_push: sendMessageToPhone = id=0:1349826860559914%04ff75352a6a916d
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010085916517868'
+
+android_push: ** 20121010-085919
+
+android_push: ** 20121010-085952
+
+android_push: ** 20121010-090324
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무] 금오공고 도서관 토너부분쪽 이상발견A..
+android_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [kty5458@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010090324934727', 5, 5, 140, 'kty5458@hanmail.net', '김태영', 'android', 'work', '[업무] 금오공고 도서관 토너부분쪽 이상발견A..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 금오공고 도서관 토너부분쪽 이상발견A..
+android_push: sendMessageToPhone = id=0:1349827108774940%04ff753585485b0d
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010090324934727'
+
+android_push: ** 20121010-090444
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=28, receiver=saladini@nate.com, msg_type=receipt, message=[기안초등학교] 인쇄 속도가 많이 ..
+android_push: sql = select * from push_member where push_id = 'saladini@nate.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [saladini@nate.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010090444759220', 4, 4, 28, 'saladini@nate.com', '김택현', 'android', 'receipt', '[기안초등학교] 인쇄 속도가 많이 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [기안초등학교] 인쇄 속도가 많이 ..
+android_push: sendMessageToPhone = id=0:1349827188344927%04ff7535e603d49f
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010090444759220'
+
+android_push: ** 20121010-090503
+android_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=152, receiver=admin@incomsn.com, msg_type=receipt, message=[당정초등학교] 인터넷이 바로 안열..
+android_push: sql = select * from push_member where push_id = 'admin@incomsn.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [admin@incomsn.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010090503345101', 27, 33, 152, 'admin@incomsn.com', '정진섭', 'android', 'receipt', '[당정초등학교] 인터넷이 바로 안열..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [당정초등학교] 인터넷이 바로 안열..
+android_push: sendMessageToPhone = id=0:1349827207665821%04ff75359efa056c
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010090503345101'
+
+android_push: ** 20121010-090946
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=18, receiver=ymk1508@nate.com, msg_type=receipt, message=[광교중학교] 플로터 에러
+android_push: sql = select * from push_member where push_id = 'ymk1508@nate.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ymk1508@nate.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010090946670723', 4, 4, 18, 'ymk1508@nate.com', '윤문기', 'android', 'receipt', '[광교중학교] 플로터 에러', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [광교중학교] 플로터 에러
+android_push: sendMessageToPhone = id=0:1349827492077380%04ff75353389c7fa
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010090946670723'
+
+android_push: ** 20121010-091452
+android_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=177, receiver=chanikr@miraensys.com, msg_type=receipt, message=[정발고등학교] 블루스크린오류(0x..
+android_push: sql = select * from push_member where push_id = 'chanikr@miraensys.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [chanikr@miraensys.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010091452331435', 32, 39, 177, 'chanikr@miraensys.com', '임경찬', 'android', 'receipt', '[정발고등학교] 블루스크린오류(0x..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [정발고등학교] 블루스크린오류(0x..
+android_push: sendMessageToPhone = id=0:1349827796914991%04ff7535d16ecf4b
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010091452331435'
+
+android_push: ** 20121010-091633
+
+android_push: ** 20121010-092011
+android_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=43, receiver=ssamcm@hanmail.net, msg_type=work, message=[업무코멘트] 센티리온 발주의 건
+android_push: sql = select * from push_member where push_id = 'ssamcm@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ssamcm@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010092011325405', 7, 8, 43, 'ssamcm@hanmail.net', '최삼준', 'android', 'work', '[업무코멘트] 센티리온 발주의 건', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 센티리온 발주의 건
+android_push: sendMessageToPhone = id=0:1349828116346424%04ff7535a02f4f47
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010092011325405'
+
+android_push: ** 20121010-092015
+
+android_push: ** 20121010-092357
+
+android_push: ** 20121010-092357
+android_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=36, receiver=neoggt@naver.com, msg_type=work, message=[업무보고] 우성고 급식실 PC A/S
+android_push: sql = select * from push_member where push_id = 'neoggt@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [neoggt@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010092357654769', 7, 8, 36, 'neoggt@naver.com', '고광태', 'android', 'work', '[업무보고] 우성고 급식실 PC A/S', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 우성고 급식실 PC A/S
+android_push: sendMessageToPhone = id=0:1349828340795700%04ff75353f2f1b4e
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010092357654769'
+android_push: sender=bizstorycokr@gmail.com, comp_idx=7, part_idx=8, mem_idx=36, receiver=neoggt@naver.com, msg_type=work, message=[업무보고] 우성고 급식실 PC A/S
+android_push: sql = select * from push_member where push_id = 'neoggt@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [neoggt@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010092359555830', 7, 8, 36, 'neoggt@naver.com', '고광태', 'android', 'work', '[업무보고] 우성고 급식실 PC A/S', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 우성고 급식실 PC A/S
+android_push: sendMessageToPhone = id=0:1349828343337845%04ff7535a74730eb
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010092359555830'
+
+android_push: ** 20121010-092402
+
+android_push: ** 20121010-093010
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무] 옥계중 2학년교무실 BH362 복사기..
+android_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [kty5458@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010093010566185', 5, 5, 140, 'kty5458@hanmail.net', '김태영', 'android', 'work', '[업무] 옥계중 2학년교무실 BH362 복사기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 옥계중 2학년교무실 BH362 복사기..
+android_push: sendMessageToPhone = id=0:1349828719885593%04ff75356334fe7b
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010093010566185'
+
+android_push: ** 20121010-093019
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 옥계중 2학년교무실 BH362 복사기..
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010093019731089', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무] 옥계중 2학년교무실 BH362 복사기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 옥계중 2학년교무실 BH362 복사기..
+android_push: sendMessageToPhone = id=0:1349828724349769%04ff7535428a34e7
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010093019731089'
+
+android_push: ** 20121010-093054
+
+android_push: ** 20121010-093152
+
+android_push: ** 20121010-093327
+
+android_push: ** 20121010-093408
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=191, receiver=hsg1028@greatworks.co.kr, msg_type=receipt, message=[창원중앙여자고등학교] 노트북에 인터넷이 ..
+android_push: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [hsg1028@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010093408504433', 13, 17, 191, 'hsg1028@greatworks.co.kr', '한승규', 'android', 'receipt', '[창원중앙여자고등학교] 노트북에 인터넷이 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [창원중앙여자고등학교] 노트북에 인터넷이 ..
+android_push: sendMessageToPhone = id=0:1349828951618622%04ff7535f341fc8a
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010093408504433'
+
+android_push: ** 20121010-093412
+android_push: sender=bizstorycokr@gmail.com, comp_idx=35, part_idx=40, mem_idx=189, receiver=neo@neolohas.net, msg_type=work, message=[업무] 네오 결제건 확인드립니다.
+android_push: sql = select * from push_member where push_id = 'neo@neolohas.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [neo@neolohas.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010093412539712', 35, 40, 189, 'neo@neolohas.net', '고광태', 'android', 'work', '[업무] 네오 결제건 확인드립니다.', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 네오 결제건 확인드립니다.
+android_push: sendMessageToPhone = id=0:1349828957001802%04ff75351dea5d45
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010093412539712'
+
+android_push: ** 20121010-093509
+
+android_push: ** 20121010-094142
+android_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=180, receiver=jw3132@miraensys.com, msg_type=receipt, message=[덕이중학교] 업무포털이 안 열림..
+android_push: sql = select * from push_member where push_id = 'jw3132@miraensys.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [jw3132@miraensys.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010094142446115', 32, 39, 180, 'jw3132@miraensys.com', '이진우', 'android', 'receipt', '[덕이중학교] 업무포털이 안 열림..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [덕이중학교] 업무포털이 안 열림..
+android_push: sendMessageToPhone = id=0:1349829406061489%04ff75358b61d340
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010094142446115'
+
+android_push: ** 20121010-094502
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무보고] 중랑숲도서관 홈페이지 개발
+android_push: sql = select * from push_member where push_id = 'i2day@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [i2day@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010094502517572', 1, 1, 14, 'i2day@naver.com', '박정화', 'android', 'work', '[업무보고] 중랑숲도서관 홈페이지 개발', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 중랑숲도서관 홈페이지 개발
+android_push: sendMessageToPhone = id=0:1349829606672784%04ff75353e79f1fe
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010094502517572'
+
+android_push: ** 20121010-094507
+
+android_push: ** 20121010-094507
+
+android_push: ** 20121010-094507
+
+android_push: ** 20121010-094521
+
+android_push: ** 20121010-094521
+
+android_push: ** 20121010-095229
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=125, receiver=4004jini@naver.com, msg_type=receipt, message=[군포시 중앙도서관] 이용자 예약시 대소..
+android_push: sql = select * from push_member where push_id = '4004jini@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [4004jini@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010095229873124', 1, 11, 125, '4004jini@naver.com', '이호진', 'android', 'receipt', '[군포시 중앙도서관] 이용자 예약시 대소..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [군포시 중앙도서관] 이용자 예약시 대소..
+android_push: sendMessageToPhone = id=0:1349830055160981%04ff7535bd754469
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010095229873124'
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=125, receiver=4004jini@naver.com, msg_type=receipt, message=[군포시 중앙도서관] 이용자 예약시 대소..
+android_push: sql = select * from push_member where push_id = '4004jini@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [4004jini@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010095234517007', 1, 11, 125, '4004jini@naver.com', '이호진', 'android', 'receipt', '[군포시 중앙도서관] 이용자 예약시 대소..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [군포시 중앙도서관] 이용자 예약시 대소..
+android_push: sendMessageToPhone = id=0:1349830058335554%04ff75351765ffa0
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010095234517007'
+
+android_push: ** 20121010-095320
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[송죽초등학교] PDF프로그램이 열..
+android_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [babosarang@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010095320902561', 4, 4, 20, 'babosarang@hanmail.net', '박주현', 'android', 'receipt', '[송죽초등학교] PDF프로그램이 열..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [송죽초등학교] PDF프로그램이 열..
+android_push: sendMessageToPhone = id=0:1349830104465882%04ff753576f36d57
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010095320902561'
+
+android_push: ** 20121010-095629
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=132, receiver=acp3748@greatworks.co.kr, msg_type=receipt, message=[창원남고등학교] 부탁드립니다
+android_push: sql = select * from push_member where push_id = 'acp3748@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [acp3748@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010095629207167', 13, 17, 132, 'acp3748@greatworks.co.kr', '송대훈', 'android', 'receipt', '[창원남고등학교] 부탁드립니다', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [창원남고등학교] 부탁드립니다
+android_push: sendMessageToPhone = id=0:1349830293073600%04ff753503e91a27
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010095629207167'
+
+android_push: ** 20121010-095913
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[사곡고등학교] 멀티실 25번 에러
+android_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cpui7@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010095913831045', 5, 5, 83, 'cpui7@daum.net', '황진섭', 'android', 'receipt', '[사곡고등학교] 멀티실 25번 에러', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [사곡고등학교] 멀티실 25번 에러
+android_push: sendMessageToPhone = id=0:1349830458030553%04ff753525d472c7
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010095913831045'
+
+android_push: ** 20121010-100054
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[사곡고등학교] ap정검-3층 후관
+android_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cpui7@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010100054496113', 5, 5, 83, 'cpui7@daum.net', '황진섭', 'android', 'receipt', '[사곡고등학교] ap정검-3층 후관', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [사곡고등학교] ap정검-3층 후관
+android_push: sendMessageToPhone = id=0:1349830561001800%04ff7535c393153d
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010100054496113'
+
+android_push: ** 20121010-100155
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[사곡고등학교] 멀티실 25번 에러
+android_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cpui7@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010100155744148', 5, 5, 83, 'cpui7@daum.net', '황진섭', 'android', 'receipt', '[사곡고등학교] 멀티실 25번 에러', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [사곡고등학교] 멀티실 25번 에러
+android_push: sendMessageToPhone = id=0:1349830621275868%04ff75359194eb7b
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010100155744148'
+
+android_push: ** 20121010-100216
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[사곡고등학교] ap정검-3층 후관
+android_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cpui7@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010100216122686', 5, 5, 83, 'cpui7@daum.net', '황진섭', 'android', 'receipt', '[사곡고등학교] ap정검-3층 후관', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [사곡고등학교] ap정검-3층 후관
+android_push: sendMessageToPhone = id=0:1349830641919895%04ff7535b0e0ca06
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010100216122686'
+
+android_push: ** 20121010-100905
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 구평남부초 ir501k토너 납품 3학..
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010100905197705', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무] 구평남부초 ir501k토너 납품 3학..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 구평남부초 ir501k토너 납품 3학..
+android_push: sendMessageToPhone = id=0:1349831049619742%04ff7535225d5817
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010100905197705'
+
+android_push: ** 20121010-101355
+
+android_push: ** 20121010-101837
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=92, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[반송여자중학교] 3학년 10반 교실..
+android_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [starnts@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010101837478429', 13, 17, 92, 'starnts@greatworks.co.kr', '노태성', 'android', 'receipt', '[반송여자중학교] 3학년 10반 교실..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [반송여자중학교] 3학년 10반 교실..
+android_push: sendMessageToPhone = id=0:1349831619525381%04ff753528d51b8d
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010101837478429'
+
+android_push: ** 20121010-102116
+
+android_push: ** 20121010-102430
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[서호초등학교] 플로터 인쇄 오류
+android_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [babosarang@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010102430905163', 4, 4, 20, 'babosarang@hanmail.net', '박주현', 'android', 'receipt', '[서호초등학교] 플로터 인쇄 오류', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [서호초등학교] 플로터 인쇄 오류
+android_push: sendMessageToPhone = id=0:1349831975086650%04ff753561e5608b
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010102430905163'
+
+android_push: ** 20121010-102558
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[서호초등학교] 5-1반 프린터 수..
+android_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [babosarang@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010102558338516', 4, 4, 20, 'babosarang@hanmail.net', '박주현', 'android', 'receipt', '[서호초등학교] 5-1반 프린터 수..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [서호초등학교] 5-1반 프린터 수..
+android_push: sendMessageToPhone = id=0:1349832062600806%04ff7535630ca1a4
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010102558338516'
+
+android_push: ** 20121010-103002
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=191, receiver=hsg1028@greatworks.co.kr, msg_type=receipt, message=[창원명지여자고등학교] 평가실 리더기 잘 ..
+android_push: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [hsg1028@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010103002140453', 13, 17, 191, 'hsg1028@greatworks.co.kr', '한승규', 'android', 'receipt', '[창원명지여자고등학교] 평가실 리더기 잘 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [창원명지여자고등학교] 평가실 리더기 잘 ..
+android_push: sendMessageToPhone = id=0:1349832305810890%04ff753529d563e0
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010103002140453'
+
+android_push: ** 20121010-103100
+
+android_push: ** 20121010-103319
+
+android_push: ** 20121010-103407
+
+android_push: ** 20121010-103856
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=191, receiver=hsg1028@greatworks.co.kr, msg_type=receipt, message=[창원중앙여자고등학교] 노트북에 인터넷이 ..
+android_push: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [hsg1028@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010103856787770', 13, 17, 191, 'hsg1028@greatworks.co.kr', '한승규', 'android', 'receipt', '[창원중앙여자고등학교] 노트북에 인터넷이 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [창원중앙여자고등학교] 노트북에 인터넷이 ..
+android_push: sendMessageToPhone = id=0:1349832839274975%04ff7535b170551c
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010103856787770'
+
+android_push: ** 20121010-104014
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=125, receiver=4004jini@naver.com, msg_type=receipt, message=[안양시립 호계도서관] 토리 설치 건
+android_push: sql = select * from push_member where push_id = '4004jini@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [4004jini@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010104014831772', 1, 11, 125, '4004jini@naver.com', '이호진', 'android', 'receipt', '[안양시립 호계도서관] 토리 설치 건', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [안양시립 호계도서관] 토리 설치 건
+android_push: sendMessageToPhone = id=0:1349832918225679%04ff7535fbb0cd17
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010104014831772'
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=125, receiver=4004jini@naver.com, msg_type=receipt, message=[안양시립 호계도서관] 토리 설치 건
+android_push: sql = select * from push_member where push_id = '4004jini@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [4004jini@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010104017762985', 1, 11, 125, '4004jini@naver.com', '이호진', 'android', 'receipt', '[안양시립 호계도서관] 토리 설치 건', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [안양시립 호계도서관] 토리 설치 건
+android_push: sendMessageToPhone = id=0:1349832919984915%04ff753598d968c1
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010104017762985'
+
+android_push: ** 20121010-104156
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=20, receiver=babosarang@hanmail.net, msg_type=receipt, message=[서호초등학교] 교장실 새 프린터 ..
+android_push: sql = select * from push_member where push_id = 'babosarang@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [babosarang@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010104156149911', 4, 4, 20, 'babosarang@hanmail.net', '박주현', 'android', 'receipt', '[서호초등학교] 교장실 새 프린터 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [서호초등학교] 교장실 새 프린터 ..
+android_push: sendMessageToPhone = id=0:1349833020800720%04ff75358d663afd
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010104156149911'
+
+android_push: ** 20121010-104629
+android_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=176, receiver=woo@miraensys.com, msg_type=receipt, message=[능안초등학교] 영문 프로그램 설치..
+android_push: sql = select * from push_member where push_id = 'woo@miraensys.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [woo@miraensys.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010104629968328', 32, 39, 176, 'woo@miraensys.com', '우영근', 'android', 'receipt', '[능안초등학교] 영문 프로그램 설치..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [능안초등학교] 영문 프로그램 설치..
+android_push: sendMessageToPhone = id=0:1349833293380725%04ff7535e78dfa63
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010104629968328'
+
+android_push: ** 20121010-105025
+android_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[장성중학교] 펑션키 안되고 자판..
+android_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [mindcafe@miraensys.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010105025239175', 32, 39, 178, 'mindcafe@miraensys.com', '최우성', 'android', 'receipt', '[장성중학교] 펑션키 안되고 자판..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [장성중학교] 펑션키 안되고 자판..
+android_push: sendMessageToPhone = id=0:1349833531772362%04ff753582881f11
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010105025239175'
+
+android_push: ** 20121010-105216
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=241, receiver=memilmook@nate.com, msg_type=receipt, message=[기타 공공도서관] 종합자료실 컴2대 ..
+android_push: sql = select * from push_member where push_id = 'memilmook@nate.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [memilmook@nate.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010105216423190', 40, 54, 241, 'memilmook@nate.com', '오종현', 'android', 'receipt', '[기타 공공도서관] 종합자료실 컴2대 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [기타 공공도서관] 종합자료실 컴2대 ..
+android_push: sendMessageToPhone = id=0:1349833645250949%04ff75357b6eeb31
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010105216423190'
+
+android_push: ** 20121010-105247
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=241, receiver=memilmook@nate.com, msg_type=receipt, message=[초등 서해초등학교] 4층 컴실 점검요청
+android_push: sql = select * from push_member where push_id = 'memilmook@nate.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [memilmook@nate.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010105247163383', 40, 54, 241, 'memilmook@nate.com', '오종현', 'android', 'receipt', '[초등 서해초등학교] 4층 컴실 점검요청', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [초등 서해초등학교] 4층 컴실 점검요청
+android_push: sendMessageToPhone = id=0:1349833670948679%04ff7535e312889c
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010105247163383'
+
+android_push: ** 20121010-105331
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[초등 청계초등학교] 빔관련 점검요청 강..
+android_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tassman1@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010105331896649', 40, 54, 242, 'tassman1@daum.net', '최진석', 'android', 'receipt', '[초등 청계초등학교] 빔관련 점검요청 강..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [초등 청계초등학교] 빔관련 점검요청 강..
+android_push: sendMessageToPhone = id=0:1349833714403150%04ff7535de2e01fe
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010105331896649'
+
+android_push: ** 20121010-105342
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[초등 청계초등학교] 
+android_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tassman1@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010105342356865', 40, 54, 242, 'tassman1@daum.net', '최진석', 'android', 'receipt', '[초등 청계초등학교] ', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [초등 청계초등학교] 
+android_push: sendMessageToPhone = id=0:1349833725403548%04ff75357234d8bb
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010105342356865'
+
+android_push: ** 20121010-110249
+
+android_push: ** 20121010-110742
+
+android_push: ** 20121010-110956
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=92, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[봉곡중학교] 4층 진로활동실 쿨..
+android_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [starnts@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010110956875793', 13, 17, 92, 'starnts@greatworks.co.kr', '노태성', 'android', 'receipt', '[봉곡중학교] 4층 진로활동실 쿨..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [봉곡중학교] 4층 진로활동실 쿨..
+android_push: sendMessageToPhone = id=0:1349834700439747%04ff7535ff62fc22
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010110956875793'
+
+android_push: ** 20121010-111013
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무보고] 중랑숲도서관 홈페이지 개발
+android_push: sql = select * from push_member where push_id = 'i2day@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [i2day@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010111013532551', 1, 1, 14, 'i2day@naver.com', '박정화', 'android', 'work', '[업무보고] 중랑숲도서관 홈페이지 개발', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 중랑숲도서관 홈페이지 개발
+android_push: sendMessageToPhone = id=0:1349834721330869%04ff753579b4d3fb
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010111013532551'
+
+android_push: ** 20121010-111022
+
+android_push: ** 20121010-111022
+
+android_push: ** 20121010-111022
+
+android_push: ** 20121010-111022
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=8, receiver=ahnwhan76@naver.com, msg_type=work, message=[업무보고] 중랑숲도서관 홈페이지 개발
+android_push: sql = select * from push_member where push_id = 'ahnwhan76@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ahnwhan76@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010111022835728', 1, 1, 8, 'ahnwhan76@naver.com', '문은지', 'android', 'work', '[업무보고] 중랑숲도서관 홈페이지 개발', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 중랑숲도서관 홈페이지 개발
+android_push: sendMessageToPhone = id=0:1349834725846545%04ff7535b1cfb3bf
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010111022835728'
+
+android_push: ** 20121010-111037
+
+android_push: ** 20121010-111451
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 강동교회 복사기토너 TN114납품
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010111451591326', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무] 강동교회 복사기토너 TN114납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 강동교회 복사기토너 TN114납품
+android_push: sendMessageToPhone = id=0:1349834995249886%04ff753500d2ddc6
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010111451591326'
+
+android_push: ** 20121010-112327
+
+android_push: ** 20121010-112331
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=8, receiver=ahnwhan76@naver.com, msg_type=receipt, message=[국립중앙과학관] epki 모듈 다시..
+android_push: sql = select * from push_member where push_id = 'ahnwhan76@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ahnwhan76@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010112331786569', 1, 1, 8, 'ahnwhan76@naver.com', '문은지', 'android', 'receipt', '[국립중앙과학관] epki 모듈 다시..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [국립중앙과학관] epki 모듈 다시..
+android_push: sendMessageToPhone = id=0:1349835520836506%04ff753594736dbf
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010112331786569'
+
+android_push: ** 20121010-112344
+
+android_push: ** 20121010-114214
+
+android_push: ** 20121010-114214
+
+android_push: ** 20121010-115048
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=work, message=[업무] 사곡고 외장하드,메모리 납품
+android_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cpui7@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010115048799493', 5, 5, 83, 'cpui7@daum.net', '황진섭', 'android', 'work', '[업무] 사곡고 외장하드,메모리 납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 사곡고 외장하드,메모리 납품
+android_push: sendMessageToPhone = id=0:1349837152586469%04ff75358ebeb0f3
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010115048799493'
+
+android_push: ** 20121010-120026
+
+android_push: ** 20121010-120422
+android_push: sender=bizstorycokr@gmail.com, comp_idx=45, part_idx=81, mem_idx=290, receiver=beretta_9@daum.net, msg_type=receipt, message=[송우중학교] 재생 토너가 흐리게..
+android_push: sql = select * from push_member where push_id = 'beretta_9@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [beretta_9@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010120422327964', 45, 81, 290, 'beretta_9@daum.net', '전유현', 'android', 'receipt', '[송우중학교] 재생 토너가 흐리게..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [송우중학교] 재생 토너가 흐리게..
+android_push: sendMessageToPhone = id=0:1349837965532390%04ff75359ae74f81
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010120422327964'
+
+android_push: ** 20121010-120749
+
+android_push: ** 20121010-120756
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[경구고등학교] 본관 남유경선생님...
+android_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cpui7@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010120756933959', 5, 5, 83, 'cpui7@daum.net', '황진섭', 'android', 'receipt', '[경구고등학교] 본관 남유경선생님...', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [경구고등학교] 본관 남유경선생님...
+android_push: sendMessageToPhone = id=0:1349838180188772%04ff75356d3a69ca
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010120756933959'
+
+android_push: ** 20121010-120834
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=receipt, message=[비산초등학교] 도서관 컴퓨터 하나..
+android_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [chamanbok12@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010120834415768', 5, 5, 81, 'chamanbok12@hanmail.net', '차만복', 'android', 'receipt', '[비산초등학교] 도서관 컴퓨터 하나..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [비산초등학교] 도서관 컴퓨터 하나..
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: c2dm 전송 에러
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: sql = update push_history set state = '0', state_comment = '전송 실패', send_time = now() where send_key = '20121010120834415768'
+
+android_push: ** 20121010-120911
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=83, receiver=cpui7@daum.net, msg_type=receipt, message=[경구고등학교] 본관 남유경선생님...
+android_push: sql = select * from push_member where push_id = 'cpui7@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cpui7@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010120911240304', 5, 5, 83, 'cpui7@daum.net', '황진섭', 'android', 'receipt', '[경구고등학교] 본관 남유경선생님...', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [경구고등학교] 본관 남유경선생님...
+android_push: sendMessageToPhone = id=0:1349838253375516%04ff7535e1da22f0
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010120911240304'
+
+android_push: ** 20121010-120942
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=receipt, message=[비산초등학교] 도서관 컴퓨터 하나..
+android_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [chamanbok12@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010120942566867', 5, 5, 81, 'chamanbok12@hanmail.net', '차만복', 'android', 'receipt', '[비산초등학교] 도서관 컴퓨터 하나..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [비산초등학교] 도서관 컴퓨터 하나..
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: c2dm 전송 에러
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: sql = update push_history set state = '0', state_comment = '전송 실패', send_time = now() where send_key = '20121010120942566867'
+
+android_push: ** 20121010-121334
+
+android_push: ** 20121010-121731
+
+android_push: ** 20121010-123409
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 구평남부초 1-3반 급지로라 교체
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010123409791708', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무] 구평남부초 1-3반 급지로라 교체', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 구평남부초 1-3반 급지로라 교체
+android_push: sendMessageToPhone = id=0:1349839752637314%04ff753521802c78
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010123409791708'
+
+android_push: ** 20121010-124718
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=receipt, message=[비산초등학교] 기사님.
+android_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [chamanbok12@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010124718241695', 5, 5, 81, 'chamanbok12@hanmail.net', '차만복', 'android', 'receipt', '[비산초등학교] 기사님.', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [비산초등학교] 기사님.
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: c2dm 전송 에러
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: sql = update push_history set state = '0', state_comment = '전송 실패', send_time = now() where send_key = '20121010124718241695'
+
+android_push: ** 20121010-125531
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=receipt, message=[비산초등학교] 기사님.
+android_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [chamanbok12@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010125531885208', 5, 5, 81, 'chamanbok12@hanmail.net', '차만복', 'android', 'receipt', '[비산초등학교] 기사님.', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [비산초등학교] 기사님.
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: c2dm 전송 에러
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: sql = update push_history set state = '0', state_comment = '전송 실패', send_time = now() where send_key = '20121010125531885208'
+
+android_push: ** 20121010-125830
+
+android_push: ** 20121010-130802
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[기타 행정과] 학생수용계 -- P..
+android_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tassman1@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010130802889347', 40, 54, 242, 'tassman1@daum.net', '최진석', 'android', 'receipt', '[기타 행정과] 학생수용계 -- P..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [기타 행정과] 학생수용계 -- P..
+android_push: sendMessageToPhone = id=0:1349841791947669%04ff7535b9f8fea6
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010130802889347'
+
+android_push: ** 20121010-130839
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[기타 행정과] 학생수용계 -- P..
+android_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tassman1@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010130839219021', 40, 54, 242, 'tassman1@daum.net', '최진석', 'android', 'receipt', '[기타 행정과] 학생수용계 -- P..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [기타 행정과] 학생수용계 -- P..
+android_push: sendMessageToPhone = id=0:1349841826389835%04ff753559486042
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010130839219021'
+
+android_push: ** 20121010-130949
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[고등 목포고등학교] 행정실- 토너납품
+android_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tassman1@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010130949823936', 40, 54, 242, 'tassman1@daum.net', '최진석', 'android', 'receipt', '[고등 목포고등학교] 행정실- 토너납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [고등 목포고등학교] 행정실- 토너납품
+android_push: sendMessageToPhone = id=0:1349841893993217%04ff75355fb68f10
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010130949823936'
+
+android_push: ** 20121010-131021
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[고등 목포고등학교] 행정실 --SCX5..
+android_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tassman1@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010131021281033', 40, 54, 242, 'tassman1@daum.net', '최진석', 'android', 'receipt', '[고등 목포고등학교] 행정실 --SCX5..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [고등 목포고등학교] 행정실 --SCX5..
+android_push: sendMessageToPhone = id=0:1349841927210815%04ff75359cba5422
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010131021281033'
+
+android_push: ** 20121010-131132
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=241, receiver=memilmook@nate.com, msg_type=receipt, message=[기타 목포교육지원청] 특수지원 --서류(..
+android_push: sql = select * from push_member where push_id = 'memilmook@nate.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [memilmook@nate.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010131132280673', 40, 54, 241, 'memilmook@nate.com', '오종현', 'android', 'receipt', '[기타 목포교육지원청] 특수지원 --서류(..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [기타 목포교육지원청] 특수지원 --서류(..
+android_push: sendMessageToPhone = id=0:1349842001956525%04ff7535cdc5cde6
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010131132280673'
+
+android_push: ** 20121010-131159
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=241, receiver=memilmook@nate.com, msg_type=receipt, message=[기타 목포교육지원청] 특수지원 --서류(..
+android_push: sql = select * from push_member where push_id = 'memilmook@nate.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [memilmook@nate.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010131159146439', 40, 54, 241, 'memilmook@nate.com', '오종현', 'android', 'receipt', '[기타 목포교육지원청] 특수지원 --서류(..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [기타 목포교육지원청] 특수지원 --서류(..
+android_push: sendMessageToPhone = id=0:1349842024668855%04ff75350de9420a
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010131159146439'
+
+android_push: ** 20121010-131357
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=239, receiver=talta5@hanmail.net, msg_type=receipt, message=[초등 석현초등학교] 교무실 -- PC ..
+android_push: sql = select * from push_member where push_id = 'talta5@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [talta5@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010131357757179', 40, 54, 239, 'talta5@hanmail.net', '이백윤', 'android', 'receipt', '[초등 석현초등학교] 교무실 -- PC ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [초등 석현초등학교] 교무실 -- PC ..
+android_push: sendMessageToPhone = id=0:1349842149757888%04ff7535d6f13e5d
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010131357757179'
+
+android_push: ** 20121010-131814
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=239, receiver=talta5@hanmail.net, msg_type=receipt, message=[초등 이로초등학교] 행정실 -토너납품
+android_push: sql = select * from push_member where push_id = 'talta5@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [talta5@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010131814346782', 40, 54, 239, 'talta5@hanmail.net', '이백윤', 'android', 'receipt', '[초등 이로초등학교] 행정실 -토너납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [초등 이로초등학교] 행정실 -토너납품
+android_push: sendMessageToPhone = id=0:1349842402269556%04ff7535772e2c65
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010131814346782'
+
+android_push: ** 20121010-131955
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=25, receiver=ljy@naver.com, msg_type=receipt, message=[갈담초등학교] 유치원프린터기 고장
+android_push: sql = select * from push_member where push_id = 'ljy@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ljy@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010131955319577', 4, 4, 25, 'ljy@naver.com', '임주영', 'android', 'receipt', '[갈담초등학교] 유치원프린터기 고장', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [갈담초등학교] 유치원프린터기 고장
+android_push: sendMessageToPhone = id=0:1349842498606718%04ff7535dfb49921
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010131955319577'
+
+android_push: ** 20121010-132103
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[초등 대연초등학교] 4-1반 모니터 분..
+android_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tassman1@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010132103654485', 40, 54, 242, 'tassman1@daum.net', '최진석', 'android', 'receipt', '[초등 대연초등학교] 4-1반 모니터 분..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [초등 대연초등학교] 4-1반 모니터 분..
+android_push: sendMessageToPhone = id=0:1349842567776958%04ff7535c5fcd9bd
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010132103654485'
+
+android_push: ** 20121010-132126
+android_push: sender=bizstorycokr@gmail.com, comp_idx=40, part_idx=54, mem_idx=242, receiver=tassman1@daum.net, msg_type=receipt, message=[초등 대연초등학교] 4-1반 모니터 분..
+android_push: sql = select * from push_member where push_id = 'tassman1@daum.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tassman1@daum.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010132126683443', 40, 54, 242, 'tassman1@daum.net', '최진석', 'android', 'receipt', '[초등 대연초등학교] 4-1반 모니터 분..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [초등 대연초등학교] 4-1반 모니터 분..
+android_push: sendMessageToPhone = id=0:1349842595604384%04ff7535349bb6e4
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010132126683443'
+
+android_push: ** 20121010-132451
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 오태초 BH350토너 행정실 납품
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010132451961802', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무] 오태초 BH350토너 행정실 납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 오태초 BH350토너 행정실 납품
+android_push: sendMessageToPhone = id=0:1349842795003406%04ff7535258ee2e3
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010132451961802'
+
+android_push: ** 20121010-133244
+
+android_push: ** 20121010-133244
+
+android_push: ** 20121010-133255
+
+android_push: ** 20121010-133311
+
+android_push: ** 20121010-133336
+
+android_push: ** 20121010-133508
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=92, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[반송여자중학교] 교장실 공유기 설치
+android_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [starnts@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010133508938721', 13, 17, 92, 'starnts@greatworks.co.kr', '노태성', 'android', 'receipt', '[반송여자중학교] 교장실 공유기 설치', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [반송여자중학교] 교장실 공유기 설치
+android_push: sendMessageToPhone = id=0:1349843413795584%04ff753518db6601
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010133508938721'
+
+android_push: ** 20121010-134942
+
+android_push: ** 20121010-135112
+
+android_push: ** 20121010-135123
+
+android_push: ** 20121010-135656
+android_push: sender=bizstorycokr@gmail.com, comp_idx=27, part_idx=33, mem_idx=154, receiver=cyberfos@incomsn.com, msg_type=receipt, message=[문원초등학교] 인터넷검색
+android_push: sql = select * from push_member where push_id = 'cyberfos@incomsn.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [cyberfos@incomsn.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010135656200021', 27, 33, 154, 'cyberfos@incomsn.com', '계동환', 'android', 'receipt', '[문원초등학교] 인터넷검색', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [문원초등학교] 인터넷검색
+android_push: sendMessageToPhone = id=0:1349844720355133%04ff7535272c30fe
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010135656200021'
+
+android_push: ** 20121010-135846
+
+android_push: ** 20121010-135846
+
+android_push: ** 20121010-135852
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=8, receiver=ahnwhan76@naver.com, msg_type=work, message=[업무코멘트] 대전국립중앙 과학관 관련 이슈사항은 ..
+android_push: sql = select * from push_member where push_id = 'ahnwhan76@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ahnwhan76@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010135852781785', 1, 1, 8, 'ahnwhan76@naver.com', '문은지', 'android', 'work', '[업무코멘트] 대전국립중앙 과학관 관련 이슈사항은 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 대전국립중앙 과학관 관련 이슈사항은 ..
+android_push: sendMessageToPhone = id=0:1349844835104880%04ff75358515a883
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010135852781785'
+
+android_push: ** 20121010-135906
+
+android_push: ** 20121010-135922
+
+android_push: ** 20121010-135925
+
+android_push: ** 20121010-135925
+
+android_push: ** 20121010-135925
+
+android_push: ** 20121010-135939
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=8, receiver=ahnwhan76@naver.com, msg_type=work, message=[업무코멘트] 대전국립중앙 과학관 관련 이슈사항은 ..
+android_push: sql = select * from push_member where push_id = 'ahnwhan76@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ahnwhan76@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010135939670432', 1, 1, 8, 'ahnwhan76@naver.com', '문은지', 'android', 'work', '[업무코멘트] 대전국립중앙 과학관 관련 이슈사항은 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 대전국립중앙 과학관 관련 이슈사항은 ..
+android_push: sendMessageToPhone = id=0:1349844883197795%04ff7535ba1fec2d
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010135939670432'
+
+android_push: ** 20121010-135946
+
+android_push: ** 20121010-140006
+
+android_push: ** 20121010-140008
+
+android_push: ** 20121010-140703
+
+android_push: ** 20121010-144027
+
+android_push: ** 20121010-144312
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=8, receiver=ahnwhan76@naver.com, msg_type=work, message=[업무보고] 테스트
+android_push: sql = select * from push_member where push_id = 'ahnwhan76@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ahnwhan76@naver.com] message = N, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010144312855251', 1, 1, 8, 'ahnwhan76@naver.com', '문은지', 'android', 'work', '[업무보고] 테스트', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 테스트
+android_push: sendMessageToPhone = id=0:1349847496349098%04ff7535a2625c16
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010144312855251'
+
+android_push: ** 20121010-144319
+
+android_push: ** 20121010-144345
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무코멘트] 대전국립중앙 과학관 관련 이슈사항은 ..
+android_push: sql = select * from push_member where push_id = 'i2day@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [i2day@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010144345182682', 1, 1, 14, 'i2day@naver.com', '박정화', 'android', 'work', '[업무코멘트] 대전국립중앙 과학관 관련 이슈사항은 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 대전국립중앙 과학관 관련 이슈사항은 ..
+android_push: sendMessageToPhone = id=0:1349847529789712%04ff75356cefa0e5
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010144345182682'
+
+android_push: ** 20121010-144350
+
+android_push: ** 20121010-144350
+
+android_push: ** 20121010-144350
+
+android_push: ** 20121010-144353
+
+android_push: ** 20121010-144449
+
+android_push: ** 20121010-144449
+
+android_push: ** 20121010-144454
+
+android_push: ** 20121010-144502
+
+android_push: ** 20121010-144547
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[창원용호고등학교] 인터넷 사용시 다운
+android_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [hcmoon@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010144547902904', 13, 17, 190, 'hcmoon@greatworks.co.kr', '문희철', 'android', 'receipt', '[창원용호고등학교] 인터넷 사용시 다운', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [창원용호고등학교] 인터넷 사용시 다운
+android_push: sendMessageToPhone = id=0:1349847649921574%04ff75350c7b08a6
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010144547902904'
+
+android_push: ** 20121010-144632
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무보고] 대전국립중앙 과학관 관련 이슈사항은 ..
+android_push: sql = select * from push_member where push_id = 'i2day@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [i2day@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010144632717399', 1, 1, 14, 'i2day@naver.com', '박정화', 'android', 'work', '[업무보고] 대전국립중앙 과학관 관련 이슈사항은 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 대전국립중앙 과학관 관련 이슈사항은 ..
+android_push: sendMessageToPhone = id=0:1349847695547667%04ff75352d05b937
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010144632717399'
+
+android_push: ** 20121010-144635
+
+android_push: ** 20121010-144635
+
+android_push: ** 20121010-144635
+
+android_push: ** 20121010-144644
+
+android_push: ** 20121010-145248
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=8, receiver=ahnwhan76@naver.com, msg_type=work, message=[업무보고] 테스트
+android_push: sql = select * from push_member where push_id = 'ahnwhan76@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ahnwhan76@naver.com] message = N, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010145248854881', 1, 1, 8, 'ahnwhan76@naver.com', '문은지', 'android', 'work', '[업무보고] 테스트', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 테스트
+android_push: sendMessageToPhone = id=0:1349848071953469%04ff7535776feadb
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010145248854881'
+
+android_push: ** 20121010-145256
+
+android_push: ** 20121010-145421
+android_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무코멘트] 온가족 무료 등록을 위한 현황조사(개..
+android_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [edu_plan@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010145421756273', 14, 18, 95, 'edu_plan@naver.com', '안홍식', 'android', 'work', '[업무코멘트] 온가족 무료 등록을 위한 현황조사(개..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 온가족 무료 등록을 위한 현황조사(개..
+android_push: sendMessageToPhone = id=0:1349848164561121%04ff75355c36c9d4
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010145421756273'
+android_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무코멘트] 온가족 무료 등록을 위한 현황조사(개..
+android_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [edu_plan@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010145424653787', 14, 18, 95, 'edu_plan@naver.com', '안홍식', 'android', 'work', '[업무코멘트] 온가족 무료 등록을 위한 현황조사(개..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 온가족 무료 등록을 위한 현황조사(개..
+
+android_push: ** 20121010-145425
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=8, receiver=ahnwhan76@naver.com, msg_type=work, message=[업무보고] 테스트
+android_push: sql = select * from push_member where push_id = 'ahnwhan76@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ahnwhan76@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010145425943149', 1, 1, 8, 'ahnwhan76@naver.com', '문은지', 'android', 'work', '[업무보고] 테스트', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 테스트
+android_push: sendMessageToPhone = id=0:1349848167477349%04ff7535f93358c3
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010145424653787'
+
+android_push: ** 20121010-145427
+android_push: sendMessageToPhone = id=0:1349848169520940%04ff75353329ef60
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010145425943149'
+
+android_push: ** 20121010-145434
+
+android_push: ** 20121010-150528
+android_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무] test
+android_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [edu_plan@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010150528602263', 14, 18, 95, 'edu_plan@naver.com', '안홍식', 'android', 'work', '[업무] test', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] test
+android_push: sendMessageToPhone = id=0:1349848832534843%04ff7535303f3503
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010150528602263'
+android_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무] test
+android_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [edu_plan@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010150532718125', 14, 18, 95, 'edu_plan@naver.com', '안홍식', 'android', 'work', '[업무] test', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] test
+android_push: sendMessageToPhone = id=0:1349848836263464%04ff75355c80a47b
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010150532718125'
+
+android_push: ** 20121010-150900
+
+android_push: ** 20121010-151212
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=125, receiver=4004jini@naver.com, msg_type=receipt, message=[군포산본도서관] 토리프로그램 보완조..
+android_push: sql = select * from push_member where push_id = '4004jini@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [4004jini@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010151212272119', 1, 11, 125, '4004jini@naver.com', '이호진', 'android', 'receipt', '[군포산본도서관] 토리프로그램 보완조..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [군포산본도서관] 토리프로그램 보완조..
+android_push: sendMessageToPhone = id=0:1349849235712879%04ff7535bc04066f
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010151212272119'
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=125, receiver=4004jini@naver.com, msg_type=receipt, message=[군포산본도서관] 토리프로그램 보완조..
+android_push: sql = select * from push_member where push_id = '4004jini@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [4004jini@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010151215124071', 1, 11, 125, '4004jini@naver.com', '이호진', 'android', 'receipt', '[군포산본도서관] 토리프로그램 보완조..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [군포산본도서관] 토리프로그램 보완조..
+android_push: sendMessageToPhone = id=0:1349849237564520%04ff753558bc4fbd
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010151215124071'
+
+android_push: ** 20121010-151508
+
+android_push: ** 20121010-152527
+
+android_push: ** 20121010-154003
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[창원상남중학교] 1층체육교과실
+android_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [hcmoon@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010154003811410', 13, 17, 190, 'hcmoon@greatworks.co.kr', '문희철', 'android', 'receipt', '[창원상남중학교] 1층체육교과실', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [창원상남중학교] 1층체육교과실
+android_push: sendMessageToPhone = id=0:1349850907031887%04ff75354744a7bb
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010154003811410'
+
+android_push: ** 20121010-155815
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=92, receiver=starnts@greatworks.co.kr, msg_type=receipt, message=[봉곡중학교] 4층영어전용교실 컴..
+android_push: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [starnts@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010155815979120', 13, 17, 92, 'starnts@greatworks.co.kr', '노태성', 'android', 'receipt', '[봉곡중학교] 4층영어전용교실 컴..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [봉곡중학교] 4층영어전용교실 컴..
+android_push: sendMessageToPhone = id=0:1349851999368887%04ff7535b16c31bc
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010155815979120'
+
+android_push: ** 20121010-160327
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무] 롯데슈퍼 복사기a/s
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010160327466191', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무] 롯데슈퍼 복사기a/s', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 롯데슈퍼 복사기a/s
+android_push: sendMessageToPhone = id=0:1349852310287784%04ff753564a1785f
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010160327466191'
+
+android_push: ** 20121010-160407
+android_push: sender=bizstorycokr@gmail.com, comp_idx=4, part_idx=4, mem_idx=18, receiver=ymk1508@nate.com, msg_type=receipt, message=[화양초등학교] 6-3 프린트기 이..
+android_push: sql = select * from push_member where push_id = 'ymk1508@nate.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ymk1508@nate.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010160407961282', 4, 4, 18, 'ymk1508@nate.com', '윤문기', 'android', 'receipt', '[화양초등학교] 6-3 프린트기 이..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [화양초등학교] 6-3 프린트기 이..
+android_push: sendMessageToPhone = id=0:1349852350329935%04ff753531a98685
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010160407961282'
+
+android_push: ** 20121010-161008
+
+android_push: ** 20121010-161226
+
+android_push: ** 20121010-161236
+
+android_push: ** 20121010-161318
+
+android_push: ** 20121010-161348
+
+android_push: ** 20121010-161353
+
+android_push: ** 20121010-161531
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무] 도송중 스크린 이전
+android_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [kty5458@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010161531665791', 5, 5, 140, 'kty5458@hanmail.net', '김태영', 'android', 'work', '[업무] 도송중 스크린 이전', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 도송중 스크린 이전
+android_push: sendMessageToPhone = id=0:1349853034950234%04ff7535af58e43e
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010161531665791'
+
+android_push: ** 20121010-161832
+
+android_push: ** 20121010-162314
+
+android_push: ** 20121010-163220
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=190, receiver=hcmoon@greatworks.co.kr, msg_type=receipt, message=[창원상남중학교] 4~5시간 쓰고 난..
+android_push: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [hcmoon@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010163220516175', 13, 17, 190, 'hcmoon@greatworks.co.kr', '문희철', 'android', 'receipt', '[창원상남중학교] 4~5시간 쓰고 난..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [창원상남중학교] 4~5시간 쓰고 난..
+android_push: sendMessageToPhone = id=0:1349854044325574%04ff75353c5c20d4
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010163220516175'
+
+android_push: ** 20121010-165143
+
+android_push: ** 20121010-165346
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무] 사우회회비계좌변경
+android_push: sql = select * from push_member where push_id = 'i2day@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [i2day@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010165346661369', 1, 1, 14, 'i2day@naver.com', '박정화', 'android', 'work', '[업무] 사우회회비계좌변경', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 사우회회비계좌변경
+android_push: sendMessageToPhone = id=0:1349855329650985%04ff7535c8543f07
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010165346661369'
+
+android_push: ** 20121010-165351
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=8, receiver=ahnwhan76@naver.com, msg_type=work, message=[업무] 사우회회비계좌변경
+android_push: sql = select * from push_member where push_id = 'ahnwhan76@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ahnwhan76@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010165351610145', 1, 1, 8, 'ahnwhan76@naver.com', '문은지', 'android', 'work', '[업무] 사우회회비계좌변경', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 사우회회비계좌변경
+android_push: sendMessageToPhone = id=0:1349855335003787%04ff7535276f51f9
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010165351610145'
+
+android_push: ** 20121010-165400
+
+android_push: ** 20121010-165406
+
+android_push: ** 20121010-165409
+
+android_push: ** 20121010-165647
+android_push: sender=bizstorycokr@gmail.com, comp_idx=13, part_idx=17, mem_idx=191, receiver=hsg1028@greatworks.co.kr, msg_type=receipt, message=[창원과학고등학교] 행정실 시설물 자동..
+android_push: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and push_device_type = 'A' and del_yn = 'N'
+android_push: [hsg1028@greatworks.co.kr] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010165647716186', 13, 17, 191, 'hsg1028@greatworks.co.kr', '한승규', 'android', 'receipt', '[창원과학고등학교] 행정실 시설물 자동..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [창원과학고등학교] 행정실 시설물 자동..
+android_push: sendMessageToPhone = id=0:1349855512380845%04ff7535bb7868f9
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010165647716186'
+
+android_push: ** 20121010-170307
+
+android_push: ** 20121010-170425
+android_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=178, receiver=mindcafe@miraensys.com, msg_type=receipt, message=[장성중학교] 2학년 1반 교실 ..
+android_push: sql = select * from push_member where push_id = 'mindcafe@miraensys.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [mindcafe@miraensys.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010170425419338', 32, 39, 178, 'mindcafe@miraensys.com', '최우성', 'android', 'receipt', '[장성중학교] 2학년 1반 교실 ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = receipt
+android_push: message = [장성중학교] 2학년 1반 교실 ..
+android_push: sendMessageToPhone = id=0:1349855968851899%04ff753523b91206
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010170425419338'
+
+android_push: ** 20121010-170730
+
+android_push: ** 20121010-171255
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무] 이화여대DBMS관련인력프로필
+android_push: sql = select * from push_member where push_id = 'i2day@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [i2day@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010171255585521', 1, 1, 14, 'i2day@naver.com', '박정화', 'android', 'work', '[업무] 이화여대DBMS관련인력프로필', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 이화여대DBMS관련인력프로필
+android_push: sendMessageToPhone = id=0:1349856478437796%04ff75352932dec6
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010171255585521'
+
+android_push: ** 20121010-171259
+
+android_push: ** 20121010-171326
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=126, receiver=wslim@gmail.com, msg_type=work, message=[업무] 이화여대DBMS관련인력프로필
+android_push: sql = select * from push_member where push_id = 'wslim@gmail.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [wslim@gmail.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010171326894533', 1, 11, 126, 'wslim@gmail.com', '임완선', 'android', 'work', '[업무] 이화여대DBMS관련인력프로필', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 이화여대DBMS관련인력프로필
+android_push: sendMessageToPhone = id=0:1349856509706787%04ff7535bfe62f8b
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010171326894533'
+
+android_push: ** 20121010-171329
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=129, receiver=silkload2001@naver.com, msg_type=work, message=[업무] 이화여대DBMS관련인력프로필
+android_push: sql = select * from push_member where push_id = 'silkload2001@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [silkload2001@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010171329642696', 1, 11, 129, 'silkload2001@naver.com', '정상진', 'android', 'work', '[업무] 이화여대DBMS관련인력프로필', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 이화여대DBMS관련인력프로필
+android_push: sendMessageToPhone = id=0:1349856512528949%04ff75355ae7d64b
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010171329642696'
+
+android_push: ** 20121010-172127
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 롯데슈퍼 복사기a/s
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172127399318', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 롯데슈퍼 복사기a/s', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 롯데슈퍼 복사기a/s
+
+android_push: ** 20121010-172128
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 도송중 스크린 이전
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172128661461', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 도송중 스크린 이전', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 도송중 스크린 이전
+android_push: sendMessageToPhone = id=0:1349856990672755%04ff7535b80700ee
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172127399318'
+
+android_push: ** 20121010-172130
+android_push: sendMessageToPhone = id=0:1349856991654999%04ff7535f1dde0e6
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172128661461'
+
+android_push: ** 20121010-172131
+
+android_push: ** 20121010-172203
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 옥계중 2학년교무실 BH362 복사기..
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172203114917', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 옥계중 2학년교무실 BH362 복사기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 옥계중 2학년교무실 BH362 복사기..
+
+android_push: ** 20121010-172206
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 오태초 BH350토너 행정실 납품
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172206639608', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 오태초 BH350토너 행정실 납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 오태초 BH350토너 행정실 납품
+android_push: sendMessageToPhone = id=0:1349857026778703%04ff7535a5138c91
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172203114917'
+
+android_push: ** 20121010-172206
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=82, receiver=gongyong129@naver.com, msg_type=work, message=[업무보고] 옥계중 2학년교무실 BH362 복사기..
+android_push: sql = select * from push_member where push_id = 'gongyong129@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [gongyong129@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172206534858', 5, 5, 82, 'gongyong129@naver.com', '장진욱', 'android', 'work', '[업무보고] 옥계중 2학년교무실 BH362 복사기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 옥계중 2학년교무실 BH362 복사기..
+android_push: sendMessageToPhone = id=0:1349857028157411%04ff75354c6ce2eb
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172206639608'
+
+android_push: ** 20121010-172207
+android_push: sendMessageToPhone = id=0:1349857029111436%04ff75354ab5cc8e
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172206534858'
+
+android_push: ** 20121010-172208
+
+android_push: ** 20121010-172302
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 구평남부초 1-3반 급지로라 교체
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172302796312', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 구평남부초 1-3반 급지로라 교체', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 구평남부초 1-3반 급지로라 교체
+android_push: sendMessageToPhone = id=0:1349857085541297%04ff75350f206246
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172302796312'
+
+android_push: ** 20121010-172305
+
+android_push: ** 20121010-172331
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 금오공고 도서관 토너부분쪽 이상발견A..
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172331326724', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 금오공고 도서관 토너부분쪽 이상발견A..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 금오공고 도서관 토너부분쪽 이상발견A..
+android_push: sendMessageToPhone = id=0:1349857115801635%04ff75350aa7b5c4
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172331326724'
+
+android_push: ** 20121010-172335
+
+android_push: ** 20121010-172414
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 강동교회 복사기토너 TN114납품
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172414952592', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 강동교회 복사기토너 TN114납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 강동교회 복사기토너 TN114납품
+
+android_push: ** 20121010-172415
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 문장초 스피커 2ea 납품
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172415261235', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 문장초 스피커 2ea 납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 문장초 스피커 2ea 납품
+android_push: sendMessageToPhone = id=0:1349857159491620%04ff75357841fee0
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172414952592'
+
+android_push: ** 20121010-172419
+
+android_push: ** 20121010-172420
+android_push: sendMessageToPhone = id=0:1349857161294142%04ff7535a143e4f0
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172415261235'
+
+android_push: ** 20121010-172421
+
+android_push: ** 20121010-172517
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 구평남부초 ir501k토너 납품 3학..
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172517136554', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 구평남부초 ir501k토너 납품 3학..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 구평남부초 ir501k토너 납품 3학..
+android_push: sendMessageToPhone = id=0:1349857221765435%04ff75359d77fcac
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172517136554'
+
+android_push: ** 20121010-172521
+
+android_push: ** 20121010-172624
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 옥계중 2학년교무실 BH362 복사기..
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172624394133', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 옥계중 2학년교무실 BH362 복사기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 옥계중 2학년교무실 BH362 복사기..
+android_push: sendMessageToPhone = id=0:1349857287903177%04ff7535fea82d0c
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172624394133'
+
+android_push: ** 20121010-172627
+
+android_push: ** 20121010-172627
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=work, message=[업무보고] 옥계중 2학년교무실 BH362 복사기..
+android_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [kty5458@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172627252108', 5, 5, 140, 'kty5458@hanmail.net', '김태영', 'android', 'work', '[업무보고] 옥계중 2학년교무실 BH362 복사기..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 옥계중 2학년교무실 BH362 복사기..
+android_push: sendMessageToPhone = id=0:1349857293030836%04ff75359b6cbf16
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172627252108'
+
+android_push: ** 20121010-172704
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 구미교육청 학무과 토너 회수통 수거,..
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010172704758735', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 구미교육청 학무과 토너 회수통 수거,..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 구미교육청 학무과 토너 회수통 수거,..
+android_push: sendMessageToPhone = id=0:1349857329117979%04ff7535c9c72ecb
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010172704758735'
+
+android_push: ** 20121010-172708
+
+android_push: ** 20121010-173138
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 옥계동부초 RZ5000 잉크 납품, ..
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010173138267957', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 옥계동부초 RZ5000 잉크 납품, ..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 옥계동부초 RZ5000 잉크 납품, ..
+android_push: sendMessageToPhone = id=0:1349857602119200%04ff75354737e94e
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010173138267957'
+
+android_push: ** 20121010-173141
+
+android_push: ** 20121010-173208
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 경북외고 과학실 ML2150G 재생토..
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010173208622762', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 경북외고 과학실 ML2150G 재생토..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 경북외고 과학실 ML2150G 재생토..
+android_push: sendMessageToPhone = id=0:1349857632002486%04ff7535aa7188e7
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010173208622762'
+
+android_push: ** 20121010-173211
+
+android_push: ** 20121010-173222
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=81, receiver=chamanbok12@hanmail.net, msg_type=work, message=[업무] 구미초 영재교육원 PC1세트
+android_push: sql = select * from push_member where push_id = 'chamanbok12@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [chamanbok12@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010173222423837', 5, 5, 81, 'chamanbok12@hanmail.net', '차만복', 'android', 'work', '[업무] 구미초 영재교육원 PC1세트', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 구미초 영재교육원 PC1세트
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: c2dm 전송 에러
+android_push: sendMessageToPhone = Error=MissingRegistration
+android_push: sql = update push_history set state = '0', state_comment = '전송 실패', send_time = now() where send_key = '20121010173222423837'
+
+android_push: ** 20121010-173246
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 비산초 행정실 TA3500 토너 납품
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010173246161738', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 비산초 행정실 TA3500 토너 납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 비산초 행정실 TA3500 토너 납품
+android_push: sendMessageToPhone = id=0:1349857668070282%04ff7535d7d97414
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010173246161738'
+
+android_push: ** 20121010-173247
+
+android_push: ** 20121010-173629
+
+android_push: ** 20121010-173629
+
+android_push: ** 20121010-180341
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무코멘트] 원호초 3학년연구실 TK-479토너,..
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010180341648158', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무코멘트] 원호초 3학년연구실 TK-479토너,..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 원호초 3학년연구실 TK-479토너,..
+android_push: sendMessageToPhone = id=0:1349859524009699%04ff753524163e9e
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010180341648158'
+
+android_push: ** 20121010-180343
+
+android_push: ** 20121010-181220
+
+android_push: ** 20121010-182410
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=125, receiver=4004jini@naver.com, msg_type=work, message=[업무코멘트] 평택분관 업무일지 오류수정 요청
+android_push: sql = select * from push_member where push_id = '4004jini@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [4004jini@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010182410315178', 1, 11, 125, '4004jini@naver.com', '이호진', 'android', 'work', '[업무코멘트] 평택분관 업무일지 오류수정 요청', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 평택분관 업무일지 오류수정 요청
+android_push: sendMessageToPhone = id=0:1349860759112437%04ff75352f19a0c0
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010182410315178'
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=125, receiver=4004jini@naver.com, msg_type=work, message=[업무코멘트] 평택분관 업무일지 오류수정 요청
+android_push: sql = select * from push_member where push_id = '4004jini@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [4004jini@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010182418822921', 1, 11, 125, '4004jini@naver.com', '이호진', 'android', 'work', '[업무코멘트] 평택분관 업무일지 오류수정 요청', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 평택분관 업무일지 오류수정 요청
+android_push: sendMessageToPhone = id=0:1349860761577385%04ff7535dee08dad
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010182418822921'
+
+android_push: ** 20121010-182421
+
+android_push: ** 20121010-182549
+android_push: sender=bizstorycokr@gmail.com, comp_idx=9, part_idx=10, mem_idx=55, receiver=sjkim0863@hanmail.net, msg_type=work, message=[업무] 유비스토리
+android_push: sql = select * from push_member where push_id = 'sjkim0863@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [sjkim0863@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010182549492430', 9, 10, 55, 'sjkim0863@hanmail.net', '김수진', 'android', 'work', '[업무] 유비스토리', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무] 유비스토리
+android_push: sendMessageToPhone = id=0:1349860852015992%04ff7535d93dedf0
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010182549492430'
+
+android_push: ** 20121010-183041
+
+android_push: ** 20121010-183041
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=11, mem_idx=233, receiver=ycw7701@naver.com, msg_type=work, message=[업무코멘트] 평택분관 업무일지 오류수정 요청
+android_push: sql = select * from push_member where push_id = 'ycw7701@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [ycw7701@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010183041608619', 1, 11, 233, 'ycw7701@naver.com', '유창우', 'android', 'work', '[업무코멘트] 평택분관 업무일지 오류수정 요청', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 평택분관 업무일지 오류수정 요청
+android_push: sendMessageToPhone = id=0:1349861143965859%04ff753543ecf93e
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010183041608619'
+
+android_push: ** 20121010-183043
+
+android_push: ** 20121010-184038
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 청소년공부방 엑셀파일 안열림
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010184038392186', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 청소년공부방 엑셀파일 안열림', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 청소년공부방 엑셀파일 안열림
+android_push: sendMessageToPhone = id=0:1349861741802996%04ff75353dfe59c8
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010184038392186'
+
+android_push: ** 20121010-184041
+
+android_push: ** 20121010-184115
+android_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=17, receiver=tssh2003@hanmail.net, msg_type=work, message=[업무보고] 광평초 급식실 스피커납품
+android_push: sql = select * from push_member where push_id = 'tssh2003@hanmail.net' and push_device_type = 'A' and del_yn = 'N'
+android_push: [tssh2003@hanmail.net] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010184115228282', 5, 5, 17, 'tssh2003@hanmail.net', '이태성', 'android', 'work', '[업무보고] 광평초 급식실 스피커납품', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 광평초 급식실 스피커납품
+android_push: sendMessageToPhone = id=0:1349861779200973%04ff753561b8fe19
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010184115228282'
+
+android_push: ** 20121010-184119
+
+android_push: ** 20121010-185207
+android_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무코멘트] CI&BI 개발
+android_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [edu_plan@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010185207603004', 14, 18, 95, 'edu_plan@naver.com', '안홍식', 'android', 'work', '[업무코멘트] CI&BI 개발', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] CI&BI 개발
+android_push: sendMessageToPhone = id=0:1349862430447586%04ff7535f2e70d03
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010185207603004'
+android_push: sender=bizstorycokr@gmail.com, comp_idx=14, part_idx=18, mem_idx=95, receiver=edu_plan@naver.com, msg_type=work, message=[업무코멘트] CI&BI 개발
+android_push: sql = select * from push_member where push_id = 'edu_plan@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [edu_plan@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010185210819108', 14, 18, 95, 'edu_plan@naver.com', '안홍식', 'android', 'work', '[업무코멘트] CI&BI 개발', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] CI&BI 개발
+android_push: sendMessageToPhone = id=0:1349862433102868%04ff7535ebf721d9
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010185210819108'
+
+android_push: ** 20121010-185212
+
+android_push: ** 20121010-201705
+
+android_push: ** 20121010-201705
+android_push: sender=bizstorycokr@gmail.com, comp_idx=39, part_idx=53, mem_idx=231, receiver=borami5712@naver.com, msg_type=work, message=[업무보고] 용인 유방동 타운하우스#1 조경 설계..
+android_push: sql = select * from push_member where push_id = 'borami5712@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [borami5712@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121010201705945495', 39, 53, 231, 'borami5712@naver.com', '방보람', 'android', 'work', '[업무보고] 용인 유방동 타운하우스#1 조경 설계..', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무보고] 용인 유방동 타운하우스#1 조경 설계..
+android_push: sendMessageToPhone = id=0:1349867528622983%04ff7535032eed1c
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121010201705945495'
+
+android_push: ** 20121010-201710

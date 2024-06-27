@@ -1,0 +1,28 @@
+
+c2dm_registration: ** 20121027-220400
+c2dm_registration: cmd=add, id=starnts@greatworks.co.kr, pw=3451, registration_id=, device_unique_id=D1F9D0138D231BC822E25E32B376E717
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'D1F9D0138D231BC822E25E32B376E717'
+				, mod_date = now()
+			where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});
+
+c2dm_registration: ** 20121027-220401
+c2dm_registration: cmd=registration, id=starnts@greatworks.co.kr, pw=3451, registration_id=APA91bGpLNd2dL3YnGD6Yt2vaPMwTZBh-bjWNWtOvo_NpvuAF9-D0OZf5_tPhl21zy99Dt4Hf-r3T-pUGU5DcYZOGqvXl6xqpfDDc1NWJ_i6WKic1MNbXlQCWuDALBRPRX8A2WqbV_JXrHUWcsIWsUoUhTa93Jzf8w, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'starnts@greatworks.co.kr' and mem_pwd = '17bb7040a57d558f742b4ada3c697695' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'starnts@greatworks.co.kr' and push_pwd = '17bb7040a57d558f742b4ada3c697695' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGpLNd2dL3YnGD6Yt2vaPMwTZBh-bjWNWtOvo_NpvuAF9-D0OZf5_tPhl21zy99Dt4Hf-r3T-pUGU5DcYZOGqvXl6xqpfDDc1NWJ_i6WKic1MNbXlQCWuDALBRPRX8A2WqbV_JXrHUWcsIWsUoUhTa93Jzf8w', mod_date = now() where push_id = 'starnts@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"노태성"}]});

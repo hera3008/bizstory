@@ -1,0 +1,12 @@
+/* login_c type 관련 css  */
+
+	/* 로그인 상단 관련 메뉴 */
+	#header .srevice_menu {
+		width:180px;
+	}
+		/* 로그인 백그라운드 */
+		#layout_table td#container #login_frame .login_logo {
+			text-indent:-9999px;
+			background:url("../images/ontrade/login_logo.png") no-repeat;
+			background-position:-10px 0px;
+		}	

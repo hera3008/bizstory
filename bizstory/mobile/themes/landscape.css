@@ -1,0 +1,89 @@
+		#Map_Canvas {
+			height:196px;
+		}
+		ul li textarea {
+			width:392px;
+		}
+			.write ul li textarea {
+				width:432px;
+			}
+		ul li input[type="text"],
+		ul li input[type="password"],
+		ul li input[type="email"],
+		ul li input[type="tel"],
+		ul li input[type="number"],
+		ul li input[type="search"],
+		ul li input[type="url"]{
+			width:308px;
+		}
+			.write ul li input[type="text"],
+			.write ul li input[type="password"],
+			.write ul li input[type="email"],
+			.write ul li input[type="tel"],
+			.write ul li input[type="number"],
+			.write ul li input[type="search"],
+			.write ul li input[type="url"]{
+				width:348px;
+			}
+		ul li select,
+		ul li .select {
+			width:317px;
+			background-size:7%;
+		}
+			.write ul li select,
+			.write ul li .select {
+				width:357px;
+			}
+		div.notice ul li div.key {
+			float:left;
+			width:33px;
+			height:33px;
+			background:url(img/key.png) no-repeat 50% 40%;
+			background-size:100%;
+		}
+		.navi div {
+			width:430px;
+		}
+			.navi a {
+				padding:0px 13px;
+			}
+		.trigger {
+			background-size:10%;
+			background-position:12px -35px;
+		}
+			.active {
+				background-position:12px 15px;
+			}
+		.write .basic.memo ul {
+			margin-top:-10px;
+			padding-top:4px;
+			background-size:135%;
+		}
+			.write .basic.memo .top_date {
+				background:#fff9da url(img/memo_bg.png) repeat-y -3px -8px;
+				background-size:135%;
+			}
+		.slider .slider-nav {
+			top:0px;
+			right:0px;
+			width:100%;
+			position:absolute;
+			min-height:28px;
+		}
+		.slider .slider_frame {
+			margin-top:28px;
+		}
+		.slider .slider-nav ul {
+			float:right;
+			margin-right:20px;
+		}
+		.slider .slider-nav li {
+			float:left;
+		}
+		#ad_banner {
+			width:376px;
+		}
+			#ad_banner a {
+				width:374px;
+				height:139px;
+			}

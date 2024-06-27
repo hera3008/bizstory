@@ -1,0 +1,270 @@
+
+apns_registration: ** 20130206-105756
+apns_registration: cmd=add, id=louder@chol.com, pw=5990, registration_id=501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18, device_unique_id=501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'louder@chol.com' and mem_pwd = 'fed2a915daad9d7a59ac4898243d1118' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'louder@chol.com' and push_pwd = 'fed2a915daad9d7a59ac4898243d1118' and push_device_type = 'I' and push_registration_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+				, mod_date = now()
+			where push_id = 'louder@chol.com' and push_device_type = 'I' and push_registration_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-110034
+apns_registration: cmd=add, id=philolee@naver.com, pw=0107, registration_id=0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750, device_unique_id=0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'philolee@naver.com' and mem_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'philolee@naver.com' and push_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and push_device_type = 'I' and push_registration_id = '0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750'
+				, mod_date = now()
+			where push_id = 'philolee@naver.com' and push_device_type = 'I' and push_registration_id = '0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-112149
+apns_registration: cmd=add, id=rock8875@gmail.com, pw=8875, registration_id=6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5, device_unique_id=6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'rock8875@gmail.com' and mem_pwd = '88f39ae5515668c9fde92d91fdc5882c' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'rock8875@gmail.com' and push_pwd = '88f39ae5515668c9fde92d91fdc5882c' and push_device_type = 'I' and push_registration_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+				, mod_date = now()
+			where push_id = 'rock8875@gmail.com' and push_device_type = 'I' and push_registration_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-121527
+apns_registration: cmd=add, id=kyunni@naver.com, pw=9571, registration_id=c21fe4ce7855b3c017beb5ffc26bf5cc3433ed31d787cf3fdfdb099b83a08fa6, device_unique_id=c21fe4ce7855b3c017beb5ffc26bf5cc3433ed31d787cf3fdfdb099b83a08fa6
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'kyunni@naver.com' and mem_pwd = '57b6be472bd1cfca708a582f1a19ac10' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'kyunni@naver.com' and push_pwd = '57b6be472bd1cfca708a582f1a19ac10' and push_device_type = 'I' and push_registration_id = 'c21fe4ce7855b3c017beb5ffc26bf5cc3433ed31d787cf3fdfdb099b83a08fa6'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = 'c21fe4ce7855b3c017beb5ffc26bf5cc3433ed31d787cf3fdfdb099b83a08fa6'
+				, mod_date = now()
+			where push_id = 'kyunni@naver.com' and push_device_type = 'I' and push_registration_id = 'c21fe4ce7855b3c017beb5ffc26bf5cc3433ed31d787cf3fdfdb099b83a08fa6'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-122919
+apns_registration: cmd=add, id=louder@chol.com, pw=5990, registration_id=501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18, device_unique_id=501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'louder@chol.com' and mem_pwd = 'fed2a915daad9d7a59ac4898243d1118' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'louder@chol.com' and push_pwd = 'fed2a915daad9d7a59ac4898243d1118' and push_device_type = 'I' and push_registration_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+				, mod_date = now()
+			where push_id = 'louder@chol.com' and push_device_type = 'I' and push_registration_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-134557
+apns_registration: cmd=add, id=philolee@naver.com, pw=0107, registration_id=0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750, device_unique_id=0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'philolee@naver.com' and mem_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'philolee@naver.com' and push_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and push_device_type = 'I' and push_registration_id = '0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750'
+				, mod_date = now()
+			where push_id = 'philolee@naver.com' and push_device_type = 'I' and push_registration_id = '0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-145229
+apns_registration: cmd=add, id=kclee@miraensys.com, pw=5150, registration_id=9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42, device_unique_id=9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'kclee@miraensys.com' and mem_pwd = '76a0fb8beb651c834d27e14340e5a8e5' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'kclee@miraensys.com' and push_pwd = '76a0fb8beb651c834d27e14340e5a8e5' and push_device_type = 'I' and push_registration_id = '9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42'
+				, mod_date = now()
+			where push_id = 'kclee@miraensys.com' and push_device_type = 'I' and push_registration_id = '9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-150407
+apns_registration: cmd=add, id=rock8875@gmail.com, pw=8875, registration_id=6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5, device_unique_id=6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'rock8875@gmail.com' and mem_pwd = '88f39ae5515668c9fde92d91fdc5882c' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'rock8875@gmail.com' and push_pwd = '88f39ae5515668c9fde92d91fdc5882c' and push_device_type = 'I' and push_registration_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+				, mod_date = now()
+			where push_id = 'rock8875@gmail.com' and push_device_type = 'I' and push_registration_id = '6c56e457afbb9121587676ab5dd2233e13e0e518376bc681dbbe8dfa940d34e5'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-160412
+apns_registration: cmd=add, id=kclee@miraensys.com, pw=5150, registration_id=9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42, device_unique_id=9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'kclee@miraensys.com' and mem_pwd = '76a0fb8beb651c834d27e14340e5a8e5' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'kclee@miraensys.com' and push_pwd = '76a0fb8beb651c834d27e14340e5a8e5' and push_device_type = 'I' and push_registration_id = '9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42'
+				, mod_date = now()
+			where push_id = 'kclee@miraensys.com' and push_device_type = 'I' and push_registration_id = '9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-160816
+apns_registration: cmd=add, id=kclee@miraensys.com, pw=5150, registration_id=9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42, device_unique_id=9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'kclee@miraensys.com' and mem_pwd = '76a0fb8beb651c834d27e14340e5a8e5' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'kclee@miraensys.com' and push_pwd = '76a0fb8beb651c834d27e14340e5a8e5' and push_device_type = 'I' and push_registration_id = '9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42'
+				, mod_date = now()
+			where push_id = 'kclee@miraensys.com' and push_device_type = 'I' and push_registration_id = '9b2e1db0d3899e08cfa3d2c71bd9c2640cac11349e5595500294f2640c969d42'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-171217
+apns_registration: cmd=add, id=west4185@naver.com, pw=east1613, registration_id=8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a, device_unique_id=8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'west4185@naver.com' and mem_pwd = 'd67fbffa8da8471260146bd83e0e18f2' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'west4185@naver.com' and push_pwd = 'd67fbffa8da8471260146bd83e0e18f2' and push_device_type = 'I' and push_registration_id = '8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a'
+				, mod_date = now()
+			where push_id = 'west4185@naver.com' and push_device_type = 'I' and push_registration_id = '8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-171322
+apns_registration: cmd=add, id=west4185@naver.com, pw=east1613, registration_id=8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a, device_unique_id=8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'west4185@naver.com' and mem_pwd = 'd67fbffa8da8471260146bd83e0e18f2' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'west4185@naver.com' and push_pwd = 'd67fbffa8da8471260146bd83e0e18f2' and push_device_type = 'I' and push_registration_id = '8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a'
+				, mod_date = now()
+			where push_id = 'west4185@naver.com' and push_device_type = 'I' and push_registration_id = '8d65554edcef8491652d4630dc25c90fa30263d3fb105b40c687829cedb7548a'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-174655
+apns_registration: cmd=add, id=louder@chol.com, pw=5990, registration_id=501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18, device_unique_id=501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'louder@chol.com' and mem_pwd = 'fed2a915daad9d7a59ac4898243d1118' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'louder@chol.com' and push_pwd = 'fed2a915daad9d7a59ac4898243d1118' and push_device_type = 'I' and push_registration_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+				, mod_date = now()
+			where push_id = 'louder@chol.com' and push_device_type = 'I' and push_registration_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-183200
+apns_registration: cmd=add, id=philolee@naver.com, pw=0107, registration_id=0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750, device_unique_id=0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'philolee@naver.com' and mem_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'philolee@naver.com' and push_pwd = 'd0518453a2c5c4cb8ebaa45aed2fe5bb' and push_device_type = 'I' and push_registration_id = '0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750'
+				, mod_date = now()
+			where push_id = 'philolee@naver.com' and push_device_type = 'I' and push_registration_id = '0ad1b61649852a1bfa13f6be7b0f4df36099a96256985c375f5f427ce826b750'
+apns_registration: resCode = 200
+
+apns_registration: ** 20130206-205057
+apns_registration: cmd=add, id=louder@chol.com, pw=5990, registration_id=501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18, device_unique_id=501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18
+apns_registration: message=Y, receipt=Y, work=Y, notice=Y
+apns_registration: sql = select * from member_info where mem_id = 'louder@chol.com' and mem_pwd = 'fed2a915daad9d7a59ac4898243d1118' and del_yn = 'N'
+apns_registration: 인증성공
+apns_registration: sql = select * from push_member where push_id = 'louder@chol.com' and push_pwd = 'fed2a915daad9d7a59ac4898243d1118' and push_device_type = 'I' and push_registration_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+apns_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_device_unique_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+				, mod_date = now()
+			where push_id = 'louder@chol.com' and push_device_type = 'I' and push_registration_id = '501f5efb938c907a7c2de5d3dc770cdd4936026b933f124184acf2c9d090de18'
+apns_registration: resCode = 200

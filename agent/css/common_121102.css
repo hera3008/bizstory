@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*
+Author:우덕성
+Version:1.0
+*/
+
+@import url('../../common/css/global.css');                                    /* 공통적용 부분 정의                 */
+@import url('../../common/css/sidebar.css');                                   /* 좌측메뉴 영역 정의                 */
+@import url('../../common/css/jquery-ui-1.8.16.custom.css');                   /* 제이쿼리 UI                        */
+@import url('../../common/upload/uploadify.css');                              /* 멀티파일업로드 정의                */
+
+@import url('../../bizstory/css/layout.css');                           /* 레이아웃 정의         */
+@import url('../../bizstory/css/style.css');                            /* 스타일 정의           */
+@import url('../../bizstory/css/jquery.lightbox-0.5.css');              /* 갤러리보기 */
+
+@import url('jquery.lightbox.css');                            /* 갤러리           */

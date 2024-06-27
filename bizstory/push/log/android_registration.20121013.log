@@ -1,0 +1,56 @@
+
+c2dm_registration: ** 20121013-104908
+c2dm_registration: cmd=add, id=neo@neolohas.net, pw=neo0624, registration_id=, device_unique_id=73FB246C269F700779DFA67259FEB72B
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'neo@neolohas.net' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neo@neolohas.net' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '73FB246C269F700779DFA67259FEB72B'
+				, mod_date = now()
+			where push_id = 'neo@neolohas.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});
+
+c2dm_registration: ** 20121013-104908
+c2dm_registration: cmd=registration, id=neo@neolohas.net, pw=neo0624, registration_id=APA91bEok_xmyW8wQsKECJQzzyAGtJaDCSGvojnU-LCZ3Twlx2lo7SptCIqMk_X6uYcJb1MokBdY1ZCf6FDvhIJBORm5ZmCrTZask7bb0pfnbDVcKo8_UTaE8CGMvEeA6oAGls8rQd8CkahIWDM8s-68CiEQmiNxUQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'neo@neolohas.net' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neo@neolohas.net' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bEok_xmyW8wQsKECJQzzyAGtJaDCSGvojnU-LCZ3Twlx2lo7SptCIqMk_X6uYcJb1MokBdY1ZCf6FDvhIJBORm5ZmCrTZask7bb0pfnbDVcKo8_UTaE8CGMvEeA6oAGls8rQd8CkahIWDM8s-68CiEQmiNxUQ', mod_date = now() where push_id = 'neo@neolohas.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});
+
+c2dm_registration: ** 20121013-112336
+c2dm_registration: cmd=add, id=hsg1028@greatworks.co.kr, pw=3916, registration_id=, device_unique_id=235CB31B1E043BC8CDA0C5B9079CBBE0
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'hsg1028@greatworks.co.kr' and mem_pwd = '0d51e966010d6db1b3048a18f18fd083' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and push_pwd = '0d51e966010d6db1b3048a18f18fd083'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '235CB31B1E043BC8CDA0C5B9079CBBE0'
+				, mod_date = now()
+			where push_id = 'hsg1028@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"한승규"}]});
+
+c2dm_registration: ** 20121013-112337
+c2dm_registration: cmd=registration, id=hsg1028@greatworks.co.kr, pw=3916, registration_id=APA91bE18ww3FWG3FQFg2KVu2qHj0XjH0A17_DdXWg76EB22L-879qjUZsPhYTsDRn2g6hDB_TQ0utmSS12LyVZPq_uzCCKLJc19VK4yfmOw4XDviahXw4jv6vi-AllM98g4Qg9ubyLhiLmz3pfhhQtVX7w0BQbdVA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'hsg1028@greatworks.co.kr' and mem_pwd = '0d51e966010d6db1b3048a18f18fd083' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'hsg1028@greatworks.co.kr' and push_pwd = '0d51e966010d6db1b3048a18f18fd083' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bE18ww3FWG3FQFg2KVu2qHj0XjH0A17_DdXWg76EB22L-879qjUZsPhYTsDRn2g6hDB_TQ0utmSS12LyVZPq_uzCCKLJc19VK4yfmOw4XDviahXw4jv6vi-AllM98g4Qg9ubyLhiLmz3pfhhQtVX7w0BQbdVA', mod_date = now() where push_id = 'hsg1028@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"한승규"}]});

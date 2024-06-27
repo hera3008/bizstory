@@ -1,0 +1,36 @@
+
+c2dm_registration: ** 20121005-102257
+c2dm_registration: cmd=add, id=wbg92@naver.com, pw=8835, registration_id=, device_unique_id=7E531D4C2A004AE724DAA6165AFC19CE
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'wbg92@naver.com' and mem_pwd = '2d1fb2408494857e5709319d76f55262' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'wbg92@naver.com' and push_pwd = '2d1fb2408494857e5709319d76f55262'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_device_unique_id, reg_date, del_yn) values ('14','18','311','wbg92@naver.com','2d1fb2408494857e5709319d76f55262','조윤희','Y','A','','Y','Y','Y','Y','7E531D4C2A004AE724DAA6165AFC19CE',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"조윤희"}]});
+
+c2dm_registration: ** 20121005-102258
+c2dm_registration: cmd=registration, id=wbg92@naver.com, pw=8835, registration_id=APA91bEVA4S5v-qnCdsCldmEjT9ZcrNSBTByeQpasgTn8i5CGdtYQRmnt9LuLnz-fqnny2h-at_JdL_VdifUw-ckbwmq0d1grrq_CcYZbbUrikTBxmmW1-2AAcaKw7TLhPIhWp-b0ydd815qpXWA7QYK7iXGzPdbfw, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'wbg92@naver.com' and mem_pwd = '2d1fb2408494857e5709319d76f55262' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'wbg92@naver.com' and push_pwd = '2d1fb2408494857e5709319d76f55262' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bEVA4S5v-qnCdsCldmEjT9ZcrNSBTByeQpasgTn8i5CGdtYQRmnt9LuLnz-fqnny2h-at_JdL_VdifUw-ckbwmq0d1grrq_CcYZbbUrikTBxmmW1-2AAcaKw7TLhPIhWp-b0ydd815qpXWA7QYK7iXGzPdbfw', mod_date = now() where push_id = 'wbg92@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"조윤희"}]});
+
+c2dm_registration: ** 20121005-102320
+c2dm_registration: cmd=add, id=ksj6604@naver.com, pw=7219, registration_id=, device_unique_id=AF49472678C72599C159407E06318E8A
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'ksj6604@naver.com' and mem_pwd = '07403bf06769ffc1d294f0d0dba94ca7' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ksj6604@naver.com' and push_pwd = '07403bf06769ffc1d294f0d0dba94ca7'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_device_unique_id, reg_date, del_yn) values ('14','18','309','ksj6604@naver.com','07403bf06769ffc1d294f0d0dba94ca7','구성주','Y','A','','Y','Y','Y','Y','AF49472678C72599C159407E06318E8A',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"구성주"}]});
+
+c2dm_registration: ** 20121005-102321
+c2dm_registration: cmd=registration, id=ksj6604@naver.com, pw=7219, registration_id=APA91bGCXNKzBMR2VFLuhsyeBHOeOeKR13hqC0szgvk5EWE9zcmV7eFp8neeHCiKSlgYdZhVfFl8XSokwd_kqxp9L84D7NliT4f3OhCBLb9aWA9TrN02eeCWqoiR8019ZooExI89vOe20v-rRlk6WG6HYeHlmJ_aow, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'ksj6604@naver.com' and mem_pwd = '07403bf06769ffc1d294f0d0dba94ca7' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ksj6604@naver.com' and push_pwd = '07403bf06769ffc1d294f0d0dba94ca7' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGCXNKzBMR2VFLuhsyeBHOeOeKR13hqC0szgvk5EWE9zcmV7eFp8neeHCiKSlgYdZhVfFl8XSokwd_kqxp9L84D7NliT4f3OhCBLb9aWA9TrN02eeCWqoiR8019ZooExI89vOe20v-rRlk6WG6HYeHlmJ_aow', mod_date = now() where push_id = 'ksj6604@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"구성주"}]});

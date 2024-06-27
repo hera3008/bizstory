@@ -1,0 +1,28 @@
+
+c2dm_registration: ** 20130208-171922
+c2dm_registration: cmd=add, id=ytj@gunsol.com, pw=bytj6364, registration_id=, device_unique_id=0AF9F4508CA008ABC6B9CB3F943C078E
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'ytj@gunsol.com' and mem_pwd = 'f777cc41b41950998e0f010415132efc' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ytj@gunsol.com' and push_pwd = 'f777cc41b41950998e0f010415132efc'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '0AF9F4508CA008ABC6B9CB3F943C078E'
+				, mod_date = now()
+			where push_id = 'ytj@gunsol.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"윤태정"}]});
+
+c2dm_registration: ** 20130208-171923
+c2dm_registration: cmd=registration, id=ytj@gunsol.com, pw=bytj6364, registration_id=APA91bFv8meH-vNXvUTsrYC5dVZMRuHU7-g24fmZMK8fa4xRSe7GjhMVPWghrGtZ40L2MzT99oDNkb8YPJ6KOodkl99h_zVEMK-gtM-AD5zRDkfLFQQ0L8lblPViUx_jtSx2eaGHOmvO1R6EykoZNR8IgOWgMM6N0A, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'ytj@gunsol.com' and mem_pwd = 'f777cc41b41950998e0f010415132efc' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ytj@gunsol.com' and push_pwd = 'f777cc41b41950998e0f010415132efc' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bFv8meH-vNXvUTsrYC5dVZMRuHU7-g24fmZMK8fa4xRSe7GjhMVPWghrGtZ40L2MzT99oDNkb8YPJ6KOodkl99h_zVEMK-gtM-AD5zRDkfLFQQ0L8lblPViUx_jtSx2eaGHOmvO1R6EykoZNR8IgOWgMM6N0A', mod_date = now() where push_id = 'ytj@gunsol.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"윤태정"}]});

@@ -1,0 +1,56 @@
+
+c2dm_registration: ** 20130201-113149
+c2dm_registration: cmd=add, id=lovelyjini@daum.net, pw=sd578648, registration_id=, device_unique_id=A90DD370159EF9C861B16EF819B41568
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'lovelyjini@daum.net' and mem_pwd = 'c574471ad46a76445a1fc9a6333795d6' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and push_pwd = 'c574471ad46a76445a1fc9a6333795d6'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'A90DD370159EF9C861B16EF819B41568'
+				, mod_date = now()
+			where push_id = 'lovelyjini@daum.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이호진"}]});
+
+c2dm_registration: ** 20130201-113150
+c2dm_registration: cmd=registration, id=lovelyjini@daum.net, pw=sd578648, registration_id=APA91bHWuh13RUD5QPVx6la_RuqjEq_fI9U1CmAJo3MCdo2SqGA_fxQJJUMnzVhSoLw54OFVOalLUUxnOOmDUnxAoq9SIpv8ZguXi5BuXr3Y5i02YK6eD3mrYp6UTUq8Kq5lmgoNJvfAdmhCCrXmbxLRiS3wN4pP_A, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'lovelyjini@daum.net' and mem_pwd = 'c574471ad46a76445a1fc9a6333795d6' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'lovelyjini@daum.net' and push_pwd = 'c574471ad46a76445a1fc9a6333795d6' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHWuh13RUD5QPVx6la_RuqjEq_fI9U1CmAJo3MCdo2SqGA_fxQJJUMnzVhSoLw54OFVOalLUUxnOOmDUnxAoq9SIpv8ZguXi5BuXr3Y5i02YK6eD3mrYp6UTUq8Kq5lmgoNJvfAdmhCCrXmbxLRiS3wN4pP_A', mod_date = now() where push_id = 'lovelyjini@daum.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"이호진"}]});
+
+c2dm_registration: ** 20130201-174749
+c2dm_registration: cmd=add, id=borami5712@naver.com, pw=8512, registration_id=, device_unique_id=DEAD95DB97EFBE128FE6F987CC62923A
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'borami5712@naver.com' and mem_pwd = '44c243ccb244f0fd9038d5978dfb34c4' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'borami5712@naver.com' and push_pwd = '44c243ccb244f0fd9038d5978dfb34c4'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = 'DEAD95DB97EFBE128FE6F987CC62923A'
+				, mod_date = now()
+			where push_id = 'borami5712@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"방보람"}]});
+
+c2dm_registration: ** 20130201-174750
+c2dm_registration: cmd=registration, id=borami5712@naver.com, pw=8512, registration_id=APA91bFNPetGWPe6TtvRwAYkFi3CYh0WGDfVvVe24jPjD9GEnwlddYTBwAGsAGYrT8SQ_AmdyotDAlhGklGU626LDJkxm-1_oe5Mnc4XMG48KICnUuCkzW8OcQxZBJIyTr4l6tkD-Hzh6yxhfs4XkAXyYjVMQSRtpg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'borami5712@naver.com' and mem_pwd = '44c243ccb244f0fd9038d5978dfb34c4' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'borami5712@naver.com' and push_pwd = '44c243ccb244f0fd9038d5978dfb34c4' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bFNPetGWPe6TtvRwAYkFi3CYh0WGDfVvVe24jPjD9GEnwlddYTBwAGsAGYrT8SQ_AmdyotDAlhGklGU626LDJkxm-1_oe5Mnc4XMG48KICnUuCkzW8OcQxZBJIyTr4l6tkD-Hzh6yxhfs4XkAXyYjVMQSRtpg', mod_date = now() where push_id = 'borami5712@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"방보람"}]});

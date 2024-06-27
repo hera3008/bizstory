@@ -1,0 +1,84 @@
+
+c2dm_registration: ** 20121121-090855
+c2dm_registration: cmd=add, id=neo@neolohas.net, pw=neo0624, registration_id=, device_unique_id=73FB246C269F700779DFA67259FEB72B
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'neo@neolohas.net' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neo@neolohas.net' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '73FB246C269F700779DFA67259FEB72B'
+				, mod_date = now()
+			where push_id = 'neo@neolohas.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});
+
+c2dm_registration: ** 20121121-090856
+c2dm_registration: cmd=registration, id=neo@neolohas.net, pw=neo0624, registration_id=APA91bGr8ppxmTqXMvZKEvy7TXZJ_kOR3Pzgiw2Md9cWLjBV01a8La8XKG543Fv5_wpSlQ-d4T1Xpl-8-_NnIqmZ38gQkCFhPR3sk3SD-VbIwDrvn6t8VmjK_CkD1RYVaP2D31eez2kbohp-FjbvUOstxuL2TLYLYg, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'neo@neolohas.net' and mem_pwd = '3673b457fc29b36a70547b12e4a4f42b' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'neo@neolohas.net' and push_pwd = '3673b457fc29b36a70547b12e4a4f42b' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bGr8ppxmTqXMvZKEvy7TXZJ_kOR3Pzgiw2Md9cWLjBV01a8La8XKG543Fv5_wpSlQ-d4T1Xpl-8-_NnIqmZ38gQkCFhPR3sk3SD-VbIwDrvn6t8VmjK_CkD1RYVaP2D31eez2kbohp-FjbvUOstxuL2TLYLYg', mod_date = now() where push_id = 'neo@neolohas.net' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"고광태"}]});
+
+c2dm_registration: ** 20121121-112125
+c2dm_registration: cmd=add, id=wbg92@naver.com, pw=8835, registration_id=, device_unique_id=7E531D4C2A004AE724DAA6165AFC19CE
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'wbg92@naver.com' and mem_pwd = '2d1fb2408494857e5709319d76f55262' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'wbg92@naver.com' and push_pwd = '2d1fb2408494857e5709319d76f55262'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '7E531D4C2A004AE724DAA6165AFC19CE'
+				, mod_date = now()
+			where push_id = 'wbg92@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"조윤희"}]});
+
+c2dm_registration: ** 20121121-112126
+c2dm_registration: cmd=registration, id=wbg92@naver.com, pw=8835, registration_id=APA91bHsoiDfi2bunjABdNlOxoYXEa7Fu38PMFSZv8REZL7VT6xeYd-u_VNvo_FyZAYxSOY7HxZPTsHSij5W73CAOeGm-7hRT_pzmvh53nqn5pJnmF0Ns9Wbkco4g43TgJfbuCCbyyyx-sPpchUC2q_dZaTXe9_myQ, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'wbg92@naver.com' and mem_pwd = '2d1fb2408494857e5709319d76f55262' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'wbg92@naver.com' and push_pwd = '2d1fb2408494857e5709319d76f55262' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bHsoiDfi2bunjABdNlOxoYXEa7Fu38PMFSZv8REZL7VT6xeYd-u_VNvo_FyZAYxSOY7HxZPTsHSij5W73CAOeGm-7hRT_pzmvh53nqn5pJnmF0Ns9Wbkco4g43TgJfbuCCbyyyx-sPpchUC2q_dZaTXe9_myQ', mod_date = now() where push_id = 'wbg92@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"조윤희"}]});
+
+c2dm_registration: ** 20121121-112723
+c2dm_registration: cmd=add, id=edu_plan@naver.com, pw=soul1616, registration_id=, device_unique_id=7B09A2A4311F4AC6B69F844C9B66B99B
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'edu_plan@naver.com' and mem_pwd = '6a30663683e0d7734d6f2b02f88da3fd' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'edu_plan@naver.com' and push_pwd = '6a30663683e0d7734d6f2b02f88da3fd'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '7B09A2A4311F4AC6B69F844C9B66B99B'
+				, mod_date = now()
+			where push_id = 'edu_plan@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"안홍식"}]});
+
+c2dm_registration: ** 20121121-112724
+c2dm_registration: cmd=registration, id=edu_plan@naver.com, pw=soul1616, registration_id=APA91bFzmD3yqOuiz6a6WPx_QuSflS56yrhbXnzaFmAIsq0S9pjVkZahjBoc5pyc31tjuU5mvuN8IX4YPa5xae_JG_cKDNfNZnCrhcrt0UXL2ny2mwKKvoefgGSvx1v074EZwUe5wG1Hmp3SAJ1DdD_FxGIsT7EJ6Q, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'edu_plan@naver.com' and mem_pwd = '6a30663683e0d7734d6f2b02f88da3fd' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'edu_plan@naver.com' and push_pwd = '6a30663683e0d7734d6f2b02f88da3fd' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bFzmD3yqOuiz6a6WPx_QuSflS56yrhbXnzaFmAIsq0S9pjVkZahjBoc5pyc31tjuU5mvuN8IX4YPa5xae_JG_cKDNfNZnCrhcrt0UXL2ny2mwKKvoefgGSvx1v074EZwUe5wG1Hmp3SAJ1DdD_FxGIsT7EJ6Q', mod_date = now() where push_id = 'edu_plan@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"안홍식"}]});

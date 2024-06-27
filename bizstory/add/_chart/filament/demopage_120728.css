@@ -1,0 +1,63 @@
+body {
+	font-family: Verdana, sans-serif; font-size: 62.5%;
+}
+table {
+	width: 500px; height: 200px; margin-left: 30px; border-collapse: collapse;
+}
+table.accessHide {
+	left: -999999px; position: absolute;
+}
+td {
+	padding: 4px; border: 1px solid rgb(221, 221, 221); height: 1.5em; text-align: center;
+}
+th {
+	padding: 4px; border: 1px solid rgb(221, 221, 221); height: 1.5em; text-align: center;
+}
+td.hover {
+	color: orange;
+}
+td.input {
+	padding: 0px;
+}
+td input {
+	margin: 1px; padding: 2px; border: 1px solid orange; width: 20px;
+}
+td input:focus {
+	margin: 1px; padding: 2px; border: 1px solid orange; width: 20px;
+}
+caption {
+	margin: 0px 0px 0.5em; text-align: left; font-size: 1.3em;
+}
+.visualize {
+	margin: 60px 0px 0px 30px;
+}
+.editableNote {
+	background: rgb(254, 251, 226); margin: 1.5em 0px; padding: 10px; border: 1px solid rgb(140, 194, 100); font-size: 1.2em;
+}
+.visualize-pie .visualize-info {
+	padding: 0px; border: 0px currentColor; left: 10px; top: 10px; right: auto;
+}
+.visualize-pie ul.visualize-title {
+	border: 0px currentColor; font-weight: bold;
+}
+.visualize-pie ul.visualize-key li {
+	float: none;
+}
+.chartConfiguratorThingy {
+	padding: 10px; border: 1px solid rgb(221, 221, 221); overflow: auto; display: none;
+}
+.chartConfiguratorThingy h2 {
+	color: rgb(102, 102, 102); font-size: 1.4em;
+}
+fieldset {
+	margin: 5px 5px 5px 0px; width: 45%; float: left;
+}
+legend {
+	font-size: 1.2em;
+}
+.dependencies {
+	padding: 15px;
+}
+label {
+	width: 90px; display: inline-block;
+}

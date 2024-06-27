@@ -1,0 +1,155 @@
+<?
+/*
+	생성 : 2012.07.02
+	위치 : 설정관리 > 접수관리 > 에이전트관리 > 배너관리 - 목록
+*/
+	require_once "../common/setting.php";
+	require_once "../common/no_direct.php";
+	require_once "../common/member_chk.php";
+
+	$code_comp = $_SESSION[$sess_str . '_comp_idx'];
+	$code_part = search_company_part($code_part);
+
+	$set_banner_cnt = $comp_set_data['banner_cnt'];
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 변수
+	$f_default = 'fmode=' . $send_fmode . '&amp;smode=' . $send_smode;
+	$f_search  = $f_default;
+	$f_page    = $f_search;
+	$f_all     = $f_page;
+	$f_script  = str_replace('&amp;', '&', $f_all);
+	$field_str = str_replace('&amp;', '|', $f_all);
+
+	$form_default  = '
+		<input type="hidden" name="fmode" value="' . $send_fmode . '" />
+		<input type="hidden" name="smode" value="' . $send_smode . '" />
+	';
+	$form_search = $form_default . '';
+	$form_page = $form_search . '';
+	$form_all = $form_page . '
+		<input type="hidden" name="field_str" value="' . $field_str . '" />
+	';
+
+	$where = " and ab.comp_idx = '" . $code_comp . "' and ab.part_idx = '" . $code_part . "'";
+	$list = agent_banner_data('list', $where, '', '', '');
+
+	if ($auth_menu['int'] == "Y") // 등록버튼
+	{
+		if ($set_banner_cnt <= $list['total_num'])
+		{
+			$btn_write = '<a href="javascript:void(0);" onclick="check_auth_popup(\'더이상 배너를 등록할 수 없습니다.<br />최대 ' . $set_banner_cnt . '개까지 가능합니다.\')" class="btn_big_green"><span>배너등록</span></a>';
+		}
+		else
+		{
+			$btn_write = '<a href="javascript:void(0);" onclick="popupform_open(\'\')" class="btn_big_green"><span>등록</span></a>';
+		}
+	}
+?>
+<div class="etc_bottom">
+	<?=$btn_write;?>
+</div>
+<hr />
+
+<table class="tinytable view">
+<colgroup>
+	<col width="60px" />
+	<col width="380px" />
+	<col />
+	<col width="60px" />
+	<col width="110px" />
+</colgroup>
+<thead>
+	<tr>
+		<th class="nosort"><h3>순서</h3></th>
+		<th class="nosort"><h3>배너이미지</h3></th>
+		<th class="nosort"><h3>제목/링크주소</h3></th>
+		<th class="nosort"><h3>보기</h3></th>
+		<th class="nosort"><h3>관리</h3></th>
+	</tr>
+</thead>
+<tbody>
+<?
+	$i = 0;
+	if ($list["total_num"] == 0) {
+?>
+	<tr>
+		<td colspan="5">등록된 데이타가 없습니다.</td>
+	</tr>
+<?
+	}
+	else
+	{
+		$i = 1;
+		foreach($list as $k => $data)
+		{
+			if (is_array($data))
+			{
+				$sort_data = query_view("
+					select min(sort) as min_sort, max(sort) as max_sort
+					from agent_banner
+					where del_yn = 'N' and comp_idx ='" . $data['comp_idx'] . "' and part_idx ='" . $data['part_idx'] . "'");
+
+				if ($auth_menu['mod'] == "Y")
+				{
+					$btn_up     = "check_code_data('sort_up', '', '" . $data['ab_idx'] . "', '')";
+					$btn_down   = "check_code_data('sort_down', '', '" . $data['ab_idx'] . "', '')";
+					$btn_view   = "check_code_data('check_yn', 'view_yn', '" . $data['ab_idx'] . "', '" . $data["view_yn"] . "')";
+					$btn_modify = "popupform_open('" . $data['ab_idx'] . "')";
+				}
+				else
+				{
+					$btn_up     = "check_auth_popup('modify')";
+					$btn_down   = "check_auth_popup('modify')";
+					$btn_modify = "check_auth_popup('modify')";
+				}
+
+				if ($auth_menu['del'] == "Y") $btn_delete = "check_delete('" . $data['ab_idx'] . "')";
+				else $btn_delete = "check_auth_popup('delete');";
+
+				if ($data["img_sname"] != '')
+				{
+					$img_str = '<img src="' . $comp_banner_dir . '/' . $data["img_sname"] . '" alt="' . $data["content"] . '" width="373" height="100" />';
+				}
+				else
+				{
+					$img_str = '';
+				}
+
+				if ($data['link_url'] == '') $img_str = $img_str;
+				else $img_str = '<a href="http://' . $data['link_url'] . '" target="_blank">' . $img_str . '</a>';
+?>
+	<tr>
+		<td>
+			<div class="sort">
+<?
+				if ($sort_data["min_sort"] != $data["sort"] && $sort_data["min_sort"] != "")
+				{
+					echo '<img src="bizstory/images/icon/up.gif" alt="위로" class="pointer" onclick="', $btn_up, '" />';
+				}
+				if($sort_data["max_sort"] != $data["sort"] && $sort_data["max_sort"] != "")
+				{
+					echo '<img src="bizstory/images/icon/down.gif" alt="아래로" class="pointer" onclick="', $btn_down, '" />';
+				}
+?>
+			</div>
+		</td>
+		<td><?=$img_str;?></td>
+		<td>
+			<div class="left"><?=$data["content"];?></div>
+			<div class="left"><?=$data["link_url"];?></div>
+		</td>
+		<td><img src="bizstory/images/icon/<?=$data['view_yn'];?>.gif" alt="<?=$data['view_yn'];?>" class="pointer" onclick="<?=$btn_view;?>" /></td>
+		<td>
+			<a href="javascript:void(0);" onclick="<?=$btn_modify;?>" class="btn_con_blue"><span>수정</span></a>
+			<a href="javascript:void(0);" onclick="<?=$btn_delete;?>" class="btn_con_red"><span>삭제</span></a>
+		</td>
+	</tr>
+<?
+				$i++;
+			}
+		}
+	}
+?>
+</tbody>
+</table>

@@ -1,0 +1,5 @@
+bizstory_push: ** 20141011-113143
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=77, part_idx=169, mem_idx=596, receiver=jmj@daeboo.com, msg_type=message, message=[쪽지] 차장님, &nbsp;국내금형 책임자관..
+bizstory_push: sql = select * from push_member where push_id = 'jmj@daeboo.com' and del_yn = 'N'
+bizstory_push: [jmj@daeboo.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20141011113143730341', 77, 169, 596, 'jmj@daeboo.com', 'A', 'APA91bGFHP8tIKn4JSInZqf001CUH5pG6vJbfDCrENheN1ybApkNRtiGcr0qscyyOnxN0a1EjcwWtfJ1fJtDAMWrssMmfk8WPJXCIz2nNO_pnCZ5k-p66G0di8_XFksXawA7-3M2cN-WOXc5DiovHrsoniypJqD5PMnI_ZtfGP2BAMDfZjQPwGY', '정명재', 'ios', 'message', '[쪽지] 차장님, &nbsp;국내금형 책임자관..', '9', '', now())

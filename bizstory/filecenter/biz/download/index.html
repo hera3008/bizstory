@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>CHXDownload</title>
+
+	<!-- CSS, JS 추가 -->
+	<link rel="stylesheet" type="text/css" href="css/chxdownload.css" />
+	<script type="text/javascript" src="chxdownload.js"></script>
+	<!--<script type="text/javascript" src="jquery-3.3.1.js"></script>-->
+</head>
+<body>
+<h3>CHXDownload HTML5 DEMO</h3>
+<form name="theForm" id="idForm" method="POST">
+    <input type="checkbox" name="fileId[]" value="1" title="" />1번 파일<br />
+    <input type="checkbox" name="fileId[]" value="2" title="" />2번 파일<br />
+    <input type="checkbox" name="fileId[]" value="3" title="" />3번 파일<br />
+    <input type="button" value="Download" onclick="checkOther();" />
+</form>
+<p>&nbsp;</p>
+
+<!-- 다운로드 인터페이스 -->
+<div class="chxdownload_wrapper">
+	<div class="chxdownload_filelist" id="IdDownloadWrapper">
+		<div id="IdDownloadFileList">
+			<div class="chxdownload_filename">이름</div>
+			<div class="chxdownload_filesize">크기</div>
+			<div class="chxdownload_status">상태</div>
+		</div>
+	</div>
+	<div class="chxdownload_button">
+		<span class="chxdownload_remove_button" id="IdRemoveFileButton"></span>
+	</div>
+	<div>
+		<span class="progress_label">파일</span>
+		<progress max="100" value="0" id="IdProgressBar" class="progress_bar"></progress>
+		<label id="IdProgressBarLabel" class="progress_label" style="display: inline-block; width: 35px">0%</label>
+		<label id="IdDownloadingFileSize" class="progress_label">(0 Bytes)</label>
+	</div>
+	<div>
+		<span class="progress_label">전체</span>
+		<progress max="100" value="0" id="IdTotalProgressBar" class="progress_bar"></progress>
+		<label id="IdTotalProgressBarLabel" class="progress_label" style="display: inline-block; width: 35px">0%</label>
+		<label id="IdDownloadingTotalFileSize" class="progress_label">(0 Bytes)</label>
+	</div>
+</div>
+
+<!-- 파일 전송이 끝나면 호출되
+<script type="text/javascript">
+	function DownloadFinished (files) {
+	    var i = 0, file;
+	/*for (; i < files.length; i++) {
+	        file = files[i];
+	        console.log('Name: ' + file.name);
+	        console.log('Size: ' + file.size);
+	        console.log('Type: ' + file.type);
+		}
+	*/
+	//	console.log('FINISHED');
+	}
+</script>
+
+<!-- 업로드 시작 스크립트 -->
+<script type="text/javascript">
+	var downloader = new CHXDownload();
+
+	downloader.callme = DownloadFinished;  // 전송이 끝나면 호출될 함수
+	downloader.run();
+
+	function checkOther() {
+        var checkbox = document.querySelectorAll('input[name="fileId[]"]');
+		var otherFiles = [];
+        [].filter.call(checkbox, function (el) {
+            if (el.checked) {
+				otherFiles.push(el.value);
+            }
+        });
+        downloader.setOtherFiles(otherFiles);
+    }
+</script>
+
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<!--<button onclick="downloader.startDownload()">파일 다운로드</b-->
+</body>
+</html>

@@ -1,0 +1,33 @@
+bizstory_push: ** 20140426-093052
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=67, part_idx=145, mem_idx=474, receiver=drfac@nate.com, msg_type=receipt, message=[접수] [자운고등학교] '스크립팅 방지' ...
+bizstory_push: sql = select * from push_member where push_id = 'drfac@nate.com' and del_yn = 'N'
+bizstory_push: [drfac@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140426093052115897', 67, 145, 474, 'drfac@nate.com', 'A', 'APA91bHUnNVLjWW6nVmZgs9w6dYFrNoubZwbGGe7vH9XBItk006nYH30BhGj4o7zV-NUHFa31Ft5ubFUyWxCSLKYlhSNK1iZQepBBwZO9NhTdgpoKhsXIT1s760ACcZJwB-9T1POJVMfQ5Q4ZrHimagg0-2iG7V1tDSE2OKaci0w4h0RLH7SGiE', '황성준', 'ios', 'receipt', '[접수] [자운고등학교] '스크립팅 방지' ...', '9', '', now())
+bizstory_push: ** 20140426-093332
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=67, part_idx=145, mem_idx=474, receiver=drfac@nate.com, msg_type=receipt, message=[접수] [자운고등학교] 스크립트...& 2...
+bizstory_push: sql = select * from push_member where push_id = 'drfac@nate.com' and del_yn = 'N'
+bizstory_push: [drfac@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140426093332537839', 67, 145, 474, 'drfac@nate.com', 'A', 'APA91bHUnNVLjWW6nVmZgs9w6dYFrNoubZwbGGe7vH9XBItk006nYH30BhGj4o7zV-NUHFa31Ft5ubFUyWxCSLKYlhSNK1iZQepBBwZO9NhTdgpoKhsXIT1s760ACcZJwB-9T1POJVMfQ5Q4ZrHimagg0-2iG7V1tDSE2OKaci0w4h0RLH7SGiE', '황성준', 'ios', 'receipt', '[접수] [자운고등학교] 스크립트...& 2...', '9', '', now())
+bizstory_push: ** 20140426-093332
+bizstory_push: ** 20140426-120746
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=5, part_idx=5, mem_idx=140, receiver=kty5458@hanmail.net, msg_type=receipt, message=[접수] [왕산초등학교] 교무실 예비컴퓨터 ...
+bizstory_push: sql = select * from push_member where push_id = 'kty5458@hanmail.net' and del_yn = 'N'
+bizstory_push: [kty5458@hanmail.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140426120746636276', 5, 5, 140, 'kty5458@hanmail.net', 'A', 'APA91bFAJu5UJ_kY99MSOG5-E1RMNWCLk4-Jj62Lu0wG8MNodntQEkyqT0qZBj313pXl8e0CR44cLykQjwnqBqP31i2euKFbcR0no9D7mSKmZQk_1AOf7Ok9smMncqh6nEdFjTj5vY6gAaRd8mpNnUIpDLJuvNRX_J_XBZIw8nCg593SIL0JQLg', '김태영', 'ios', 'receipt', '[접수] [왕산초등학교] 교무실 예비컴퓨터 ...', '9', '', now())
+bizstory_push: ** 20140426-120746
+bizstory_push: ** 20140426-123039
+bizstory_push: ** 20140426-123201
+bizstory_push: ** 20140426-123226
+bizstory_push: ** 20140426-123255
+bizstory_push: ** 20140426-123336
+bizstory_push: ** 20140426-123400
+bizstory_push: ** 20140426-123422
+bizstory_push: ** 20140426-123449
+bizstory_push: ** 20140426-123506
+bizstory_push: ** 20140426-123529
+bizstory_push: ** 20140426-124018
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=176, receiver=woo@miraensys.com, msg_type=receipt, message=[접수] [검산초등학교] 오류메세지  반복 ...
+bizstory_push: sql = select * from push_member where push_id = 'woo@miraensys.com' and del_yn = 'N'
+bizstory_push: [woo@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140426124018951669', 32, 39, 176, 'woo@miraensys.com', 'A', 'APA91bF_z3c7G0eq8XS9gXgzmU-JTuiKWFyqEaf1ocSLNx2H3DWGlzPliIoTyYYBNSgh4DKTawXkpkGIeQRg8c13TrbJbU6z4raCIj3ZEL0cCgnmSGoRmOvs9R91Doq7iGfA5SSeCZAQDI-aOqAXDYOc9bU_UNjbDg', '우영근', 'ios', 'receipt', '[접수] [검산초등학교] 오류메세지  반복 ...', '9', '', now())
+bizstory_push: ** 20140426-124018

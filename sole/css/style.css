@@ -1,0 +1,609 @@
+/* 최고관리자 CSS */
+.comp_list li {float:left; margin:0px 5px;}
+
+/* Sub Navi */
+#sub_navi li a em {
+	background-image:url("/bizstory/images/icon/navi_icon.png") !important;
+}
+/* Login Form */
+	#layout_table td#container #login_frame {
+		width:100%;
+		height:509px;
+	}
+		#layout_table td#container #login_frame .login_box {
+			width:897px;
+			height:509px;
+			margin:0px auto;
+			position:relative;
+		}
+			#layout_table td#container #login_frame .login_logo {
+				width:330px;
+				height:190px;
+				position:absolute;
+				top:90px;
+				left:10px;
+			}
+			#layout_table td#container #login_frame .login_app {
+				width:322px;
+				height:133px;
+				position:absolute;
+				top:180px;
+				left:10px;
+			}
+				#layout_table td#container #login_frame .login_app ul {
+					margin-top:37px;
+					padding-left:8px;
+				}	
+					#layout_table td#container #login_frame .login_app ul li {
+						display:inline;
+						padding-right:1px;
+					}	
+			#layout_table td#container #login_frame .login_capture {
+				width:468px;
+				height:253px;
+				position:absolute;
+				top:20px;
+				right:30px;
+			}
+			#layout_table td#container #login_frame .loginform {
+				width:340px;
+				height:200px;
+				position:absolute;
+				top:230px;
+				left:0px;
+				letter-spacing:-.05em;
+				*letter-spacing:-.05em;
+			}
+			#layout_table td#container #login_frame .loginform legend {
+				position:absolute;
+				left:-1000%;
+				top:0;
+				width:1px;
+				height:1px;
+				font-size:0;
+				line-height:0;
+				overflow:hidden;
+				display:none;
+			}
+			#layout_table td#container #login_frame .loginform .login_head {
+				width:272px;
+				height:23px;
+				position:absolute;
+				top:24px;
+				left:34px;
+				font-size:90%;
+				font-family:Dotum, 돋움;
+			}
+				#layout_table td#container #login_frame .loginform .login_head .login_title {
+					float:left;
+					color:#333;
+				}
+				#layout_table td#container #login_frame .loginform .login_head .login_type {
+					float:right;
+					color:#777;
+				}
+				#layout_table td#container #login_frame .loginform .login_head .login_type label {
+					float:left;
+					color:#888;
+					padding-left:10px;
+					cursor:pointer;
+					*cursor:hand;
+				}
+			#layout_table td#container #login_frame .loginform .login_body {
+				width:270px;
+				height:105px;
+				position:absolute;
+				top:45px;
+				left:35px;
+			}
+			#layout_table td#container #login_frame .loginform .login_body .label {
+				display:none;
+			}
+			#layout_table td#container #login_frame .loginform .login_body .type_text {
+				width:258px;
+				height:21px;
+				color:#888;
+				padding:7px 0 0 10px;
+			}
+			#layout_table td#container #login_frame .loginform .login_body div {
+				margin:4px 0px;
+			}
+			#layout_table td#container #login_frame .loginform .login_body div .login_left {
+				float:left;
+				font-size:70%;
+				font-family:Dotum, 돋움;
+				margin-top:6px;
+			}
+			#layout_table td#container #login_frame .loginform .login_body div .login_left label {
+				cursor:pointer;
+				*cursor:hand;
+				line-height:23px;
+			}
+			#layout_table td#container #login_frame .loginform .login_body div .login_right {
+				float:right;
+				margin-top:2px;
+			}
+			#layout_table td#container #login_frame .loginform .login_foot {
+				width:270px;
+				height:30px;
+				position:absolute;
+				top:149px;
+				left:35px;
+				font-size:12px;
+				z-index:10;
+			}
+				#layout_table td#container #login_frame .loginform .login_foot li {
+					float:left;
+					display:inline;
+					margin-right:15px;
+				}
+				#layout_table td#container #login_frame .loginform .login_foot li a {
+					color:#848689;
+					line-height:32px;
+				}
+				#layout_table td#container #login_frame .loginform .login_foot li a:hover {
+					color:#000;
+					text-decoration:underline;
+				}
+				#layout_table td#container #login_frame .loginform .login_foot li a strong {
+					color:#6b6d70;
+					*line-height:35px;
+				}
+				#layout_table td#container #login_frame .loginform .login_foot li a:hover strong {
+					color:#000;
+				}
+	/* 로그인 백그라운드 */
+	#layout_table td#container #login_frame {
+		background:url("/bizstory/images/common/login_bg.gif") repeat-x;
+		background-position:0px 0px;
+	}
+	#layout_table td#container #login_frame .login_logo {
+		text-indent:-9999px;
+		background:url("../images/common/login_logo.png") no-repeat;
+		background-position:-10px 0px;
+	}				
+	#layout_table td#container #login_frame .login_app {
+		background:url("/bizstory/images/common/app_bg.png") no-repeat;
+		background-position:0 0;
+	}
+	#layout_table td#container #login_frame .login_capture {
+		background:url("/bizstory/images/common/login_capture.png") no-repeat;
+		background-position:0px 0px;
+	}
+	#layout_table td#container #login_frame .loginform {
+		background:url("/bizstory/images/common/login_form.png") no-repeat;
+		background-position:0px 0px;
+	}
+	#layout_table td.login_footer {
+		width:100%;
+		height:30px;
+	}
+
+/* Ticker Notice */
+	#login_notice.ticker {
+		clear:both;
+		width:448px;
+		height:56px;
+		position:absolute;
+		top:287px;
+		right:10px;
+		overflow:hidden;
+		margin-top:0px;
+		background:url("/bizstory/images/common/login_notice.png") no-repeat;
+		background-position:0px 0px;
+		font-size:12px;
+	}
+		#login_notice.ticker .ticker_frame {
+			width:84%;
+			height:25px;
+			overflow:hidden;
+			border:none;
+			background:none;
+			-webkit-border-radius:0px;
+			padding-left:60px;
+			padding-top:14px;
+		}
+		/* 로그인 뉴스 관련 - width 지정해줘야함 */
+		#login_notice.ticker .ticker_frame p {
+			clear:both;
+			display:block;
+			width:1600px;
+		}
+
+	#login_notice #ticker-wrapper.has-js { 
+		width:86%;
+		height:31px;
+		padding-top:1px;
+		padding-left:30px !important;
+	}
+	#login_notice #ticker-swipe {
+		height:31px;
+		line-height:32px;
+		background:url("/bizstory/images/common/login_notice.png") no-repeat;
+		background-position:-60px 0px;
+	}
+	#login_notice #ticker-swipe span {
+		background:url("/bizstory/images/common/login_notice.png") no-repeat;
+		background-position:-60px 0px;
+		border-bottom:1px solid #767676;
+		height:25px;
+		width:7px;
+		display:block;
+	}
+	#login_notice #ticker-title {
+		color:#999;
+		text-shadow:#242629 1px 1px 0px;
+	}
+	#login_notice #ticker-content {
+		color:#777;
+		text-shadow:#242629 1px 1px 0 !important;
+	}
+	#login_notice #ticker-content a {
+		color:#777;
+	}
+	#login_notice #ticker-content a:hover {
+		color:#ddd;
+	}
+	#login_notice #ticker-controls {
+		left:40%;
+	}
+
+/* Ajax Write */
+	.ajax_write {
+		clear:both;
+		width:99.7%;
+		letter-spacing:-.05em;
+		*letter-spacing:-.05em;
+		position:relative;
+		margin:15px 0px;
+		background:#ebedee;
+		border:1px solid #bbb;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border-radius:3px;
+		overflow:hidden;
+	}
+		.ajax_write .ajax_frame {
+			width:96.3%;
+			margin:10px auto;
+			overflow:hidden;
+		}
+		.ajax_write li label span {
+			display:inline-block;
+			margin-top:4px;
+			word-wrap:break-word;
+			word-break:break-all;
+			cursor:pointer;
+			*cursor:hand;
+		}
+		.ajax_write li.first label span {
+			color:#000;
+			font-weight:700;
+		}
+		.ajax_write li.second {
+			padding-left:20px;
+		}
+		.ajax_write li.second label span {
+			color:#ff6c00;
+			font-weight:700;
+		}
+		#popup_write.ajax_write {
+			width:100%;
+			display:none;
+			margin-top:0px;
+			border:3px solid #fda907;
+		}
+		#popup_write.ajax_write textarea {
+			height:250px;
+		}
+		.popupcontainer {
+			width:780px;
+			max-width:780px;
+			min-width:580px;
+			position:absolute;
+			z-index:110;
+		}
+		#container .popup_bottom {
+			width:104px;
+			height:28px;
+			/*background:url("/bizstory/images/btn/popupwrite_open.png") no-repeat;*/
+			position:absolute; 
+			left:9px;
+			top:0px; 
+			/*cursor:pointer;*/
+			/**cursor:hand;*/
+			/*z-index:30;*/
+		}
+		.popupform {
+			width:780px;
+			max-width:780px;
+			min-width:580px;
+			position:absolute;
+			z-index:150;
+		}
+		#backgroundPopup {
+			display:none; 
+			position:absolute;
+			width:100%;
+			height:100%;
+			min-height:100%;
+			top:0px;
+			left:0px;
+			background:#31323a;
+			padding-bottom:20px;
+			z-index:15;
+		}
+
+/* Banner */
+	#login_banner.ad_banner {
+		clear:both;
+		width:259px;
+		height:150px;
+		position:absolute;
+		top:340px;
+		right:283px;
+		margin-top:0px;
+		background:none;
+	}
+	.ad_banner {
+		clear:both;
+		width:259px;
+		height:150px;
+		position:relative;
+		margin-top:14px;
+		overflow:hidden;
+		background:url("../../common/images/common/ad_banner.png") no-repeat;
+		background-position:0px 127px;
+	}
+	#ad_banner {
+		width:259px;
+		height:127px;
+		overflow:hidden;
+	}
+	#login_layout #ad_banner {
+		margin-top:20px;
+	}
+	#login_layout #ad_banner a {
+		border:1px solid #b7b7b7;
+	}
+	#ad_banner a {
+		width:257px;
+		height:125px;
+		display:block;
+		overflow:hidden;
+		border:1px solid #bbb;
+	}
+	#login_layout #ad_counter {
+		top:2px;
+		left:-5px;
+		width:58px;
+	}
+	#ad_counter {
+		clear:both;
+		width:259px;
+		height:15px;
+		overflow:hidden;
+		text-align:center;
+		font-size:0px;
+		position:absolute;
+		z-index:3;
+		bottom:3px;
+		right:0px;
+	}
+		#ad_counter a {
+			width:15px;
+			height:15px;
+			float:right;
+			display:block;
+			margin-left:4px;
+			text-decoration:none;
+			background:url("../../common/images/btn/counterpoint.gif") no-repeat;
+			background-position:50% -30px;
+		}
+		#ad_counter a:hover {
+			background:url("../../common/images/btn/counterpoint.gif") no-repeat;
+			background-position:50% -30px;
+		}
+		#ad_counter a.activeSlide {
+			width:15px;
+			height:15px;
+			overflow:hidden;
+			background:url("../../common/images/btn/counterpoint.gif") no-repeat;
+			background-position:50% -15px;
+		}
+
+/* Service Information */
+	.service_info {
+		clear:both;
+		width:257px;
+		height:205px;
+		letter-spacing:-.1em;
+		*letter-spacing:-.05em;
+		position:relative;
+		margin-top:5px;
+		background:#e9eef4;
+		border:1px solid #909bab;
+		/* -webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border-radius:3px; */
+		overflow:hidden;
+		font-size:75%;
+	}
+		.service_info h4 {
+			display:block;
+			width:100%;
+			height:31px;
+			color:#555;
+			text-shadow:#ffffff 1px 1px 0px;
+			line-height:34px;
+			background:url("/bizstory/images/common/tab_statuslist_bg.gif") repeat-x;
+			border-bottom:1px solid #909bab;
+		}
+			.service_info h4 strong {
+				padding-left:30px;
+				padding-bottom:2px;
+				background:url("/bizstory/images/icon/bu_icon.png") no-repeat 12px -125px;
+			}
+		.service_info ul {
+			display:block;
+			width:95%;
+			margin:0px auto;
+			margin-top:10px;
+			overflow:hidden;
+		}
+		.service_info ul li {
+			clear:both;
+			float:none;
+			color:#6f7d92;
+			height:24px;
+			line-height:24px;
+			_height:23px;
+			_line-height:23px;
+			padding-left:18px;
+			background:url("/bizstory/images/icon/bu_icon.png") no-repeat 7px -179px;
+		}
+		.service_info ul li span {
+			width:80px;
+			float:left;
+			display:block;
+			margin-right:3px;
+		}
+		.service_info ul li em {
+			width:128px;
+			float:left;
+			display:block;
+			font-style:normal;
+			height:19px;
+			line-height:19px;
+			_height:18px;
+			_line-height:18px;
+			padding-top:2px;
+		}
+		.service_info ul li em.exception {
+			line-height:20px;
+			_line-height:19px;
+		}
+			.service_info ul li em strong,
+			.service_info ul li em.exception strong {
+				color:#555;
+			}
+			.service_info ul li em.exception strong {
+				font-size:90%;
+			}
+		.service_info div {
+			position:absolute;
+			bottom:0;
+			display:block;
+			width:100%;
+			height:22px;
+			color:#545765;
+			border-top:1px solid #909bab;
+			background:url("/bizstory/images/common/service_info_bg.gif") repeat-x;
+		}
+			.service_info div p {
+				display:block;
+				padding-top:5px;
+				padding-left:30px;
+				background:url("/bizstory/images/icon/bu_icon.png") no-repeat 11px -153px;
+			}
+				.service_info div p span {
+					color:#d76727;
+					padding-right:5px;
+				}
+
+
+/***************************************************************************************************************************/
+/*
+		display:block; overflow:hidden; position:relative;
+		width: 100%; height: 100px;
+	add css */
+	div.info_text {
+		clear:both; width:auto;
+		margin:5px 0px; padding:7px 10px;
+		overflow:hidden;
+		line-height:30px;
+		background:#f5eacc url("../../common/images/icon/bu_icon.png") no-repeat 14px 10px;
+		border:solid 1px #ceac68;
+		font-size:12px;
+		color:#b58b36;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border-radius:3px;
+	}
+	div.info_text ul li {
+		margin:0px; padding:0px; border:0; line-height:20px; padding-left:33px;
+	}
+
+	#data_form .ajax_write {border:3px solid #fda907;}
+	#data_view .ajax_write {border:3px solid #fda907;}
+
+
+/* ==== 로그인 상단 롤링 배너영역 추가 120911  ================================== */
+
+ .gall-img{
+	width:520px;
+	height:260px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	top:0;
+	left:472px;
+}
+
+ .gall-img .btn{
+	width:31px;
+	height:14px;
+	top:8px;
+	right:14px;
+	position:absolute;
+	z-index:1;
+}
+
+ .gall-img .btn .sliderkit-go-prev{
+	float:left;
+}
+
+ .gall-img .btn .sliderkit-go-next{
+	float:right;
+}
+
+ .gall-img .sliderkit-nav{
+	width:520px;
+	height:260px;
+	position:relative;
+	overflow:hidden;
+}
+ .gall-img .sliderkit-nav-clip{
+	width:468px;
+	height:260px;
+	overflow:hidden;	
+	position:relative;
+	left:27px;
+}
+ .gall-img .sliderkit-nav-clip ul{
+	position:relative;
+}
+ .gall-img .sliderkit-nav-clip li{
+	width:468px;
+	height:280px;
+	overflow:hidden;
+	float:left;
+}
+
+ .gall-img .sliderkit-nav-clip li a{
+	width:468px;
+	height:280px;
+	display:block;
+}
+
+ .gall-img .sliderkit-nav-prev{
+	position:absolute;
+	top:113px;
+	left:0;
+}
+
+ .gall-img .sliderkit-nav-next{
+	position:absolute;
+	top:113px;
+	right:0px;
+}

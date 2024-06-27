@@ -1,0 +1,72 @@
+
+c2dm_registration: ** 20120920-100913
+c2dm_registration: cmd=add, id=arachi76@naver.com, pw=arachi76, registration_id=, device_unique_id=FC756768604D1B1451C6BD2C39553544
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'arachi76@naver.com' and mem_pwd = '8451ea3f3597c93cf3f220e7dbe7e01f' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'arachi76@naver.com' and push_pwd = '8451ea3f3597c93cf3f220e7dbe7e01f'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = 'FC756768604D1B1451C6BD2C39553544', mod_date = now() where push_id = 'arachi76@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"서경원"}]});
+
+c2dm_registration: ** 20120920-100914
+c2dm_registration: cmd=registration, id=arachi76@naver.com, pw=arachi76, registration_id=APA91bGMOIMFdIKfxZKRMLkXJEbC5S5iaXiq8Ou8bNnF2tMbU8xnKP-mxPDOufprF0LTIHbImCCh-MgNH4oUuU7NIWgnd8jmlFH5lUJNrtGLthquCJK5UdRIjtxshGd7jDBpHG94j9rSBFHPw6U7VoXI0Sdkew-x5g, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'arachi76@naver.com' and mem_pwd = '8451ea3f3597c93cf3f220e7dbe7e01f' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'arachi76@naver.com' and push_pwd = '8451ea3f3597c93cf3f220e7dbe7e01f' and push_device_type = 'A' 
+c2dm_registration: sql = select * from push_member where push_id = 'arachi76@naver.com' and push_pwd = '8451ea3f3597c93cf3f220e7dbe7e01f' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"서경원"}]});
+
+c2dm_registration: ** 20120920-134007
+c2dm_registration: cmd=add, id=ljy@naver.com, pw=1777, registration_id=, device_unique_id=94BDC1BBEB937EC91CEDFC0484C8C362
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'ljy@naver.com' and mem_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ljy@naver.com' and push_pwd = '8a23d82a178f8f8c0ddf20316a143ca3'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '94BDC1BBEB937EC91CEDFC0484C8C362', mod_date = now() where push_id = 'ljy@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임주영"}]});
+
+c2dm_registration: ** 20120920-134008
+c2dm_registration: cmd=registration, id=ljy@naver.com, pw=1777, registration_id=APA91bE9o40XokelHF7lF6JWvRpFT5dtFZsTiwFEd0vmznPguH-fV83W6wr_xXyGZcnbouMfs3KkYWv2TGX6wIp0E0cCG1kINsFqUE6sVhP-MGsZWMwjHOVQDhMA1wJeBJx_3nP5sjyTv478iFIwLNzhIVj9eADN_Q, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'ljy@naver.com' and mem_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ljy@naver.com' and push_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bE9o40XokelHF7lF6JWvRpFT5dtFZsTiwFEd0vmznPguH-fV83W6wr_xXyGZcnbouMfs3KkYWv2TGX6wIp0E0cCG1kINsFqUE6sVhP-MGsZWMwjHOVQDhMA1wJeBJx_3nP5sjyTv478iFIwLNzhIVj9eADN_Q', mod_date = now() where push_id = 'ljy@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임주영"}]});
+
+c2dm_registration: ** 20120920-134011
+c2dm_registration: cmd=add, id=ljy@naver.com, pw=1777, registration_id=, device_unique_id=94BDC1BBEB937EC91CEDFC0484C8C362
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'ljy@naver.com' and mem_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ljy@naver.com' and push_pwd = '8a23d82a178f8f8c0ddf20316a143ca3'
+c2dm_registration: sql = update push_member set push_enable = 'Y', push_message = 'Y', push_receipt = 'Y', push_work = 'Y', push_notice = 'Y', push_registration_id = '', push_device_unique_id = '94BDC1BBEB937EC91CEDFC0484C8C362', mod_date = now() where push_id = 'ljy@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임주영"}]});
+
+c2dm_registration: ** 20120920-134012
+c2dm_registration: cmd=registration, id=ljy@naver.com, pw=1777, registration_id=APA91bE9o40XokelHF7lF6JWvRpFT5dtFZsTiwFEd0vmznPguH-fV83W6wr_xXyGZcnbouMfs3KkYWv2TGX6wIp0E0cCG1kINsFqUE6sVhP-MGsZWMwjHOVQDhMA1wJeBJx_3nP5sjyTv478iFIwLNzhIVj9eADN_Q, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'ljy@naver.com' and mem_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'ljy@naver.com' and push_pwd = '8a23d82a178f8f8c0ddf20316a143ca3' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bE9o40XokelHF7lF6JWvRpFT5dtFZsTiwFEd0vmznPguH-fV83W6wr_xXyGZcnbouMfs3KkYWv2TGX6wIp0E0cCG1kINsFqUE6sVhP-MGsZWMwjHOVQDhMA1wJeBJx_3nP5sjyTv478iFIwLNzhIVj9eADN_Q', mod_date = now() where push_id = 'ljy@naver.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"임주영"}]});
+
+c2dm_registration: ** 20120920-175237
+c2dm_registration: cmd=add, id=htug365@nate.com, pw=7410, registration_id=, device_unique_id=E7FB20CCE7CEA0A5F34BEFB159917507
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'htug365@nate.com' and mem_pwd = '4b76aa987ead532565f25e2dd14bf252' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'htug365@nate.com' and push_pwd = '4b76aa987ead532565f25e2dd14bf252'
+c2dm_registration: sql = insert into push_member (comp_idx, part_idx, mem_idx, push_id, push_pwd, push_name, push_enable, push_device_type, push_registration_id, push_message, push_receipt, push_work, push_notice, push_device_unique_id, reg_date, del_yn) values ('37','51','300','htug365@nate.com','4b76aa987ead532565f25e2dd14bf252','박현태','Y','A','','Y','Y','Y','Y','E7FB20CCE7CEA0A5F34BEFB159917507',now(),'N')
+c2dm_registration: resCode = {resCode:[{code:"200",message:"박현태"}]});
+
+c2dm_registration: ** 20120920-175241
+c2dm_registration: cmd=registration, id=htug365@nate.com, pw=7410, registration_id=APA91bEueshP4CbP0lLjgwTNDjq9a-f0tGMJqN8OGCGWl-qqUkIYMsoXZ1qnVQy270JqxG-PNTU_by2l2VMurpzhLGrCS6oz92qb5wCwatntUmwuBV7wQSDderipNLrVuK8L3n8RWn8PZC1jtZfhZk33K2x-rQKIgA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'htug365@nate.com' and mem_pwd = '4b76aa987ead532565f25e2dd14bf252' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'htug365@nate.com' and push_pwd = '4b76aa987ead532565f25e2dd14bf252' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bEueshP4CbP0lLjgwTNDjq9a-f0tGMJqN8OGCGWl-qqUkIYMsoXZ1qnVQy270JqxG-PNTU_by2l2VMurpzhLGrCS6oz92qb5wCwatntUmwuBV7wQSDderipNLrVuK8L3n8RWn8PZC1jtZfhZk33K2x-rQKIgA', mod_date = now() where push_id = 'htug365@nate.com' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"박현태"}]});

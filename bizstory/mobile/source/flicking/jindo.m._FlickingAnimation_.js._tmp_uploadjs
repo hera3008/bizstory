@@ -1,0 +1,400 @@
+/**
+    @fileOverview  flicking 상위 클래스 
+    @author "oyang2"
+    @version #__VERSION__#
+    @since  2012. 05. 24
+    
+**/
+/**
+   flicking 상위 클래스 
+
+    @class jindo.m._FlickingAnimation_
+    @uses jindo.m.Flicking
+    @invisible
+    @keyword flicking
+    @group Component
+**/
+
+jindo.m._FlickingAnimation_ = jindo.$Class({
+     /** @lends jindo.m._FlickingAnimation_.prototype */
+    /**
+     * @description 초기화 함수
+     * @constructs
+     */
+     $init : function(sId, htUserOption){
+         this.option(htUserOption || {});
+         this._setWrapperElement(sId);
+         this._initVar();
+         this._initTouch();
+         this._createDummyTag();
+         
+         if(this.option("bActivateOnload")) {
+             this.activate();
+         }
+     },
+     
+     _initVar : function(){
+         this._oTouch = null; //touch 인스턴스 
+         this._doFlicking = false;
+         this._bTouchStart  = false;
+         this._bMove = false;
+
+         var nDefaultIndex = this.option('nDefaultIndex')||0;
+         if(!this._checkIndex(nDefaultIndex)){ nDefaultIndex = 0;}
+         if(this.option('bUseCircular')){ nDefaultIndex = nDefaultIndex%3;}
+         
+         this._htIndexInfo = {
+             nContentIndex : nDefaultIndex, 
+             nNextContentIndex : nDefaultIndex,
+             welElement : this._htWElement.aPanel[nDefaultIndex],
+             welNextElement : this._htWElement.aPanel[nDefaultIndex],
+             sDirection : null
+         };
+
+         var htInfo = jindo.m.getDeviceInfo();
+         this._isIos = (htInfo.iphone || htInfo.ipad);
+         this._bAndroid = htInfo.android && (!htInfo.bChrome);
+         this._nVersion = htInfo.version;
+         this._fnDummyFnc = function(){return false;};
+         this._bClickBug = jindo.m.hasClickBug();
+         this._sCssPrefix = jindo.m.getCssPrefix();
+         this._elTransition  = null;
+         
+         this._wfTransitionEnd = jindo.$Fn(this._onTransitionEnd, this).bind();
+        
+
+         //더미 엘리먼트를 만들어서 focus 호출해야 하는 것들
+         this._bDummyTagException = (this._bAndroid && (this._nVersion < "3") ); 
+     },
+     
+     /**
+      *  플리킹 내부에서 쓰는 엘리먼트를 저장한다.
+      */
+     _setWrapperElement : function(sId){
+         this._htWElement = {}; //baseElement
+         var el = jindo.$(sId);
+         var sClass = '.'+ this.option('sClassPrefix');
+         // zIndex 2000 추가
+         this._htWElement.base = jindo.$Element(el).css("zIndex", this.option("nZIndex"));
+         this._htWElement.container = jindo.$Element(jindo.$$.getSingle(sClass+'container',el));
+         var aContents = jindo.$$(sClass+this.option('sContentClass'), el);
+
+         this._htWElement.aPanel = jindo.$A(aContents).forEach(function(value,index, array){
+             array[index] = jindo.$Element(value);
+         }).$value();
+
+         //ie10 대응 코드
+         // if(typeof this._htWElement.base.$value().style.msTouchAction !== 'undefined'){
+             // this._htWElement.base.css('msTouchAction','none');
+         // }
+     },
+     
+     /**
+      * 플리킹 시작전에 설정해야 하는 스타일 및 사이즈들을 설정한다.
+      */
+     _initFlicking : function(){
+         this._setElementStyle();
+         this._setElementSize();
+     },
+     
+     /**
+      * @override 할것 
+      */
+     _setElementStyle : function(){
+         
+     },
+     
+     /**
+      * @override 할것 
+      */
+     _setElementSize : function(){
+         
+     },
+     
+     /**
+      *     플리킹 내부에서 사용하는 터치컴포넌트 인스턴스 생성한다.
+      */
+     _initTouch : function(){
+         this._oTouch = new jindo.m.Touch(this._htWElement.base.$value(),{
+            nSlopeThreshold : 4,
+            nMoveThreshold : 0,
+            nEndEventThreshold : (jindo.m.getDeviceInfo().win)? 400:0,
+            bActivateOnload : false,
+            bHorizental : this.option("bHorizontal"),
+            bVertical : false
+        });
+     },
+     
+     /**
+       안드로이드 전용 랜더링 버그 해결을 위한 더미 태그를 만든다.
+     */
+    _createDummyTag : function(){
+        //android 포커스를 위한 더미 태그가 필요
+        if(this._bDummyTagException) {
+            //debugger;
+            this._htWElement.aDummyTag = [];
+            for(var i=0,nLen = this._htWElement.aPanel.length;i<nLen;i++){
+                var wel =this._htWElement.aPanel[i];
+                var elDummyTag = jindo.$$.getSingle("._cflick_dummy_atag_", wel.$value());
+                if(!elDummyTag){
+                    elDummyTag = jindo.$("<a href='javascript:void(0);' class='_cflick_dummy_atag_'></a>");
+                    elDummyTag.style.position = "absolute";
+                    elDummyTag.style.left = "-1000px";
+                    elDummyTag.style.top = "-1000px";
+                    elDummyTag.style.width = 0;
+                    elDummyTag.style.height = 0;
+                    wel.append(elDummyTag);
+                }
+                this._htWElement.aDummyTag.push(elDummyTag);
+            }
+        }
+    },
+
+    /**
+        안드로이드에서 css 속성을 사용해서 transform 이후에 포커스를 잃는 현상의 버그 수정하는 코드
+    **/
+    _focusFixedBug : function(){
+        if(!this._htWElement || typeof this._htWElement.aDummyTag === 'undefined'){
+            return;
+        }
+
+        for(var i=0,nLen= this._htWElement.aDummyTag.length;i<nLen;i++){
+            this._htWElement.aDummyTag[i].focus();
+        }
+    },
+     
+     /**
+      *     터치 이벤트의 start 이벤트 핸들러 
+      */
+     _onStart : function(oCustomEvent){
+         if (this._doFlicking) {
+             return;
+         }
+
+       /**
+            플리킹영역에 터치가 시작되었을 때 발생한다
+
+            @event touchStart
+            @param {String} sType 커스텀 이벤트명
+            @param {HTMLElement} element 현재 터치된 영역의 Element
+            @param {Number} nX 터치 영역 X좌표
+            @param {Number} nY 터치 영역 Y좌표
+            @param {object} oEvent jindo.$Event object
+            @param {Function} stop 플리킹 액션이 수행되지 않는다
+            @history 1.2.0 Update Custom Event 추가
+        **/
+       if(!this.fireEvent('touchStart', oCustomEvent)){
+           oCustomEvent.stop();
+           return;
+        }
+
+        this._bTouchStart = true;
+        this._clearAnchor();
+        this._onAfterStart();
+     },
+     
+     /**
+      * @override
+      */
+     _onAfterStart : function(){
+         
+     },
+     
+     _onMove : function(oCustomEvent){
+        var bH = this.option('bHorizontal');
+        /** 시스템 스크롤 막기 */
+        var weParent = oCustomEvent.oEvent;
+        if(oCustomEvent.sMoveType === jindo.m.MOVETYPE[0]) {  //수평이고,수평스크롤인 경우 시스템 스크롤 막기
+            if(bH) {
+                weParent.stop(jindo.$Event.CANCEL_ALL);
+            }else{
+             /**
+                플리킹 액션이 아닌 기본 스크롤 기능이 발생될 때
+
+                @event scroll
+                @param {String} sType 커스텀 이벤트명
+                @param {Function} stop 수행시 영향 받는것 없다.
+                @history 1.5.0 Update Custom Event 추가
+            **/
+                this.fireEvent('scroll');
+                this._bTouchStart = false;
+                return;
+            }
+        } else if(oCustomEvent.sMoveType === jindo.m.MOVETYPE[1]) {   //수직이고, 수직스크롤인 경우 시스템 스크롤 막기
+            if(!bH) {
+                weParent.stop(jindo.$Event.CANCEL_ALL);
+            }else{
+                this.fireEvent('scroll');
+                this._bTouchStart = false;
+                return;
+            }
+        }else if(oCustomEvent.sMoveType === jindo.m.MOVETYPE[2]) {
+            //대각선 일때 시스템 스크롤 막기
+            if(this.option('bUseDiagonalTouch')){
+                weParent.stop(jindo.$Event.CANCEL_ALL);
+            }else{
+                this.fireEvent('scroll');
+                this._bTouchStart = false;
+                return;
+            }
+        }
+
+        if (this._doFlicking) {
+            return;
+        }
+        if(!this._bTouchStart){
+            return;
+        }
+
+        /**
+            플리킹영역에 터치 움직임이 있을 때 발생한다. Touch이벤트의 'touchMove'와 동일하다
+
+            @event touchMove
+            @param {String} sType 커스텀 이벤트명
+            @param {String} sMoveType 현재 분석된 움직임
+            @param {HTMLElement} stopelement 현재 터치된 영역의 Element
+            @param {Number} nX 터치영역의 X좌표
+            @param {Number} nY 터치 영역의 Y좌표
+            @param {Number} nVectorX 이전 touchMove(혹은 touchStart)의 X좌표와의 상대적인 거리.(직전 좌표에서 오른쪽방향이면 양수, 왼쪽 방향이면 음수)
+            @param {Number} nVectorY 이전 touchMove(혹은 touchStart)의 Y좌표와의 상대적인 거리.(직전 좌표에서 위쪽방향이면 음수, 아래쪽 방향이면 양수)
+            @param {Number} nDistanceX touchStart의 X좌표와의 상대적인 거리.(touchStart좌표에서 오른쪽방향이면 양수, 왼쪽 방향이면 음수)
+            @param {Number} nDistanceY touchStart의 Y좌표와의 상대적인 거리.(touchStart좌표에서 위쪽방향이면 음수, 아래쪽 방향이면 양수)
+            @param {Number} nStartX touchStart의 X좌표
+            @param {Number} nStartY touchStart의 Y좌표
+            @param {Object} oEvent jindo.$Event object
+            @param {Function} stop수행시 영향 받는것 없다.
+            @history 1.2.0 Update Custom Event 추가
+        **/
+        this.fireEvent('touchMove', oCustomEvent);
+
+        var nDis = bH? oCustomEvent.nDistanceX : oCustomEvent.nDistanceY;
+        var nVector = bH? oCustomEvent.nVectorX : oCustomEvent.nVectorY;
+        var nPos = bH? oCustomEvent.nX : oCustomEvent.nY;
+
+        this._onAfterMove(nDis, nVector, nPos);
+        this._bMove = true;
+     },
+     
+     /**
+      * @override 
+      */
+     _onAfterMove : function(nDis, nVector, nPos){
+         
+     },
+     
+     /**
+      * touchend bind 코드 
+      */
+     _onEnd : function(oCustomEvent, nDuration){
+            if (this._doFlicking) {
+                return;
+            }
+            if(!this._bTouchStart){
+                return;
+            }
+    
+            this._doFlicking = true;
+    
+            var bH = this.option('bHorizontal');
+    
+            //스크롤일경우 뒤의 click이벤트를 막기위한 코드 젤리빈의 경우 아래 코드 실행시 시스템 스크롤의 가속 기능이 꺼진다.
+            if( !(this._bAndroid && (this._nVersion >= "4.1")) ){
+                if (oCustomEvent.sMoveType === jindo.m.MOVETYPE[0] || oCustomEvent.sMoveType === jindo.m.MOVETYPE[1] || oCustomEvent.sMoveType === jindo.m.MOVETYPE[2]) {
+                    oCustomEvent.oEvent.stop(jindo.$Event.CANCEL_DEFAULT);
+                }
+            }
+    
+            //탭 혹은 롱탭일때
+            if (oCustomEvent.sMoveType === jindo.m.MOVETYPE[3] || oCustomEvent.sMoveType === jindo.m.MOVETYPE[4]) {
+                this._restoreAnchor();
+            }
+    
+            var nTime = this.option('nDuration');
+            var htInfo = this._getSnap(oCustomEvent.nDistanceX, oCustomEvent.nDistanceY, nTime, oCustomEvent.sMoveType);
+    
+            var nDis = bH? oCustomEvent.nDistanceX: oCustomEvent.nDistanceY;
+            var nVector = bH? oCustomEvent.nVectorX : oCustomEvent.nVectorY;
+            var nPos = bH? oCustomEvent.nX : oCustomEvent.nY;
+    
+            //플리킹이 다시 되돌아 갈때..(기준픽셀을 채우지 못하여 되돌아 갈때 )
+            if(htInfo.sDirection === null){
+                nTime = this.option('nBounceDuration');
+                if(nDis === 0 || ((oCustomEvent.sMoveType === jindo.m.MOVETYPE[2]) && !this.option('bUseDiagonalTouch')) ) {
+                    this._endAnimation(false);
+                    //return;
+                }
+            }
+    
+            var htParam = {
+                  nContentsIndex : this.getContentIndex(),
+                  nContentsNextIndex: htInfo.nContentIndex
+            };
+    
+            if(this._bFlickLeft !== null){
+                //가로일때는   bLeft,  세로일때는 bTop 으로
+                if(this.option('bHorizontal')){
+                    htParam.bLeft = this._bFlickLeft;
+                }else{
+                    htParam.bTop = this._bFlickLeft;
+                }
+            }
+            if(htInfo.sDirection !== null){
+                /**
+                    플리킹되기 전에 발생한다
+    
+                    @event beforeFlicking
+                    @param {String} sType 커스텀 이벤트명
+                    @param {Number} nContentsIndex 현재 콘텐츠의 인덱스
+                    @param {Number} nContentsNextIndex (Number) :플리킹될 다음 콘텐츠의 인덱스
+                    @param {Boolean} bLeft 플리킹 방향이 왼쪽인지에 대한 여부 (세로 플리킹일 경우 이 값은 없다)
+                    @param {Boolean} bTop 플리킹 방향이 위쪽인지에 대한 여부 (가로 플리킹일 경우 이 값은 없다)
+                    @param {Function} stop 플리킹되지 않는다.
+                **/
+                if(!this.fireEvent('beforeFlicking', htParam)){
+                    this.restorePosition();
+                    return;
+                }
+            } else {
+                 /**
+                    플리킹 임계치에 도달하지 못하고 사용자의 액션이 끝났을 경우, 원래 인덱스로 복원하기 전에 발생하는 이벤트
+    
+                    @event beforeRestore
+                    @param {String} sType 커스텀 이벤트명
+                    @param {Number} nContentsIndex 현재 콘텐츠의 인덱스
+                    @param {Function} stop 플리킹이 복원되지 않는다.
+                **/
+                if(!this.fireEvent('beforeRestore', {
+                    nContentsIndex : this.getContentIndex()
+                })) {
+                    return;
+                }
+            }
+    
+            this._htIndexInfo.nNextContentIndex = htInfo.nContentIndex;
+            this._htIndexInfo.welNextElement = htInfo.welElement;
+            this._htIndexInfo.sDirection = htInfo.sDirection;
+            
+            nDis = bH? oCustomEvent.nDistanceX : oCustomEvent.nDistanceY;
+            nVector = bH? oCustomEvent.nVectorX : oCustomEvent.nVectorY;
+            nPos = bH? oCustomEvent.nX : oCustomEvent.nY;
+    
+            this._onAfterEnd(nDis, nVector, nPos, nDuration);
+            /**
+                플리킹영역에 터치가 끝났을 때 발생한다. Touch이벤트의 'touchEnd'와 동일하다.
+    
+                @event touchEnd
+                @param {String} sType 커스텀 이벤트명
+                @param {String} sMoveType 현재 분석된 움직임
+                @param {HTMLElement} element 현재 터치된 영역의 Element
+                @param {Number} nX 터치영역의 X좌표
+                @param {Number} nY 터치 영역의 Y좌표
+                @param {Number} nVectorX 이전 touchMove(혹은 touchStart)의 X좌표와의 상대적인 거리.(직전 좌표에서 오른쪽방향이면 양수, 왼쪽 방향이면 음수)
+                @param {Number} nVectorY 이전 touchMove(혹은 touchStart)의 Y좌표와의 상대적인 거리.(직전 좌표에서 위쪽방향이면 음수, 아래쪽 방향이면 양수)
+                @param {Number} nDistanceX touchStart의 X좌표와의 상대적인 거리.(touchStart좌표에서 오른쪽방향이면 양수, 왼쪽 방향이면 음수)
+                @param {Number} nDistanceY touchStart의 Y좌표와의 상대적인 거리.(touchStart좌표에서 위쪽방향이면 음수, 아래쪽 방향이면 양수)
+                @param {Number} nStartX touchStart의 X좌표
+                @param {Number} nStartY touchStart의 Y좌표
+                @param {Object} oEvent jindo.$Event object
+                @param {Function} stop수행시 영향 받는것 없다.
+            **/
+     

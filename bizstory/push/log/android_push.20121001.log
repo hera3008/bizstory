@@ -1,0 +1,16 @@
+
+android_push: ** 20121001-153144
+android_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=14, receiver=i2day@naver.com, msg_type=work, message=[업무코멘트] 나라장터 입찰공고 모음.
+android_push: sql = select * from push_member where push_id = 'i2day@naver.com' and push_device_type = 'A' and del_yn = 'N'
+android_push: [i2day@naver.com] message = Y, receipt = Y, work = Y, notice = Y
+android_push: 수신자 확인 OK => 전송데이터 확인 OK
+android_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20121001153144492554', 1, 1, 14, 'i2day@naver.com', '박정화', 'android', 'work', '[업무코멘트] 나라장터 입찰공고 모음.', '0', '', now())
+android_push: sql = select * from push_c2dm_info where push_id = 'bizstorycokr@gmail.com' and push_enable = 'Y'
+android_push: msg_type = work
+android_push: message = [업무코멘트] 나라장터 입찰공고 모음.
+android_push: sendMessageToPhone = id=0:1349072824238566%04ff7535c1eda368
+android_push: sql = update push_history set state = '1', state_comment = '전송 OK', send_time = now() where send_key = '20121001153144492554'
+
+android_push: ** 20121001-153149
+
+android_push: ** 20121001-153149

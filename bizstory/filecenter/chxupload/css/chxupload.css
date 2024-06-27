@@ -1,0 +1,121 @@
+.chxupload_wrapper {
+    /* bootstrip css 적용되지 않도록 */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    display: block;
+}
+.chxupload_filelist {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 100px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: '맑은 고딕', gulim, monospace;
+    background: #fff url("../icons/noitem.png") no-repeat center 70%;
+}
+.chxupload_filelist_dragover {
+    position: relative;
+    border: 1px dashed #0063ab;
+    width: 400px;
+    height: 100px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: '맑은 고딕', gulim, monospace;
+}
+
+/* BEGIN: 파일 추가/삭제 버튼 */
+.chxupload_button {
+    position: absolute;
+    left: 405px;
+    top: 0;
+    width: 80px;
+    height: 100px;
+    border: 1px solid #fff;
+    padding: 0 5px 0 5px;
+}
+#IdAddFileButton, #IdRemoveFileButton {
+    clear: both;
+    width: 80px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+}
+.chxupload_add_button {
+    background-image: url("../icons/btn_add.jpg");
+}
+.chxupload_add_button_mouseover {
+    background-image: url("../icons/btn_add_over.jpg");
+    cursor: pointer;
+}
+.chxupload_remove_button {
+    background-image: url("../icons/btn_remove.jpg");
+    margin-top: 5px;
+}
+.chxupload_remove_button_mouseover {
+    background-image: url("../icons/btn_remove_over.jpg");
+    margin-top: 5px;
+    cursor: pointer;
+}
+/* END: 파일 추가/삭제 버튼 */
+
+.chxupload_upload_filename {
+    width: 242px;
+    background-color: #eee;
+    float: left;
+    text-align: center;
+    line-height: 22px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.chxupload_upload_filesize {
+    width: 69px;
+    float: left;
+    text-align: center;
+    background-color: #eee;
+    line-height: 22px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.chxupload_upload_status {
+    width: 69px;
+    float: left;
+    clear: right;
+    text-align: center;
+    background-color: #eee;
+    line-height: 22px;
+    border-bottom: 1px solid #ccc;
+}
+.chxupload_input_form {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.progress_bar {
+    width: 250px;
+    height: 13px;
+    background-color: #fff;
+    border: 1px solid #0063a6;
+    color: #0063ab;
+    vertical-align: middle;
+}
+.progress_bar::-webkit-progress-bar {
+    background: #fff;
+}
+.progress_bar::-webkit-progress-value {
+    background-color: #0063ab;
+}
+progress::-moz-progress-bar {
+    background-color: #fff;
+}
+.progress_label {
+    font-size: 12px;
+    font-family: '맑은 고딕', gulim, monospace;
+}

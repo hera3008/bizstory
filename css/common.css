@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*
+	Author:우덕성
+	Version:1.0
+*/
+
+@import url('../../common/css/global.css');                  /* 공통적용 부분 정의  */
+@import url('../../common/js/jquery-ui-1.13.2/jquery-ui.css'); /* 제이쿼리 UI         */
+@import url('../../common/css/sidebar.css');                 /* 좌측메뉴 영역 정의  */
+@import url('../../common/upload/uploadify.css');            /* 멀티파일업로드 정의 */
+
+@import url('layout.css');       /* 레이아웃 정의 */
+@import url('style.css');        /* 스타일 정의   */
+@import url('button_other.css'); /* 추가버튼 정의 */
+@import url('../../common/css/axicon/axicon.min.css');      /* 엑시콘                    */
+
+@import url('../js/poshytip-1.2/tip-yellow.css'); /* 툴팁 */
+
+@import url('notify.css');              /* Nofity */
+@import url('jquery.lightbox-0.5.css'); /* 갤러리보기 */

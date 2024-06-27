@@ -1,0 +1,28 @@
+
+c2dm_registration: ** 20121127-082100
+c2dm_registration: cmd=add, id=hcmoon@greatworks.co.kr, pw=9979, registration_id=, device_unique_id=1BB28E8D09723052370CFD9984F717D0
+c2dm_registration: message=Y, receipt=Y, work=Y, notice=Y
+c2dm_registration: sql = select * from member_info where mem_id = 'hcmoon@greatworks.co.kr' and mem_pwd = '7e63ee42ea5fe59d500b1668ff4e4ca5' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and push_pwd = '7e63ee42ea5fe59d500b1668ff4e4ca5'
+c2dm_registration: sql = update push_member set
+				  push_enable  = 'Y'
+				, push_message = 'Y'
+				, push_receipt = 'Y'
+				, push_work    = 'Y'
+				, push_notice  = 'Y'
+				, push_consult = ''
+				, push_registration_id  = ''
+				, push_device_unique_id = '1BB28E8D09723052370CFD9984F717D0'
+				, mod_date = now()
+			where push_id = 'hcmoon@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"문희철"}]});
+
+c2dm_registration: ** 20121127-082101
+c2dm_registration: cmd=registration, id=hcmoon@greatworks.co.kr, pw=9979, registration_id=APA91bG-Zfi-JVK8rl3T3fHWwy1jPNmi4EIBXs9N-GOLOfJD1uXgiJQUGQ5AwOqwHUKOJ5knFvIAZfxZ_tT40tX3XO6yKTth1hRb0nYN-lqUCBE2BiO6JoNc_QiWNCdA8QsazqN-squwbOGDp5rc0JM4fFKFO6UmzA, device_unique_id=null
+c2dm_registration: message=null, receipt=null, work=null, notice=null
+c2dm_registration: sql = select * from member_info where mem_id = 'hcmoon@greatworks.co.kr' and mem_pwd = '7e63ee42ea5fe59d500b1668ff4e4ca5' and del_yn = 'N'
+c2dm_registration: 인증성공
+c2dm_registration: sql = select * from push_member where push_id = 'hcmoon@greatworks.co.kr' and push_pwd = '7e63ee42ea5fe59d500b1668ff4e4ca5' and push_device_type = 'A' 
+c2dm_registration: sql = update push_member set push_registration_id = 'APA91bG-Zfi-JVK8rl3T3fHWwy1jPNmi4EIBXs9N-GOLOfJD1uXgiJQUGQ5AwOqwHUKOJ5knFvIAZfxZ_tT40tX3XO6yKTth1hRb0nYN-lqUCBE2BiO6JoNc_QiWNCdA8QsazqN-squwbOGDp5rc0JM4fFKFO6UmzA', mod_date = now() where push_id = 'hcmoon@greatworks.co.kr' and push_device_type = 'A' 
+c2dm_registration: resCode = {resCode:[{code:"200",message:"문희철"}]});

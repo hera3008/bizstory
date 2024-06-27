@@ -1,0 +1,34 @@
+bizstory_push: ** 20140604-122045
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=15, receiver=naryong82@nate.com, msg_type=message, message=[쪽지] &nbsp;
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140604122045484678', 1, 1, 15, 'naryong82@nate.com', 'A', 'APA91bFnDKOgvIE0VcFKm_MCcfTlL8s5RacuOJ2hIc-YLQT62KLh2qescudxh9Fn_hlo8-xsartrIiSN_txHoM2khirrNK0n2wTnHfbo1Z40iWYgMqMqwLPVpmPGDxjGRnESCwDmDRBZC0JOQsFFMBjvpkTBZv56Ag', '김나영', 'ios', 'message', '[쪽지] &nbsp;', '9', '', now())
+bizstory_push: ** 20140604-151633
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=32, part_idx=39, mem_idx=177, receiver=chanikr@miraensys.com, msg_type=receipt, message=[접수] [일산동고등학교] 노트북 속도가 너무..
+bizstory_push: sql = select * from push_member where push_id = 'chanikr@miraensys.com' and del_yn = 'N'
+bizstory_push: [chanikr@miraensys.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140604151633872814', 32, 39, 177, 'chanikr@miraensys.com', 'A', 'APA91bH_pBTjJNL5I5oSsrQWLuKyj11kAcUGRZs2_HOiGGed_FuMclOqPaXuBBFQAuFEN7mDZ01JzsRUuYjtn264m8blFPOLxp1WiB_itTj-mrdylvNSrqrLy0AXOy9UftkuXAMqgrg14b-b3k8Dr8VO9-HgtN6510hAeG6lqbCehoj7SODoMqc', '임경찬', 'ios', 'receipt', '[접수] [일산동고등학교] 노트북 속도가 너무..', '9', '', now())
+bizstory_push: ** 20140604-151633
+bizstory_push: ** 20140604-161951
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=15, receiver=naryong82@nate.com, msg_type=message, message=[쪽지] &nbsp;
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140604161951566611', 1, 1, 15, 'naryong82@nate.com', 'A', 'APA91bFnDKOgvIE0VcFKm_MCcfTlL8s5RacuOJ2hIc-YLQT62KLh2qescudxh9Fn_hlo8-xsartrIiSN_txHoM2khirrNK0n2wTnHfbo1Z40iWYgMqMqwLPVpmPGDxjGRnESCwDmDRBZC0JOQsFFMBjvpkTBZv56Ag', '김나영', 'ios', 'message', '[쪽지] &nbsp;', '9', '', now())
+bizstory_push: ** 20140604-162112
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=15, receiver=naryong82@nate.com, msg_type=message, message=[쪽지] dddddddd
+bizstory_push: sql = select * from push_member where push_id = 'naryong82@nate.com' and del_yn = 'N'
+bizstory_push: [naryong82@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140604162112321700', 1, 1, 15, 'naryong82@nate.com', 'A', 'APA91bFnDKOgvIE0VcFKm_MCcfTlL8s5RacuOJ2hIc-YLQT62KLh2qescudxh9Fn_hlo8-xsartrIiSN_txHoM2khirrNK0n2wTnHfbo1Z40iWYgMqMqwLPVpmPGDxjGRnESCwDmDRBZC0JOQsFFMBjvpkTBZv56Ag', '김나영', 'ios', 'message', '[쪽지] dddddddd', '9', '', now())
+bizstory_push: ** 20140604-163558
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=561, receiver=4004jini@ubstory.net, msg_type=work, message=[업무보고] 6월 도서관 세금계산서 발행 및 결제..
+bizstory_push: sql = select * from push_member where push_id = '4004jini@ubstory.net' and del_yn = 'N'
+bizstory_push: [4004jini@ubstory.net] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = 
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140604163558881320', 1, 1, 561, '4004jini@ubstory.net', 'A', 'APA91bE5tQzTeLD61wG26VxF9v4QFcCUVtFY6BjtnZZ5mVjOVljXqiC3hAUjtToPI5aA41CMB3EH2ehudxTaAsIvRrbwKqzmpeMqsG70tRGzPJn53MBfsHF0f929NRy_54HK_lTxmqhruBGg3Fx9kASPJweCoQzH1EsKz7t_HDCOTsPAqpRXnwI', '이호진', 'ios', 'work', '[업무보고] 6월 도서관 세금계산서 발행 및 결제..', '9', '', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=1, part_idx=1, mem_idx=590, receiver=sdnlsm@nate.com, msg_type=work, message=[업무보고] 6월 도서관 세금계산서 발행 및 결제..
+bizstory_push: sql = select * from push_member where push_id = 'sdnlsm@nate.com' and del_yn = 'N'
+bizstory_push: [sdnlsm@nate.com] push_device_type = A, message = Y, receipt = Y, work = Y, notice = Y, consult = Y
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, push_device_type, push_registration_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140604163558887582', 1, 1, 590, 'sdnlsm@nate.com', 'A', 'APA91bERFS7khaYsXbhu75wayW72fllEgEp6h2Ns8zt9ueApwemfsO-BmN1ie40vlRZG2PlijzFnrZTVLjtB36UtCqIvbS8bJOkCHtHq6UKMgGol51fGUIaZZa5MvsLpUvFberkhBJg7JeaTeg3SAuYhnfYdsZc40YNu_Ewzqa9nsowHUlPxIro', '한소진', 'ios', 'work', '[업무보고] 6월 도서관 세금계산서 발행 및 결제..', '9', '', now())
+bizstory_push: sender=bizstorycokr@gmail.com, comp_idx=0, part_idx=0, mem_idx=0, receiver=, msg_type=work, message=[업무보고] 6월 도서관 세금계산서 발행 및 결제..
+bizstory_push: sql = select * from push_member where push_id = '' and del_yn = 'N'
+bizstory_push: 등록되지 않은 사용자
+bizstory_push: sql = insert into push_history (send_key, comp_idx, part_idx, mem_idx, receiver_id, receiver_name, service_type, msg_type, message, state, state_comment, request_time) values ( '20140604163558544350', 0, 0, 0, '', '', 'ios', 'work', '[업무보고] 6월 도서관 세금계산서 발행 및 결제..', '0', '등록되지 않은 사용자', now())
